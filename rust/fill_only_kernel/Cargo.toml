@@ -1,0 +1,21 @@
+[package]
+name = "fill-only-kernel"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+publish = false
+
+[lib]
+name = "_fill_only_rust"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+numpy = "0.23.0"
+pyo3 = { version = "0.23.5", features = ["extension-module"] }
+
+[dev-dependencies]
+criterion = "0.5.1"
+
+[[bench]]
+name = "matcher"
+harness = false

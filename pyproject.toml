@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "polymarket-backtest-lab"
+version = "0.1.0"
+description = "OrderFilled V2/V3 and prediction-market L2 research replay"
+requires-python = ">=3.11"
+dependencies = [
+  "backtrader==1.9.78.123", "flask>=3.1,<4", "numpy>=1.26", "pandas>=2",
+  "pyarrow>=18", "duckdb>=1", "psycopg[binary]>=3.2", "python-dotenv>=1",
+  "requests>=2.32", "httpx>=0.27", "PyYAML>=6", "websockets>=13",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8", "hypothesis>=6", "ruff", "mypy"]
+reference = ["nautilus_trader>=1.227; python_version >= '3.12'"]
+
+[project.scripts]
+backtest-lab-api = "scripts.quant_api_server:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["quant*", "scripts*", "strategies*"]
+exclude = ["*.tests*", "tests*"]
+namespaces = true
+
+[tool.ruff]
+target-version = "py311"

@@ -1,0 +1,29 @@
+schema_version: taker_core_domain_v1
+venue_regime_id: polymarket-clob-v2-async-commit-20260724
+order_types: [FAK, FOK]
+book_quality: [REDUNDANT]
+feed_disagreement: 0
+rest_book_match_required: true
+market_delay_class: [NONE]
+max_book_age_ms: 500
+max_spread_ticks: 3
+price_range: [0.05, 0.95]
+max_order_to_visible_depth_ratio: 0.25
+max_strategy_participation_ratio: 0.05
+exclude_near_resolution_seconds: 3600
+sample_gates:
+  core_calibratable: 200
+  holdout: 60
+  independent_events: 10
+  categories: 3
+  utc_days: 5
+  max_single_group_ratio: 0.20
+promotion_gates:
+  fee_rounding_unit: 0.00001
+  vwap_error_median_ticks: 0.25
+  vwap_error_p95_ticks: 1
+  filled_size_overprediction_p95: 0.02
+  false_positive_fill_upper_95: 0.02
+samplers:
+  coverage_weight: 0.5
+  strategy_weighted_weight: 0.5

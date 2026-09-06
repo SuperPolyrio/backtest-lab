@@ -1,0 +1,35 @@
+name: prediction-market-quant
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - backtrader
+      - aiohttp
+      - clickhouse-connect
+      - duckdb
+      - flask
+      - httpx[socks]
+      - hypothesis==6.161.8
+      - hftbacktest==2.4.4
+      - mypy==2.3.0
+      - numpy<2.3
+      - pandas
+      - pandas-market-calendars
+      - prometheus-client
+      - psycopg[binary]
+      - psycopg2-binary
+      - pyarrow
+      - py-builder-relayer-client==0.0.2
+      - pytest
+      - pytz
+      - python-dotenv
+      - py-clob-client-v2==1.1.0
+      - pyyaml
+      - requests
+      - ruff==0.16.0
+      - websockets
+      - python-socks[asyncio]
+      - aiohttp-socks

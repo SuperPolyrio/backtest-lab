@@ -1,0 +1,63 @@
+{
+  "activation_requirements": {
+    "max_observation_sample_share": "0.50",
+    "min_coverage": "0.80",
+    "min_markets": 10,
+    "min_observation_coverage": "0.50",
+    "min_observations": 3,
+    "min_samples": 100
+  },
+  "fallback_buffer": "0.005",
+  "global": {
+    "buffer": "0.0050000000",
+    "coverage": "0E-10",
+    "markets": 0,
+    "max_observation_sample_share": "0E-10",
+    "observations_meeting_coverage": 0,
+    "requested_samples": 0,
+    "samples": 0
+  },
+  "levels": [
+    {
+      "cells": {},
+      "fields": [
+        "category"
+      ]
+    },
+    {
+      "cells": {},
+      "fields": [
+        "category",
+        "league"
+      ]
+    },
+    {
+      "cells": {},
+      "fields": [
+        "category",
+        "league",
+        "price_bucket",
+        "liquidity_regime"
+      ]
+    }
+  ],
+  "observations": [],
+  "rejected_inputs": [
+    {
+      "reason": "REFERENCE_WINDOW_NOT_STRICTLY_POST_FILL",
+      "source": "runtime_outputs/framework_comparison/toolkit_markout_wallet_63ce_500.json"
+    },
+    {
+      "reason": "REFERENCE_WINDOW_NOT_STRICTLY_POST_FILL",
+      "source": "runtime_outputs/framework_comparison/toolkit_markout_wallet_db85_500.json"
+    },
+    {
+      "reason": "REFERENCE_WINDOW_NOT_STRICTLY_POST_FILL",
+      "source": "runtime_outputs/framework_comparison/toolkit_markout_wallet_2200_500.json"
+    }
+  ],
+  "schema_version": "trade_only_price_buffer_v1",
+  "source": "polymarket_toolkit_excess_markout",
+  "status": "INSUFFICIENT_SAMPLE",
+  "tau_seconds": 30
+}

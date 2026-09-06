@@ -1,0 +1,54 @@
+schema_version: taker_calibration_plan_v1
+live_probe_enabled: true
+
+account:
+  expected_funder_address: "0x8D2418Aa7cc46fAD0FeA837fD873cDEDd27361b9"
+  expected_signature_type: 2
+  private_key_env: POLY_QUANT_PROBE_PRIVATE_KEY
+  api_key_env: POLY_QUANT_PROBE_API_KEY
+  api_secret_env: POLY_QUANT_PROBE_API_SECRET
+  api_passphrase_env: POLY_QUANT_PROBE_API_PASSPHRASE
+
+limits:
+  max_order_notional: 20
+  max_daily_gross_notional: 20
+  max_daily_realized_loss: 20
+  max_position_per_market: 20
+  max_open_orders: 1
+  max_probes_per_hour: 10
+
+market_policy:
+  allow_market_ids: ["3518054"]
+  deny_sports_initially: true
+  deny_itode_initially: false
+  min_seconds_to_scheduled_close: 43200
+  require_redundant_lob: true
+  require_rest_book_match: true
+  require_user_ws_connected: true
+  max_book_age_ms: 500
+
+safety:
+  require_manual_run_approval: false
+  kill_switch_file: /run/poly-quant/live-probe.kill
+  cancel_all_on_shutdown: true
+  cancel_all_on_reconciliation_failure: true
+
+network:
+  clob_host: https://clob.polymarket.com
+  chain_id: 137
+  proxy_url: http://127.0.0.1:17982
+  read_proxy_urls:
+    - http://127.0.0.1:17982
+    - http://127.0.0.1:18080
+  read_attempts: 3
+  read_retry_seconds: 0.5
+  max_server_clock_offset_ms: 1000
+
+execution:
+  count: 1
+  sides: [BUY]
+  order_types: [FOK]
+  amount: 2.50
+  amount_unit: QUOTE
+  interval_seconds: 0
+  expected_outcome: FILL

@@ -1,0 +1,3400 @@
+{
+  "data_source": "trade_prints_one_sided+market_metadata",
+  "horizons": {
+    "120": {
+      "global": {
+        "conditional_fill_fraction": "0.8345480017",
+        "p_fill": "0.4322655989",
+        "positive_samples": 15546,
+        "samples": 35964
+      },
+      "levels": [
+        {
+          "cells": {
+            "denmark": {
+              "conditional_fill_fraction": "0.6921990607",
+              "p_fill": "0.2519565917",
+              "positive_samples": 498,
+              "samples": 1998
+            },
+            "foreign-policy": {
+              "conditional_fill_fraction": "0.9391895630",
+              "p_fill": "0.5162563945",
+              "positive_samples": 1034,
+              "samples": 1998
+            },
+            "iran": {
+              "conditional_fill_fraction": "0.7972907137",
+              "p_fill": "0.4989980118",
+              "positive_samples": 999,
+              "samples": 1998
+            },
+            "pop-culture": {
+              "conditional_fill_fraction": "0.8276465199",
+              "p_fill": "0.4674535440",
+              "positive_samples": 1869,
+              "samples": 3996
+            },
+            "sports": {
+              "conditional_fill_fraction": "0.8174557033",
+              "p_fill": "0.4172104675",
+              "positive_samples": 9169,
+              "samples": 21978
+            },
+            "unknown": {
+              "conditional_fill_fraction": "0.9911842042",
+              "p_fill": "0.4940670453",
+              "positive_samples": 989,
+              "samples": 1998
+            },
+            "world-elections": {
+              "conditional_fill_fraction": "0.8472052165",
+              "p_fill": "0.4935739487",
+              "positive_samples": 988,
+              "samples": 1998
+            }
+          },
+          "fields": [
+            "category"
+          ]
+        },
+        {
+          "cells": {
+            "denmark|unknown": {
+              "conditional_fill_fraction": "0.6841110527",
+              "p_fill": "0.2492892987",
+              "positive_samples": 498,
+              "samples": 1998
+            },
+            "foreign-policy|unknown": {
+              "conditional_fill_fraction": "0.9421399829",
+              "p_fill": "0.5174988619",
+              "positive_samples": 1034,
+              "samples": 1998
+            },
+            "iran|unknown": {
+              "conditional_fill_fraction": "0.7962044954",
+              "p_fill": "0.4999851777",
+              "positive_samples": 999,
+              "samples": 1998
+            },
+            "pop-culture|unknown": {
+              "conditional_fill_fraction": "0.8275374917",
+              "p_fill": "0.4677157492",
+              "positive_samples": 1869,
+              "samples": 3996
+            },
+            "sports|epl": {
+              "conditional_fill_fraction": "0.8214840409",
+              "p_fill": "0.3404912791",
+              "positive_samples": 678,
+              "samples": 1998
+            },
+            "sports|fifa": {
+              "conditional_fill_fraction": "0.8154717554",
+              "p_fill": "0.4015559082",
+              "positive_samples": 6418,
+              "samples": 15984
+            },
+            "sports|nba": {
+              "conditional_fill_fraction": "0.8219386631",
+              "p_fill": "0.5180120005",
+              "positive_samples": 2073,
+              "samples": 3996
+            },
+            "unknown|unknown": {
+              "conditional_fill_fraction": "0.9957956724",
+              "p_fill": "0.4949812679",
+              "positive_samples": 989,
+              "samples": 1998
+            },
+            "world-elections|unknown": {
+              "conditional_fill_fraction": "0.8475782189",
+              "p_fill": "0.4944808770",
+              "positive_samples": 988,
+              "samples": 1998
+            }
+          },
+          "fields": [
+            "category",
+            "league"
+          ]
+        },
+        {
+          "cells": {
+            "denmark|unknown|75_90": {
+              "conditional_fill_fraction": "0.6684130759",
+              "p_fill": "0.2433632943",
+              "positive_samples": 415,
+              "samples": 1706
+            },
+            "denmark|unknown|90_100": {
+              "conditional_fill_fraction": "0.7437832599",
+              "p_fill": "0.2809896862",
+              "positive_samples": 83,
+              "samples": 292
+            },
+            "foreign-policy|unknown|75_90": {
+              "conditional_fill_fraction": "0.9438058801",
+              "p_fill": "0.5201416331",
+              "positive_samples": 1031,
+              "samples": 1982
+            },
+            "iran|unknown|40_60": {
+              "conditional_fill_fraction": "0.8455080792",
+              "p_fill": "0.6619037032",
+              "positive_samples": 263,
+              "samples": 390
+            },
+            "iran|unknown|60_75": {
+              "conditional_fill_fraction": "0.7868130595",
+              "p_fill": "0.4486474468",
+              "positive_samples": 151,
+              "samples": 340
+            },
+            "iran|unknown|75_90": {
+              "conditional_fill_fraction": "0.7754261431",
+              "p_fill": "0.4622492722",
+              "positive_samples": 585,
+              "samples": 1268
+            },
+            "pop-culture|unknown|00_10": {
+              "conditional_fill_fraction": "0.8384964303",
+              "p_fill": "0.4669780436",
+              "positive_samples": 933,
+              "samples": 1998
+            },
+            "pop-culture|unknown|90_100": {
+              "conditional_fill_fraction": "0.8166092011",
+              "p_fill": "0.4684573336",
+              "positive_samples": 936,
+              "samples": 1998
+            },
+            "sports|epl|00_10": {
+              "conditional_fill_fraction": "0.8298081627",
+              "p_fill": "0.4656680456",
+              "positive_samples": 14,
+              "samples": 22
+            },
+            "sports|epl|10_25": {
+              "conditional_fill_fraction": "0.8094908293",
+              "p_fill": "0.3391350795",
+              "positive_samples": 431,
+              "samples": 1271
+            },
+            "sports|epl|25_40": {
+              "conditional_fill_fraction": "0.8415732398",
+              "p_fill": "0.3309044059",
+              "positive_samples": 233,
+              "samples": 705
+            },
+            "sports|fifa|00_10": {
+              "conditional_fill_fraction": "0.7961921305",
+              "p_fill": "0.4552081864",
+              "positive_samples": 3829,
+              "samples": 8408
+            },
+            "sports|fifa|10_25": {
+              "conditional_fill_fraction": "0.8438568467",
+              "p_fill": "0.3419730052",
+              "positive_samples": 2589,
+              "samples": 7576
+            },
+            "sports|nba|00_10": {
+              "conditional_fill_fraction": "0.8092098961",
+              "p_fill": "0.4692013610",
+              "positive_samples": 936,
+              "samples": 1998
+            },
+            "sports|nba|90_100": {
+              "conditional_fill_fraction": "0.8325903149",
+              "p_fill": "0.5683137870",
+              "positive_samples": 1137,
+              "samples": 1998
+            },
+            "unknown|unknown|00_10": {
+              "conditional_fill_fraction": "0.9959314369",
+              "p_fill": "0.4949947919",
+              "positive_samples": 989,
+              "samples": 1998
+            },
+            "world-elections|unknown|25_40": {
+              "conditional_fill_fraction": "0.8475892111",
+              "p_fill": "0.4944942931",
+              "positive_samples": 988,
+              "samples": 1998
+            }
+          },
+          "fields": [
+            "category",
+            "league",
+            "price_bucket"
+          ]
+        },
+        {
+          "cells": {
+            "denmark|unknown|75_90|30d_plus": {
+              "conditional_fill_fraction": "0.6673547853",
+              "p_fill": "0.2432608864",
+              "positive_samples": 415,
+              "samples": 1706
+            },
+            "denmark|unknown|90_100|30d_plus": {
+              "conditional_fill_fraction": "0.7596254388",
+              "p_fill": "0.2839431385",
+              "positive_samples": 83,
+              "samples": 292
+            },
+            "foreign-policy|unknown|75_90|30d_plus": {
+              "conditional_fill_fraction": "0.9438529836",
+              "p_fill": "0.5201810383",
+              "positive_samples": 1031,
+              "samples": 1982
+            },
+            "iran|unknown|40_60|30d_plus": {
+              "conditional_fill_fraction": "0.8505562277",
+              "p_fill": "0.6734693121",
+              "positive_samples": 263,
+              "samples": 390
+            },
+            "iran|unknown|60_75|30d_plus": {
+              "conditional_fill_fraction": "0.7852564679",
+              "p_fill": "0.4444849281",
+              "positive_samples": 151,
+              "samples": 340
+            },
+            "iran|unknown|75_90|30d_plus": {
+              "conditional_fill_fraction": "0.7744125649",
+              "p_fill": "0.4613771018",
+              "positive_samples": 585,
+              "samples": 1268
+            },
+            "pop-culture|unknown|00_10|30d_plus": {
+              "conditional_fill_fraction": "0.8388378302",
+              "p_fill": "0.4669671308",
+              "positive_samples": 933,
+              "samples": 1998
+            },
+            "pop-culture|unknown|90_100|30d_plus": {
+              "conditional_fill_fraction": "0.8162698132",
+              "p_fill": "0.4684683038",
+              "positive_samples": 936,
+              "samples": 1998
+            },
+            "sports|epl|00_10|30d_plus": {
+              "conditional_fill_fraction": "0.8354837003",
+              "p_fill": "0.5378854109",
+              "positive_samples": 14,
+              "samples": 22
+            },
+            "sports|epl|10_25|30d_plus": {
+              "conditional_fill_fraction": "0.8087103600",
+              "p_fill": "0.3391038066",
+              "positive_samples": 431,
+              "samples": 1271
+            },
+            "sports|epl|25_40|30d_plus": {
+              "conditional_fill_fraction": "0.8438647834",
+              "p_fill": "0.3305131050",
+              "positive_samples": 233,
+              "samples": 705
+            },
+            "sports|fifa|00_10|30d_plus": {
+              "conditional_fill_fraction": "0.7960422500",
+              "p_fill": "0.4553989388",
+              "positive_samples": 3829,
+              "samples": 8408
+            },
+            "sports|fifa|10_25|30d_plus": {
+              "conditional_fill_fraction": "0.8441819909",
+              "p_fill": "0.3417379950",
+              "positive_samples": 2589,
+              "samples": 7576
+            },
+            "sports|nba|00_10|30d_plus": {
+              "conditional_fill_fraction": "0.8088145928",
+              "p_fill": "0.4684793101",
+              "positive_samples": 936,
+              "samples": 1998
+            },
+            "sports|nba|90_100|30d_plus": {
+              "conditional_fill_fraction": "0.8328641363",
+              "p_fill": "0.5690578963",
+              "positive_samples": 1137,
+              "samples": 1998
+            },
+            "unknown|unknown|00_10|unknown": {
+              "conditional_fill_fraction": "0.9959354339",
+              "p_fill": "0.4949949920",
+              "positive_samples": 989,
+              "samples": 1998
+            },
+            "world-elections|unknown|25_40|30d_plus": {
+              "conditional_fill_fraction": "0.8475895351",
+              "p_fill": "0.4944944915",
+              "positive_samples": 988,
+              "samples": 1998
+            }
+          },
+          "fields": [
+            "category",
+            "league",
+            "price_bucket",
+            "tte_bucket"
+          ]
+        },
+        {
+          "cells": {
+            "denmark|unknown|75_90|30d_plus|active": {
+              "conditional_fill_fraction": "0.7805728095",
+              "p_fill": "0.4454263194",
+              "positive_samples": 27,
+              "samples": 47
+            },
+            "denmark|unknown|75_90|30d_plus|medium": {
+              "conditional_fill_fraction": "0.6873546763",
+              "p_fill": "0.2992397478",
+              "positive_samples": 151,
+              "samples": 499
+            },
+            "denmark|unknown|75_90|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.6295077578",
+              "p_fill": "0.2052922913",
+              "positive_samples": 237,
+              "samples": 1160
+            },
+            "denmark|unknown|90_100|30d_plus|active": {
+              "conditional_fill_fraction": "0.8169808777",
+              "p_fill": "0.4807508658",
+              "positive_samples": 16,
+              "samples": 21
+            },
+            "denmark|unknown|90_100|30d_plus|medium": {
+              "conditional_fill_fraction": "0.7630609230",
+              "p_fill": "0.3634042235",
+              "positive_samples": 34,
+              "samples": 87
+            },
+            "denmark|unknown|90_100|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.7218007434",
+              "p_fill": "0.1940107204",
+              "positive_samples": 33,
+              "samples": 184
+            },
+            "foreign-policy|unknown|75_90|30d_plus|active": {
+              "conditional_fill_fraction": "0.9829733823",
+              "p_fill": "0.7696016267",
+              "positive_samples": 283,
+              "samples": 358
+            },
+            "foreign-policy|unknown|75_90|30d_plus|medium": {
+              "conditional_fill_fraction": "0.9475058922",
+              "p_fill": "0.5938078587",
+              "positive_samples": 425,
+              "samples": 712
+            },
+            "foreign-policy|unknown|75_90|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.9044610713",
+              "p_fill": "0.3594537486",
+              "positive_samples": 323,
+              "samples": 912
+            },
+            "iran|unknown|40_60|30d_plus|active": {
+              "conditional_fill_fraction": "0.8703104647",
+              "p_fill": "0.7080718787",
+              "positive_samples": 217,
+              "samples": 305
+            },
+            "iran|unknown|40_60|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8016647699",
+              "p_fill": "0.6173469170",
+              "positive_samples": 44,
+              "samples": 74
+            },
+            "iran|unknown|60_75|30d_plus|active": {
+              "conditional_fill_fraction": "0.8226899967",
+              "p_fill": "0.6898232489",
+              "positive_samples": 86,
+              "samples": 114
+            },
+            "iran|unknown|60_75|30d_plus|medium": {
+              "conditional_fill_fraction": "0.7531171450",
+              "p_fill": "0.4112632977",
+              "positive_samples": 50,
+              "samples": 124
+            },
+            "iran|unknown|60_75|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.7448599958",
+              "p_fill": "0.2146556655",
+              "positive_samples": 15,
+              "samples": 102
+            },
+            "iran|unknown|75_90|30d_plus|active": {
+              "conditional_fill_fraction": "0.8956547120",
+              "p_fill": "0.7853747590",
+              "positive_samples": 188,
+              "samples": 227
+            },
+            "iran|unknown|75_90|30d_plus|medium": {
+              "conditional_fill_fraction": "0.7597788903",
+              "p_fill": "0.6434034677",
+              "positive_samples": 304,
+              "samples": 464
+            },
+            "iran|unknown|75_90|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.5990178650",
+              "p_fill": "0.1760153428",
+              "positive_samples": 93,
+              "samples": 577
+            },
+            "pop-culture|unknown|00_10|30d_plus|active": {
+              "conditional_fill_fraction": "0.8719025239",
+              "p_fill": "0.7440030540",
+              "positive_samples": 233,
+              "samples": 302
+            },
+            "pop-culture|unknown|00_10|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8428885384",
+              "p_fill": "0.5316178294",
+              "positive_samples": 541,
+              "samples": 1014
+            },
+            "pop-culture|unknown|00_10|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.7806435085",
+              "p_fill": "0.2429901881",
+              "positive_samples": 159,
+              "samples": 682
+            },
+            "pop-culture|unknown|90_100|30d_plus|active": {
+              "conditional_fill_fraction": "0.9133539832",
+              "p_fill": "0.8315208554",
+              "positive_samples": 267,
+              "samples": 308
+            },
+            "pop-culture|unknown|90_100|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8083245554",
+              "p_fill": "0.4391129223",
+              "positive_samples": 375,
+              "samples": 856
+            },
+            "pop-culture|unknown|90_100|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.7371761382",
+              "p_fill": "0.3565440383",
+              "positive_samples": 294,
+              "samples": 834
+            },
+            "sports|epl|10_25|30d_plus|active": {
+              "conditional_fill_fraction": "0.8107335467",
+              "p_fill": "0.6079763459",
+              "positive_samples": 64,
+              "samples": 92
+            },
+            "sports|epl|10_25|30d_plus|medium": {
+              "conditional_fill_fraction": "0.7901246828",
+              "p_fill": "0.3918397076",
+              "positive_samples": 212,
+              "samples": 537
+            },
+            "sports|epl|10_25|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.8318678748",
+              "p_fill": "0.2457933247",
+              "positive_samples": 155,
+              "samples": 642
+            },
+            "sports|epl|25_40|30d_plus|active": {
+              "conditional_fill_fraction": "0.8994305198",
+              "p_fill": "0.6521978893",
+              "positive_samples": 54,
+              "samples": 68
+            },
+            "sports|epl|25_40|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8328649974",
+              "p_fill": "0.3583289419",
+              "positive_samples": 94,
+              "samples": 260
+            },
+            "sports|epl|25_40|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.8157360697",
+              "p_fill": "0.2332073542",
+              "positive_samples": 85,
+              "samples": 377
+            },
+            "sports|fifa|00_10|30d_plus|active": {
+              "conditional_fill_fraction": "0.8594817942",
+              "p_fill": "0.6754483649",
+              "positive_samples": 268,
+              "samples": 387
+            },
+            "sports|fifa|00_10|30d_plus|medium": {
+              "conditional_fill_fraction": "0.7759346820",
+              "p_fill": "0.4922478935",
+              "positive_samples": 2389,
+              "samples": 4851
+            },
+            "sports|fifa|00_10|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.8207766313",
+              "p_fill": "0.3705193651",
+              "positive_samples": 1172,
+              "samples": 3170
+            },
+            "sports|fifa|10_25|30d_plus|active": {
+              "conditional_fill_fraction": "0.9020554182",
+              "p_fill": "0.7793328505",
+              "positive_samples": 840,
+              "samples": 1061
+            },
+            "sports|fifa|10_25|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8494387773",
+              "p_fill": "0.3986762119",
+              "positive_samples": 998,
+              "samples": 2499
+            },
+            "sports|fifa|10_25|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.7728066978",
+              "p_fill": "0.1881493178",
+              "positive_samples": 751,
+              "samples": 4016
+            },
+            "sports|nba|00_10|30d_plus|active": {
+              "conditional_fill_fraction": "0.8588596623",
+              "p_fill": "0.6162175172",
+              "positive_samples": 140,
+              "samples": 220
+            },
+            "sports|nba|00_10|30d_plus|medium": {
+              "conditional_fill_fraction": "0.7797505163",
+              "p_fill": "0.4882312539",
+              "positive_samples": 523,
+              "samples": 1070
+            },
+            "sports|nba|00_10|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.8337416996",
+              "p_fill": "0.3889625736",
+              "positive_samples": 273,
+              "samples": 708
+            },
+            "sports|nba|90_100|30d_plus|active": {
+              "conditional_fill_fraction": "0.8938343403",
+              "p_fill": "0.7272047407",
+              "positive_samples": 188,
+              "samples": 252
+            },
+            "sports|nba|90_100|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8190968218",
+              "p_fill": "0.5786078859",
+              "positive_samples": 668,
+              "samples": 1154
+            },
+            "sports|nba|90_100|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.8210515824",
+              "p_fill": "0.4792150111",
+              "positive_samples": 281,
+              "samples": 592
+            },
+            "unknown|unknown|00_10|unknown|active": {
+              "conditional_fill_fraction": "0.9973208185",
+              "p_fill": "0.4999226827",
+              "positive_samples": 956,
+              "samples": 1912
+            },
+            "unknown|unknown|00_10|unknown|medium": {
+              "conditional_fill_fraction": "0.9978225539",
+              "p_fill": "0.4642028382",
+              "positive_samples": 26,
+              "samples": 58
+            },
+            "unknown|unknown|00_10|unknown|sparse": {
+              "conditional_fill_fraction": "0.9561638653",
+              "p_fill": "0.3767215476",
+              "positive_samples": 7,
+              "samples": 28
+            },
+            "world-elections|unknown|25_40|30d_plus|active": {
+              "conditional_fill_fraction": "0.8716431419",
+              "p_fill": "0.7071031423",
+              "positive_samples": 128,
+              "samples": 172
+            },
+            "world-elections|unknown|25_40|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8379524439",
+              "p_fill": "0.5455591778",
+              "positive_samples": 546,
+              "samples": 998
+            },
+            "world-elections|unknown|25_40|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.8526782105",
+              "p_fill": "0.3832573832",
+              "positive_samples": 314,
+              "samples": 828
+            }
+          },
+          "fields": [
+            "category",
+            "league",
+            "price_bucket",
+            "tte_bucket",
+            "liquidity_regime"
+          ]
+        },
+        {
+          "cells": {
+            "155219|denmark|unknown|75_90|30d_plus|active": {
+              "conditional_fill_fraction": "0.8401612433",
+              "p_fill": "0.5241920725",
+              "positive_samples": 27,
+              "samples": 47
+            },
+            "155219|denmark|unknown|75_90|30d_plus|medium": {
+              "conditional_fill_fraction": "0.6906695753",
+              "p_fill": "0.3024143524",
+              "positive_samples": 151,
+              "samples": 499
+            },
+            "155219|denmark|unknown|75_90|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.6252552828",
+              "p_fill": "0.2043350998",
+              "positive_samples": 237,
+              "samples": 1160
+            },
+            "155219|denmark|unknown|90_100|30d_plus|active": {
+              "conditional_fill_fraction": "0.8543865987",
+              "p_fill": "0.5965201171",
+              "positive_samples": 16,
+              "samples": 21
+            },
+            "155219|denmark|unknown|90_100|30d_plus|medium": {
+              "conditional_fill_fraction": "0.7646713062",
+              "p_fill": "0.3837788607",
+              "positive_samples": 34,
+              "samples": 87
+            },
+            "155219|denmark|unknown|90_100|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.7037889837",
+              "p_fill": "0.1814033720",
+              "positive_samples": 33,
+              "samples": 184
+            },
+            "163981|iran|unknown|40_60|30d_plus|active": {
+              "conditional_fill_fraction": "0.8727097647",
+              "p_fill": "0.7111706160",
+              "positive_samples": 217,
+              "samples": 305
+            },
+            "163981|iran|unknown|40_60|30d_plus|medium": {
+              "conditional_fill_fraction": "0.7818439086",
+              "p_fill": "0.6011577645",
+              "positive_samples": 44,
+              "samples": 74
+            },
+            "163981|iran|unknown|60_75|30d_plus|active": {
+              "conditional_fill_fraction": "0.8323710817",
+              "p_fill": "0.7409353991",
+              "positive_samples": 86,
+              "samples": 114
+            },
+            "163981|iran|unknown|60_75|30d_plus|medium": {
+              "conditional_fill_fraction": "0.7410648989",
+              "p_fill": "0.4047915515",
+              "positive_samples": 50,
+              "samples": 124
+            },
+            "163981|iran|unknown|60_75|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.7179290144",
+              "p_fill": "0.1624217422",
+              "positive_samples": 15,
+              "samples": 102
+            },
+            "163981|iran|unknown|75_90|30d_plus|active": {
+              "conditional_fill_fraction": "0.9123394112",
+              "p_fill": "0.8231954972",
+              "positive_samples": 188,
+              "samples": 227
+            },
+            "163981|iran|unknown|75_90|30d_plus|medium": {
+              "conditional_fill_fraction": "0.7584644884",
+              "p_fill": "0.6544577005",
+              "positive_samples": 304,
+              "samples": 464
+            },
+            "163981|iran|unknown|75_90|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.5562386699",
+              "p_fill": "0.1619117962",
+              "positive_samples": 93,
+              "samples": 577
+            },
+            "203815|pop-culture|unknown|00_10|30d_plus|active": {
+              "conditional_fill_fraction": "0.8756741620",
+              "p_fill": "0.7690364205",
+              "positive_samples": 233,
+              "samples": 302
+            },
+            "203815|pop-culture|unknown|00_10|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8431013602",
+              "p_fill": "0.5334756081",
+              "positive_samples": 541,
+              "samples": 1014
+            },
+            "203815|pop-culture|unknown|00_10|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.7714063146",
+              "p_fill": "0.2335529574",
+              "positive_samples": 159,
+              "samples": 682
+            },
+            "203815|pop-culture|unknown|90_100|30d_plus|active": {
+              "conditional_fill_fraction": "0.9231604651",
+              "p_fill": "0.8637444546",
+              "positive_samples": 267,
+              "samples": 308
+            },
+            "203815|pop-culture|unknown|90_100|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8077360178",
+              "p_fill": "0.4381189477",
+              "positive_samples": 375,
+              "samples": 856
+            },
+            "203815|pop-culture|unknown|90_100|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.7298526498",
+              "p_fill": "0.3526577791",
+              "positive_samples": 294,
+              "samples": 834
+            },
+            "2813401|unknown|unknown|00_10|unknown|active": {
+              "conditional_fill_fraction": "0.9973629702",
+              "p_fill": "0.4999988056",
+              "positive_samples": 956,
+              "samples": 1912
+            },
+            "2813401|unknown|unknown|00_10|unknown|medium": {
+              "conditional_fill_fraction": "0.9988335110",
+              "p_fill": "0.4537055130",
+              "positive_samples": 26,
+              "samples": 58
+            },
+            "2813401|unknown|unknown|00_10|unknown|sparse": {
+              "conditional_fill_fraction": "0.9239166475",
+              "p_fill": "0.3155456281",
+              "positive_samples": 7,
+              "samples": 28
+            },
+            "303087|foreign-policy|unknown|75_90|30d_plus|active": {
+              "conditional_fill_fraction": "0.9867229413",
+              "p_fill": "0.7888867237",
+              "positive_samples": 283,
+              "samples": 358
+            },
+            "303087|foreign-policy|unknown|75_90|30d_plus|medium": {
+              "conditional_fill_fraction": "0.9477467433",
+              "p_fill": "0.5967846843",
+              "positive_samples": 425,
+              "samples": 712
+            },
+            "303087|foreign-policy|unknown|75_90|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.9011133167",
+              "p_fill": "0.3543350451",
+              "positive_samples": 323,
+              "samples": 912
+            },
+            "304037|sports|epl|10_25|30d_plus|active": {
+              "conditional_fill_fraction": "0.8113792446",
+              "p_fill": "0.6740925441",
+              "positive_samples": 64,
+              "samples": 92
+            },
+            "304037|sports|epl|10_25|30d_plus|medium": {
+              "conditional_fill_fraction": "0.7878206733",
+              "p_fill": "0.3946299669",
+              "positive_samples": 212,
+              "samples": 537
+            },
+            "304037|sports|epl|10_25|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.8356231475",
+              "p_fill": "0.2416276782",
+              "positive_samples": 155,
+              "samples": 642
+            },
+            "304037|sports|epl|25_40|30d_plus|active": {
+              "conditional_fill_fraction": "0.9192754256",
+              "p_fill": "0.7506728233",
+              "positive_samples": 54,
+              "samples": 68
+            },
+            "304037|sports|epl|25_40|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8302037588",
+              "p_fill": "0.3612064423",
+              "positive_samples": 94,
+              "samples": 260
+            },
+            "304037|sports|epl|25_40|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.8083981443",
+              "p_fill": "0.2260349401",
+              "positive_samples": 85,
+              "samples": 377
+            },
+            "309262|world-elections|unknown|25_40|30d_plus|active": {
+              "conditional_fill_fraction": "0.8762102824",
+              "p_fill": "0.7386786845",
+              "positive_samples": 128,
+              "samples": 172
+            },
+            "309262|world-elections|unknown|25_40|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8374505121",
+              "p_fill": "0.5470493923",
+              "positive_samples": 546,
+              "samples": 998
+            },
+            "309262|world-elections|unknown|25_40|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.8531219903",
+              "p_fill": "0.3793679738",
+              "positive_samples": 314,
+              "samples": 828
+            },
+            "309650|sports|fifa|00_10|30d_plus|medium": {
+              "conditional_fill_fraction": "0.7322809167",
+              "p_fill": "0.5090938461",
+              "positive_samples": 644,
+              "samples": 1264
+            },
+            "309650|sports|fifa|00_10|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.8382754073",
+              "p_fill": "0.4346464986",
+              "positive_samples": 314,
+              "samples": 718
+            },
+            "309660|sports|fifa|00_10|30d_plus|medium": {
+              "conditional_fill_fraction": "0.7935684278",
+              "p_fill": "0.4593790733",
+              "positive_samples": 542,
+              "samples": 1182
+            },
+            "309660|sports|fifa|00_10|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.8454436861",
+              "p_fill": "0.4121874469",
+              "positive_samples": 331,
+              "samples": 800
+            },
+            "309661|sports|fifa|00_10|30d_plus|active": {
+              "conditional_fill_fraction": "0.8148278130",
+              "p_fill": "0.5652690189",
+              "positive_samples": 8,
+              "samples": 20
+            },
+            "309661|sports|fifa|00_10|30d_plus|medium": {
+              "conditional_fill_fraction": "0.7393503897",
+              "p_fill": "0.5159883685",
+              "positive_samples": 720,
+              "samples": 1394
+            },
+            "309661|sports|fifa|00_10|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.7856617754",
+              "p_fill": "0.4659862882",
+              "positive_samples": 275,
+              "samples": 584
+            },
+            "309663|sports|fifa|00_10|30d_plus|active": {
+              "conditional_fill_fraction": "0.8625824199",
+              "p_fill": "0.7522711289",
+              "positive_samples": 67,
+              "samples": 86
+            },
+            "309663|sports|fifa|00_10|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8814496830",
+              "p_fill": "0.5648640771",
+              "positive_samples": 79,
+              "samples": 136
+            },
+            "309663|sports|fifa|00_10|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.8507090034",
+              "p_fill": "0.2144406349",
+              "positive_samples": 50,
+              "samples": 255
+            },
+            "309663|sports|fifa|10_25|30d_plus|active": {
+              "conditional_fill_fraction": "0.8861783295",
+              "p_fill": "0.7976162370",
+              "positive_samples": 251,
+              "samples": 314
+            },
+            "309663|sports|fifa|10_25|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8151329851",
+              "p_fill": "0.4116004773",
+              "positive_samples": 235,
+              "samples": 570
+            },
+            "309663|sports|fifa|10_25|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.7897330238",
+              "p_fill": "0.1808762812",
+              "positive_samples": 115,
+              "samples": 637
+            },
+            "309664|sports|fifa|00_10|30d_plus|active": {
+              "conditional_fill_fraction": "0.8891440941",
+              "p_fill": "0.7327782559",
+              "positive_samples": 160,
+              "samples": 216
+            },
+            "309664|sports|fifa|00_10|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8587633605",
+              "p_fill": "0.4717569194",
+              "positive_samples": 390,
+              "samples": 828
+            },
+            "309664|sports|fifa|00_10|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.8012598308",
+              "p_fill": "0.2626970154",
+              "positive_samples": 193,
+              "samples": 747
+            },
+            "309664|sports|fifa|10_25|30d_plus|medium": {
+              "conditional_fill_fraction": "0.9063796365",
+              "p_fill": "0.4106698484",
+              "positive_samples": 25,
+              "samples": 60
+            },
+            "309664|sports|fifa|10_25|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.7607452556",
+              "p_fill": "0.1693970259",
+              "positive_samples": 24,
+              "samples": 145
+            },
+            "309665|sports|fifa|00_10|30d_plus|active": {
+              "conditional_fill_fraction": "0.8849406650",
+              "p_fill": "0.5597373166",
+              "positive_samples": 15,
+              "samples": 33
+            },
+            "309665|sports|fifa|00_10|30d_plus|medium": {
+              "conditional_fill_fraction": "0.7732516680",
+              "p_fill": "0.3736030754",
+              "positive_samples": 14,
+              "samples": 47
+            },
+            "309665|sports|fifa|00_10|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.7819390285",
+              "p_fill": "0.2095373016",
+              "positive_samples": 9,
+              "samples": 66
+            },
+            "309665|sports|fifa|10_25|30d_plus|active": {
+              "conditional_fill_fraction": "0.8955887070",
+              "p_fill": "0.7506665924",
+              "positive_samples": 123,
+              "samples": 165
+            },
+            "309665|sports|fifa|10_25|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8582333162",
+              "p_fill": "0.3485509841",
+              "positive_samples": 178,
+              "samples": 515
+            },
+            "309665|sports|fifa|10_25|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.6968311930",
+              "p_fill": "0.1669255237",
+              "positive_samples": 195,
+              "samples": 1172
+            },
+            "309666|sports|fifa|10_25|30d_plus|active": {
+              "conditional_fill_fraction": "0.9265877188",
+              "p_fill": "0.7707521803",
+              "positive_samples": 325,
+              "samples": 422
+            },
+            "309666|sports|fifa|10_25|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8455577920",
+              "p_fill": "0.4479194890",
+              "positive_samples": 298,
+              "samples": 662
+            },
+            "309666|sports|fifa|10_25|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.7774537976",
+              "p_fill": "0.1998352537",
+              "positive_samples": 183,
+              "samples": 914
+            },
+            "309667|sports|fifa|10_25|30d_plus|active": {
+              "conditional_fill_fraction": "0.8918910140",
+              "p_fill": "0.8637233272",
+              "positive_samples": 139,
+              "samples": 158
+            },
+            "309667|sports|fifa|10_25|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8684822376",
+              "p_fill": "0.3794463800",
+              "positive_samples": 262,
+              "samples": 692
+            },
+            "309667|sports|fifa|10_25|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.8188688121",
+              "p_fill": "0.2034333443",
+              "positive_samples": 234,
+              "samples": 1148
+            },
+            "314005|sports|nba|00_10|30d_plus|active": {
+              "conditional_fill_fraction": "0.8676911452",
+              "p_fill": "0.6339461021",
+              "positive_samples": 140,
+              "samples": 220
+            },
+            "314005|sports|nba|00_10|30d_plus|medium": {
+              "conditional_fill_fraction": "0.7781738033",
+              "p_fill": "0.4887699433",
+              "positive_samples": 523,
+              "samples": 1070
+            },
+            "314005|sports|nba|00_10|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.8362097299",
+              "p_fill": "0.3857301859",
+              "positive_samples": 273,
+              "samples": 708
+            },
+            "314005|sports|nba|90_100|30d_plus|active": {
+              "conditional_fill_fraction": "0.9022247354",
+              "p_fill": "0.7440288731",
+              "positive_samples": 188,
+              "samples": 252
+            },
+            "314005|sports|nba|90_100|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8185051034",
+              "p_fill": "0.5788498620",
+              "positive_samples": 668,
+              "samples": 1154
+            },
+            "314005|sports|nba|90_100|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.8199121078",
+              "p_fill": "0.4748817529",
+              "positive_samples": 281,
+              "samples": 592
+            }
+          },
+          "fields": [
+            "market_id",
+            "category",
+            "league",
+            "price_bucket",
+            "tte_bucket",
+            "liquidity_regime"
+          ]
+        }
+      ],
+      "samples": 35964
+    },
+    "30": {
+      "global": {
+        "conditional_fill_fraction": "0.8310761441",
+        "p_fill": "0.2491658325",
+        "positive_samples": 8961,
+        "samples": 35964
+      },
+      "levels": [
+        {
+          "cells": {
+            "denmark": {
+              "conditional_fill_fraction": "0.6567718436",
+              "p_fill": "0.1476701060",
+              "positive_samples": 292,
+              "samples": 1998
+            },
+            "foreign-policy": {
+              "conditional_fill_fraction": "0.9356877619",
+              "p_fill": "0.4070389423",
+              "positive_samples": 818,
+              "samples": 1998
+            },
+            "iran": {
+              "conditional_fill_fraction": "0.7535776357",
+              "p_fill": "0.4016148792",
+              "positive_samples": 807,
+              "samples": 1998
+            },
+            "pop-culture": {
+              "conditional_fill_fraction": "0.7909027723",
+              "p_fill": "0.2557066505",
+              "positive_samples": 1022,
+              "samples": 3996
+            },
+            "sports": {
+              "conditional_fill_fraction": "0.8110759229",
+              "p_fill": "0.2054014438",
+              "positive_samples": 4513,
+              "samples": 21978
+            },
+            "unknown": {
+              "conditional_fill_fraction": "0.9921215618",
+              "p_fill": "0.4859344058",
+              "positive_samples": 978,
+              "samples": 1998
+            },
+            "world-elections": {
+              "conditional_fill_fraction": "0.8365506455",
+              "p_fill": "0.2655202046",
+              "positive_samples": 531,
+              "samples": 1998
+            }
+          },
+          "fields": [
+            "category"
+          ]
+        },
+        {
+          "cells": {
+            "denmark|unknown": {
+              "conditional_fill_fraction": "0.6405323125",
+              "p_fill": "0.1461686899",
+              "positive_samples": 292,
+              "samples": 1998
+            },
+            "foreign-policy|unknown": {
+              "conditional_fill_fraction": "0.9393886446",
+              "p_fill": "0.4093743433",
+              "positive_samples": 818,
+              "samples": 1998
+            },
+            "iran|unknown": {
+              "conditional_fill_fraction": "0.7507999114",
+              "p_fill": "0.4038700426",
+              "positive_samples": 807,
+              "samples": 1998
+            },
+            "pop-culture|unknown": {
+              "conditional_fill_fraction": "0.7897571438",
+              "p_fill": "0.2557553898",
+              "positive_samples": 1022,
+              "samples": 3996
+            },
+            "sports|epl": {
+              "conditional_fill_fraction": "0.7654748340",
+              "p_fill": "0.1701982462",
+              "positive_samples": 339,
+              "samples": 1998
+            },
+            "sports|fifa": {
+              "conditional_fill_fraction": "0.8134637988",
+              "p_fill": "0.1959012141",
+              "positive_samples": 3131,
+              "samples": 15984
+            },
+            "sports|nba": {
+              "conditional_fill_fraction": "0.8191641985",
+              "p_fill": "0.2605966327",
+              "positive_samples": 1043,
+              "samples": 3996
+            },
+            "unknown|unknown": {
+              "conditional_fill_fraction": "0.9969145802",
+              "p_fill": "0.4894368995",
+              "positive_samples": 978,
+              "samples": 1998
+            },
+            "world-elections|unknown": {
+              "conditional_fill_fraction": "0.8368433996",
+              "p_fill": "0.2657621332",
+              "positive_samples": 531,
+              "samples": 1998
+            }
+          },
+          "fields": [
+            "category",
+            "league"
+          ]
+        },
+        {
+          "cells": {
+            "denmark|unknown|75_90": {
+              "conditional_fill_fraction": "0.6109994989",
+              "p_fill": "0.1407748045",
+              "positive_samples": 240,
+              "samples": 1706
+            },
+            "denmark|unknown|90_100": {
+              "conditional_fill_fraction": "0.7318332118",
+              "p_fill": "0.1751088842",
+              "positive_samples": 52,
+              "samples": 292
+            },
+            "foreign-policy|unknown|75_90": {
+              "conditional_fill_fraction": "0.9405492106",
+              "p_fill": "0.4121676095",
+              "positive_samples": 817,
+              "samples": 1982
+            },
+            "iran|unknown|40_60": {
+              "conditional_fill_fraction": "0.7509230564",
+              "p_fill": "0.4621811935",
+              "positive_samples": 182,
+              "samples": 390
+            },
+            "iran|unknown|60_75": {
+              "conditional_fill_fraction": "0.7431058135",
+              "p_fill": "0.3003137872",
+              "positive_samples": 99,
+              "samples": 340
+            },
+            "iran|unknown|75_90": {
+              "conditional_fill_fraction": "0.7523882211",
+              "p_fill": "0.4145732675",
+              "positive_samples": 526,
+              "samples": 1268
+            },
+            "pop-culture|unknown|00_10": {
+              "conditional_fill_fraction": "0.7843345043",
+              "p_fill": "0.2434283342",
+              "positive_samples": 486,
+              "samples": 1998
+            },
+            "pop-culture|unknown|90_100": {
+              "conditional_fill_fraction": "0.7946400293",
+              "p_fill": "0.2680831665",
+              "positive_samples": 536,
+              "samples": 1998
+            },
+            "sports|epl|00_10": {
+              "conditional_fill_fraction": "0.8029236106",
+              "p_fill": "0.2328066805",
+              "positive_samples": 7,
+              "samples": 22
+            },
+            "sports|epl|10_25": {
+              "conditional_fill_fraction": "0.7253620636",
+              "p_fill": "0.1584211740",
+              "positive_samples": 201,
+              "samples": 1271
+            },
+            "sports|epl|25_40": {
+              "conditional_fill_fraction": "0.8059246014",
+              "p_fill": "0.1851781597",
+              "positive_samples": 131,
+              "samples": 705
+            },
+            "sports|fifa|00_10": {
+              "conditional_fill_fraction": "0.8081276182",
+              "p_fill": "0.2048918033",
+              "positive_samples": 1723,
+              "samples": 8408
+            },
+            "sports|fifa|10_25": {
+              "conditional_fill_fraction": "0.8200187089",
+              "p_fill": "0.1858896971",
+              "positive_samples": 1408,
+              "samples": 7576
+            },
+            "sports|nba|00_10": {
+              "conditional_fill_fraction": "0.8092251830",
+              "p_fill": "0.2494171100",
+              "positive_samples": 498,
+              "samples": 1998
+            },
+            "sports|nba|90_100": {
+              "conditional_fill_fraction": "0.8287128046",
+              "p_fill": "0.2725926524",
+              "positive_samples": 545,
+              "samples": 1998
+            },
+            "unknown|unknown|00_10": {
+              "conditional_fill_fraction": "0.9970572296",
+              "p_fill": "0.4894887115",
+              "positive_samples": 978,
+              "samples": 1998
+            },
+            "world-elections|unknown|25_40": {
+              "conditional_fill_fraction": "0.8368590549",
+              "p_fill": "0.2657657120",
+              "positive_samples": 531,
+              "samples": 1998
+            }
+          },
+          "fields": [
+            "category",
+            "league",
+            "price_bucket"
+          ]
+        },
+        {
+          "cells": {
+            "denmark|unknown|75_90|30d_plus": {
+              "conditional_fill_fraction": "0.6077180752",
+              "p_fill": "0.1406815922",
+              "positive_samples": 240,
+              "samples": 1706
+            },
+            "denmark|unknown|90_100|30d_plus": {
+              "conditional_fill_fraction": "0.7652359799",
+              "p_fill": "0.1778051755",
+              "positive_samples": 52,
+              "samples": 292
+            },
+            "foreign-policy|unknown|75_90|30d_plus": {
+              "conditional_fill_fraction": "0.9405903168",
+              "p_fill": "0.4122092586",
+              "positive_samples": 817,
+              "samples": 1982
+            },
+            "iran|unknown|40_60|30d_plus": {
+              "conditional_fill_fraction": "0.7509404826",
+              "p_fill": "0.4663462757",
+              "positive_samples": 182,
+              "samples": 390
+            },
+            "iran|unknown|60_75|30d_plus": {
+              "conditional_fill_fraction": "0.7413164884",
+              "p_fill": "0.2919173341",
+              "positive_samples": 99,
+              "samples": 340
+            },
+            "iran|unknown|75_90|30d_plus": {
+              "conditional_fill_fraction": "0.7524739212",
+              "p_fill": "0.4148206456",
+              "positive_samples": 526,
+              "samples": 1268
+            },
+            "pop-culture|unknown|00_10|30d_plus": {
+              "conditional_fill_fraction": "0.7840192345",
+              "p_fill": "0.2432459813",
+              "positive_samples": 486,
+              "samples": 1998
+            },
+            "pop-culture|unknown|90_100|30d_plus": {
+              "conditional_fill_fraction": "0.7948988395",
+              "p_fill": "0.2682655301",
+              "positive_samples": 536,
+              "samples": 1998
+            },
+            "sports|epl|00_10|30d_plus": {
+              "conditional_fill_fraction": "0.8332874835",
+              "p_fill": "0.2689269311",
+              "positive_samples": 7,
+              "samples": 22
+            },
+            "sports|epl|10_25|30d_plus": {
+              "conditional_fill_fraction": "0.7201526129",
+              "p_fill": "0.1581496043",
+              "positive_samples": 201,
+              "samples": 1271
+            },
+            "sports|epl|25_40|30d_plus": {
+              "conditional_fill_fraction": "0.8134618251",
+              "p_fill": "0.1857895847",
+              "positive_samples": 131,
+              "samples": 705
+            },
+            "sports|fifa|00_10|30d_plus": {
+              "conditional_fill_fraction": "0.8080362974",
+              "p_fill": "0.2049237680",
+              "positive_samples": 1723,
+              "samples": 8408
+            },
+            "sports|fifa|10_25|30d_plus": {
+              "conditional_fill_fraction": "0.8201554595",
+              "p_fill": "0.1858502092",
+              "positive_samples": 1408,
+              "samples": 7576
+            },
+            "sports|nba|00_10|30d_plus": {
+              "conditional_fill_fraction": "0.8086604662",
+              "p_fill": "0.2492517324",
+              "positive_samples": 498,
+              "samples": 1998
+            },
+            "sports|nba|90_100|30d_plus": {
+              "conditional_fill_fraction": "0.8292109927",
+              "p_fill": "0.2727701083",
+              "positive_samples": 545,
+              "samples": 1998
+            },
+            "unknown|unknown|00_10|unknown": {
+              "conditional_fill_fraction": "0.9970614751",
+              "p_fill": "0.4894894780",
+              "positive_samples": 978,
+              "samples": 1998
+            },
+            "world-elections|unknown|25_40|30d_plus": {
+              "conditional_fill_fraction": "0.8368598921",
+              "p_fill": "0.2657657650",
+              "positive_samples": 531,
+              "samples": 1998
+            }
+          },
+          "fields": [
+            "category",
+            "league",
+            "price_bucket",
+            "tte_bucket"
+          ]
+        },
+        {
+          "cells": {
+            "denmark|unknown|75_90|30d_plus|active": {
+              "conditional_fill_fraction": "0.7065736164",
+              "p_fill": "0.3145512697",
+              "positive_samples": 20,
+              "samples": 47
+            },
+            "denmark|unknown|75_90|30d_plus|medium": {
+              "conditional_fill_fraction": "0.6387463783",
+              "p_fill": "0.1837815648",
+              "positive_samples": 93,
+              "samples": 499
+            },
+            "denmark|unknown|75_90|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.5512995971",
+              "p_fill": "0.1102692838",
+              "positive_samples": 127,
+              "samples": 1160
+            },
+            "denmark|unknown|90_100|30d_plus|active": {
+              "conditional_fill_fraction": "0.8087931395",
+              "p_fill": "0.3398853974",
+              "positive_samples": 12,
+              "samples": 21
+            },
+            "denmark|unknown|90_100|30d_plus|medium": {
+              "conditional_fill_fraction": "0.7834948243",
+              "p_fill": "0.2336252587",
+              "positive_samples": 22,
+              "samples": 87
+            },
+            "denmark|unknown|90_100|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.7282197805",
+              "p_fill": "0.1090381087",
+              "positive_samples": 18,
+              "samples": 184
+            },
+            "foreign-policy|unknown|75_90|30d_plus|active": {
+              "conditional_fill_fraction": "0.9779536363",
+              "p_fill": "0.7277481386",
+              "positive_samples": 270,
+              "samples": 358
+            },
+            "foreign-policy|unknown|75_90|30d_plus|medium": {
+              "conditional_fill_fraction": "0.9374529494",
+              "p_fill": "0.4897119646",
+              "positive_samples": 351,
+              "samples": 712
+            },
+            "foreign-policy|unknown|75_90|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.8962875484",
+              "p_fill": "0.2211956239",
+              "positive_samples": 196,
+              "samples": 912
+            },
+            "iran|unknown|40_60|30d_plus|active": {
+              "conditional_fill_fraction": "0.7683261836",
+              "p_fill": "0.5104190695",
+              "positive_samples": 157,
+              "samples": 305
+            },
+            "iran|unknown|40_60|30d_plus|medium": {
+              "conditional_fill_fraction": "0.6918386043",
+              "p_fill": "0.3749075795",
+              "positive_samples": 25,
+              "samples": 74
+            },
+            "iran|unknown|60_75|30d_plus|active": {
+              "conditional_fill_fraction": "0.7642080194",
+              "p_fill": "0.4844272224",
+              "positive_samples": 61,
+              "samples": 114
+            },
+            "iran|unknown|60_75|30d_plus|medium": {
+              "conditional_fill_fraction": "0.6962265398",
+              "p_fill": "0.2646592209",
+              "positive_samples": 32,
+              "samples": 124
+            },
+            "iran|unknown|60_75|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.7596155922",
+              "p_fill": "0.1117993941",
+              "positive_samples": 6,
+              "samples": 102
+            },
+            "iran|unknown|75_90|30d_plus|active": {
+              "conditional_fill_fraction": "0.8802807937",
+              "p_fill": "0.7527027991",
+              "positive_samples": 181,
+              "samples": 227
+            },
+            "iran|unknown|75_90|30d_plus|medium": {
+              "conditional_fill_fraction": "0.7215529026",
+              "p_fill": "0.5980660311",
+              "positive_samples": 283,
+              "samples": 464
+            },
+            "iran|unknown|75_90|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.5645782662",
+              "p_fill": "0.1226435245",
+              "positive_samples": 62,
+              "samples": 577
+            },
+            "pop-culture|unknown|00_10|30d_plus|active": {
+              "conditional_fill_fraction": "0.8275610787",
+              "p_fill": "0.4677631911",
+              "positive_samples": 148,
+              "samples": 302
+            },
+            "pop-culture|unknown|00_10|30d_plus|medium": {
+              "conditional_fill_fraction": "0.7758140116",
+              "p_fill": "0.2522005550",
+              "positive_samples": 256,
+              "samples": 1014
+            },
+            "pop-culture|unknown|00_10|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.7356869791",
+              "p_fill": "0.1254176678",
+              "positive_samples": 82,
+              "samples": 682
+            },
+            "pop-culture|unknown|90_100|30d_plus|active": {
+              "conditional_fill_fraction": "0.8787966989",
+              "p_fill": "0.5948164672",
+              "positive_samples": 193,
+              "samples": 308
+            },
+            "pop-culture|unknown|90_100|30d_plus|medium": {
+              "conditional_fill_fraction": "0.7663155792",
+              "p_fill": "0.2145010902",
+              "positive_samples": 182,
+              "samples": 856
+            },
+            "pop-culture|unknown|90_100|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.7287113674",
+              "p_fill": "0.1956573679",
+              "positive_samples": 161,
+              "samples": 834
+            },
+            "sports|epl|10_25|30d_plus|active": {
+              "conditional_fill_fraction": "0.7487815163",
+              "p_fill": "0.3339712142",
+              "positive_samples": 36,
+              "samples": 92
+            },
+            "sports|epl|10_25|30d_plus|medium": {
+              "conditional_fill_fraction": "0.6790816362",
+              "p_fill": "0.1794435417",
+              "positive_samples": 97,
+              "samples": 537
+            },
+            "sports|epl|10_25|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.7525018262",
+              "p_fill": "0.1082507264",
+              "positive_samples": 68,
+              "samples": 642
+            },
+            "sports|epl|25_40|30d_plus|active": {
+              "conditional_fill_fraction": "0.8510100891",
+              "p_fill": "0.4242213014",
+              "positive_samples": 36,
+              "samples": 68
+            },
+            "sports|epl|25_40|30d_plus|medium": {
+              "conditional_fill_fraction": "0.7903369590",
+              "p_fill": "0.1916334053",
+              "positive_samples": 50,
+              "samples": 260
+            },
+            "sports|epl|25_40|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.8081007662",
+              "p_fill": "0.1242596745",
+              "positive_samples": 45,
+              "samples": 377
+            },
+            "sports|fifa|00_10|30d_plus|active": {
+              "conditional_fill_fraction": "0.8666352258",
+              "p_fill": "0.4176204150",
+              "positive_samples": 168,
+              "samples": 387
+            },
+            "sports|fifa|00_10|30d_plus|medium": {
+              "conditional_fill_fraction": "0.7771920149",
+              "p_fill": "0.2126916028",
+              "positive_samples": 1032,
+              "samples": 4851
+            },
+            "sports|fifa|00_10|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.8462845803",
+              "p_fill": "0.1653586603",
+              "positive_samples": 523,
+              "samples": 3170
+            },
+            "sports|fifa|10_25|30d_plus|active": {
+              "conditional_fill_fraction": "0.8644422843",
+              "p_fill": "0.5064853403",
+              "positive_samples": 547,
+              "samples": 1061
+            },
+            "sports|fifa|10_25|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8125644345",
+              "p_fill": "0.2133552812",
+              "positive_samples": 534,
+              "samples": 2499
+            },
+            "sports|fifa|10_25|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.7605810693",
+              "p_fill": "0.0821985928",
+              "positive_samples": 327,
+              "samples": 4016
+            },
+            "sports|nba|00_10|30d_plus|active": {
+              "conditional_fill_fraction": "0.8444669311",
+              "p_fill": "0.4579102079",
+              "positive_samples": 107,
+              "samples": 220
+            },
+            "sports|nba|00_10|30d_plus|medium": {
+              "conditional_fill_fraction": "0.7719493641",
+              "p_fill": "0.2513432291",
+              "positive_samples": 269,
+              "samples": 1070
+            },
+            "sports|nba|00_10|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.8484906787",
+              "p_fill": "0.1754438374",
+              "positive_samples": 122,
+              "samples": 708
+            },
+            "sports|nba|90_100|30d_plus|active": {
+              "conditional_fill_fraction": "0.9034675662",
+              "p_fill": "0.4616422101",
+              "positive_samples": 122,
+              "samples": 252
+            },
+            "sports|nba|90_100|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8051720024",
+              "p_fill": "0.2695803237",
+              "positive_samples": 311,
+              "samples": 1154
+            },
+            "sports|nba|90_100|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.8075577685",
+              "p_fill": "0.1932204232",
+              "positive_samples": 112,
+              "samples": 592
+            },
+            "unknown|unknown|00_10|unknown|active": {
+              "conditional_fill_fraction": "0.9982602584",
+              "p_fill": "0.4988077674",
+              "positive_samples": 954,
+              "samples": 1912
+            },
+            "unknown|unknown|00_10|unknown|medium": {
+              "conditional_fill_fraction": "0.9835655736",
+              "p_fill": "0.4055077766",
+              "positive_samples": 21,
+              "samples": 58
+            },
+            "unknown|unknown|00_10|unknown|sparse": {
+              "conditional_fill_fraction": "0.9821770986",
+              "p_fill": "0.3049083507",
+              "positive_samples": 3,
+              "samples": 28
+            },
+            "world-elections|unknown|25_40|30d_plus|active": {
+              "conditional_fill_fraction": "0.8596526032",
+              "p_fill": "0.5097671928",
+              "positive_samples": 95,
+              "samples": 172
+            },
+            "world-elections|unknown|25_40|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8220270247",
+              "p_fill": "0.2811021138",
+              "positive_samples": 281,
+              "samples": 998
+            },
+            "world-elections|unknown|25_40|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.8463948000",
+              "p_fill": "0.1899451899",
+              "positive_samples": 155,
+              "samples": 828
+            }
+          },
+          "fields": [
+            "category",
+            "league",
+            "price_bucket",
+            "tte_bucket",
+            "liquidity_regime"
+          ]
+        },
+        {
+          "cells": {
+            "155219|denmark|unknown|75_90|30d_plus|active": {
+              "conditional_fill_fraction": "0.7658869411",
+              "p_fill": "0.3822927025",
+              "positive_samples": 20,
+              "samples": 47
+            },
+            "155219|denmark|unknown|75_90|30d_plus|medium": {
+              "conditional_fill_fraction": "0.6463142572",
+              "p_fill": "0.1862257976",
+              "positive_samples": 93,
+              "samples": 499
+            },
+            "155219|denmark|unknown|75_90|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.5405189962",
+              "p_fill": "0.1095025870",
+              "positive_samples": 127,
+              "samples": 1160
+            },
+            "155219|denmark|unknown|90_100|30d_plus|active": {
+              "conditional_fill_fraction": "0.8399053964",
+              "p_fill": "0.4352267044",
+              "positive_samples": 12,
+              "samples": 21
+            },
+            "155219|denmark|unknown|90_100|30d_plus|medium": {
+              "conditional_fill_fraction": "0.7940287730",
+              "p_fill": "0.2479381005",
+              "positive_samples": 22,
+              "samples": 87
+            },
+            "155219|denmark|unknown|90_100|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.7050846558",
+              "p_fill": "0.0993978657",
+              "positive_samples": 18,
+              "samples": 184
+            },
+            "163981|iran|unknown|40_60|30d_plus|active": {
+              "conditional_fill_fraction": "0.7711153335",
+              "p_fill": "0.5143658868",
+              "positive_samples": 157,
+              "samples": 305
+            },
+            "163981|iran|unknown|40_60|30d_plus|medium": {
+              "conditional_fill_fraction": "0.6596012161",
+              "p_fill": "0.3485310325",
+              "positive_samples": 25,
+              "samples": 74
+            },
+            "163981|iran|unknown|60_75|30d_plus|active": {
+              "conditional_fill_fraction": "0.7717546780",
+              "p_fill": "0.5245334491",
+              "positive_samples": 61,
+              "samples": 114
+            },
+            "163981|iran|unknown|60_75|30d_plus|medium": {
+              "conditional_fill_fraction": "0.6744088228",
+              "p_fill": "0.2593491989",
+              "positive_samples": 32,
+              "samples": 124
+            },
+            "163981|iran|unknown|60_75|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.7748648454",
+              "p_fill": "0.0708634987",
+              "positive_samples": 6,
+              "samples": 102
+            },
+            "163981|iran|unknown|75_90|30d_plus|active": {
+              "conditional_fill_fraction": "0.8984523870",
+              "p_fill": "0.7921442956",
+              "positive_samples": 181,
+              "samples": 227
+            },
+            "163981|iran|unknown|75_90|30d_plus|medium": {
+              "conditional_fill_fraction": "0.7185892267",
+              "p_fill": "0.6091942934",
+              "positive_samples": 283,
+              "samples": 464
+            },
+            "163981|iran|unknown|75_90|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.5033079439",
+              "p_fill": "0.1082031396",
+              "positive_samples": 62,
+              "samples": 577
+            },
+            "203815|pop-culture|unknown|00_10|30d_plus|active": {
+              "conditional_fill_fraction": "0.8348995918",
+              "p_fill": "0.4880508908",
+              "positive_samples": 148,
+              "samples": 302
+            },
+            "203815|pop-culture|unknown|00_10|30d_plus|medium": {
+              "conditional_fill_fraction": "0.7749533239",
+              "p_fill": "0.2524578704",
+              "positive_samples": 256,
+              "samples": 1014
+            },
+            "203815|pop-culture|unknown|00_10|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.7227408393",
+              "p_fill": "0.1204529916",
+              "positive_samples": 82,
+              "samples": 682
+            },
+            "203815|pop-culture|unknown|90_100|30d_plus|active": {
+              "conditional_fill_fraction": "0.8900834065",
+              "p_fill": "0.6238002782",
+              "positive_samples": 193,
+              "samples": 308
+            },
+            "203815|pop-culture|unknown|90_100|30d_plus|medium": {
+              "conditional_fill_fraction": "0.7622707782",
+              "p_fill": "0.2126806238",
+              "positive_samples": 182,
+              "samples": 856
+            },
+            "203815|pop-culture|unknown|90_100|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.7183154294",
+              "p_fill": "0.1931362512",
+              "positive_samples": 161,
+              "samples": 834
+            },
+            "2813401|unknown|unknown|00_10|unknown|active": {
+              "conditional_fill_fraction": "0.9982968067",
+              "p_fill": "0.4989517163",
+              "positive_samples": 954,
+              "samples": 1912
+            },
+            "2813401|unknown|unknown|00_10|unknown|medium": {
+              "conditional_fill_fraction": "0.9756268080",
+              "p_fill": "0.3768776511",
+              "positive_samples": 21,
+              "samples": 58
+            },
+            "2813401|unknown|unknown|00_10|unknown|sparse": {
+              "conditional_fill_fraction": "0.9686458472",
+              "p_fill": "0.2094353538",
+              "positive_samples": 3,
+              "samples": 28
+            },
+            "303087|foreign-policy|unknown|75_90|30d_plus|active": {
+              "conditional_fill_fraction": "0.9816899682",
+              "p_fill": "0.7521454746",
+              "positive_samples": 270,
+              "samples": 358
+            },
+            "303087|foreign-policy|unknown|75_90|30d_plus|medium": {
+              "conditional_fill_fraction": "0.9372059126",
+              "p_fill": "0.4928454972",
+              "positive_samples": 351,
+              "samples": 712
+            },
+            "303087|foreign-policy|unknown|75_90|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.8904066499",
+              "p_fill": "0.2151123872",
+              "positive_samples": 196,
+              "samples": 912
+            },
+            "304037|sports|epl|10_25|30d_plus|active": {
+              "conditional_fill_fraction": "0.7617946542",
+              "p_fill": "0.3772060363",
+              "positive_samples": 36,
+              "samples": 92
+            },
+            "304037|sports|epl|10_25|30d_plus|medium": {
+              "conditional_fill_fraction": "0.6693798306",
+              "p_fill": "0.1805702050",
+              "positive_samples": 97,
+              "samples": 537
+            },
+            "304037|sports|epl|10_25|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.7624046466",
+              "p_fill": "0.1060230979",
+              "positive_samples": 68,
+              "samples": 642
+            },
+            "304037|sports|epl|25_40|30d_plus|active": {
+              "conditional_fill_fraction": "0.8680774818",
+              "p_fill": "0.4972106025",
+              "positive_samples": 36,
+              "samples": 68
+            },
+            "304037|sports|epl|25_40|30d_plus|medium": {
+              "conditional_fill_fraction": "0.7816651343",
+              "p_fill": "0.1922379385",
+              "positive_samples": 50,
+              "samples": 260
+            },
+            "304037|sports|epl|25_40|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.8059563426",
+              "p_fill": "0.1197243003",
+              "positive_samples": 45,
+              "samples": 377
+            },
+            "309262|world-elections|unknown|25_40|30d_plus|active": {
+              "conditional_fill_fraction": "0.8651228539",
+              "p_fill": "0.5460050286",
+              "positive_samples": 95,
+              "samples": 172
+            },
+            "309262|world-elections|unknown|25_40|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8205962015",
+              "p_fill": "0.2815496726",
+              "positive_samples": 281,
+              "samples": 998
+            },
+            "309262|world-elections|unknown|25_40|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.8479410013",
+              "p_fill": "0.1872941209",
+              "positive_samples": 155,
+              "samples": 828
+            },
+            "309650|sports|fifa|00_10|30d_plus|medium": {
+              "conditional_fill_fraction": "0.6989046458",
+              "p_fill": "0.1803560650",
+              "positive_samples": 227,
+              "samples": 1264
+            },
+            "309650|sports|fifa|00_10|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.8524301360",
+              "p_fill": "0.1817657217",
+              "positive_samples": 131,
+              "samples": 718
+            },
+            "309660|sports|fifa|00_10|30d_plus|medium": {
+              "conditional_fill_fraction": "0.7849104235",
+              "p_fill": "0.2115352707",
+              "positive_samples": 250,
+              "samples": 1182
+            },
+            "309660|sports|fifa|00_10|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.8812527291",
+              "p_fill": "0.1963382648",
+              "positive_samples": 158,
+              "samples": 800
+            },
+            "309661|sports|fifa|00_10|30d_plus|active": {
+              "conditional_fill_fraction": "0.8521401562",
+              "p_fill": "0.3105722490",
+              "positive_samples": 3,
+              "samples": 20
+            },
+            "309661|sports|fifa|00_10|30d_plus|medium": {
+              "conditional_fill_fraction": "0.7650095634",
+              "p_fill": "0.2193685029",
+              "positive_samples": 306,
+              "samples": 1394
+            },
+            "309661|sports|fifa|00_10|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.8263302930",
+              "p_fill": "0.1562878824",
+              "positive_samples": 91,
+              "samples": 584
+            },
+            "309663|sports|fifa|00_10|30d_plus|active": {
+              "conditional_fill_fraction": "0.8680235887",
+              "p_fill": "0.3838673487",
+              "positive_samples": 32,
+              "samples": 86
+            },
+            "309663|sports|fifa|00_10|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8556703639",
+              "p_fill": "0.3396430607",
+              "positive_samples": 50,
+              "samples": 136
+            },
+            "309663|sports|fifa|00_10|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.8722603201",
+              "p_fill": "0.1226693327",
+              "positive_samples": 30,
+              "samples": 255
+            },
+            "309663|sports|fifa|10_25|30d_plus|active": {
+              "conditional_fill_fraction": "0.8549325401",
+              "p_fill": "0.5092865122",
+              "positive_samples": 160,
+              "samples": 314
+            },
+            "309663|sports|fifa|10_25|30d_plus|medium": {
+              "conditional_fill_fraction": "0.7727471116",
+              "p_fill": "0.2090010974",
+              "positive_samples": 119,
+              "samples": 570
+            },
+            "309663|sports|fifa|10_25|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.7808468554",
+              "p_fill": "0.0666656039",
+              "positive_samples": 42,
+              "samples": 637
+            },
+            "309664|sports|fifa|00_10|30d_plus|active": {
+              "conditional_fill_fraction": "0.8769219685",
+              "p_fill": "0.5224740343",
+              "positive_samples": 116,
+              "samples": 216
+            },
+            "309664|sports|fifa|00_10|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8440181972",
+              "p_fill": "0.2347094966",
+              "positive_samples": 195,
+              "samples": 828
+            },
+            "309664|sports|fifa|00_10|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.8073406592",
+              "p_fill": "0.1466676445",
+              "positive_samples": 109,
+              "samples": 747
+            },
+            "309664|sports|fifa|10_25|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8621355977",
+              "p_fill": "0.2044517604",
+              "positive_samples": 12,
+              "samples": 60
+            },
+            "309664|sports|fifa|10_25|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.7296708552",
+              "p_fill": "0.0712340445",
+              "positive_samples": 10,
+              "samples": 145
+            },
+            "309665|sports|fifa|00_10|30d_plus|active": {
+              "conditional_fill_fraction": "0.8937516317",
+              "p_fill": "0.3258509913",
+              "positive_samples": 8,
+              "samples": 33
+            },
+            "309665|sports|fifa|00_10|30d_plus|medium": {
+              "conditional_fill_fraction": "0.7716777731",
+              "p_fill": "0.1348149102",
+              "positive_samples": 4,
+              "samples": 47
+            },
+            "309665|sports|fifa|00_10|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.8419649173",
+              "p_fill": "0.0933412480",
+              "positive_samples": 4,
+              "samples": 66
+            },
+            "309665|sports|fifa|10_25|30d_plus|active": {
+              "conditional_fill_fraction": "0.8486864457",
+              "p_fill": "0.4984336421",
+              "positive_samples": 82,
+              "samples": 165
+            },
+            "309665|sports|fifa|10_25|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8412732355",
+              "p_fill": "0.1860562540",
+              "positive_samples": 95,
+              "samples": 515
+            },
+            "309665|sports|fifa|10_25|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.7066123727",
+              "p_fill": "0.0727670198",
+              "positive_samples": 85,
+              "samples": 1172
+            },
+            "309666|sports|fifa|10_25|30d_plus|active": {
+              "conditional_fill_fraction": "0.8954360854",
+              "p_fill": "0.4473330978",
+              "positive_samples": 187,
+              "samples": 422
+            },
+            "309666|sports|fifa|10_25|30d_plus|medium": {
+              "conditional_fill_fraction": "0.7962810369",
+              "p_fill": "0.2549142463",
+              "positive_samples": 170,
+              "samples": 662
+            },
+            "309666|sports|fifa|10_25|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.6988570533",
+              "p_fill": "0.0968919044",
+              "positive_samples": 89,
+              "samples": 914
+            },
+            "309667|sports|fifa|10_25|30d_plus|active": {
+              "conditional_fill_fraction": "0.8511014510",
+              "p_fill": "0.7031625543",
+              "positive_samples": 117,
+              "samples": 158
+            },
+            "309667|sports|fifa|10_25|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8321545591",
+              "p_fill": "0.2000009120",
+              "positive_samples": 138,
+              "samples": 692
+            },
+            "309667|sports|fifa|10_25|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.8486848730",
+              "p_fill": "0.0878318827",
+              "positive_samples": 101,
+              "samples": 1148
+            },
+            "314005|sports|nba|00_10|30d_plus|active": {
+              "conditional_fill_fraction": "0.8523077629",
+              "p_fill": "0.4829492249",
+              "positive_samples": 107,
+              "samples": 220
+            },
+            "314005|sports|nba|00_10|30d_plus|medium": {
+              "conditional_fill_fraction": "0.7682659760",
+              "p_fill": "0.2514002699",
+              "positive_samples": 269,
+              "samples": 1070
+            },
+            "314005|sports|nba|00_10|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.8563519048",
+              "p_fill": "0.1724435164",
+              "positive_samples": 122,
+              "samples": 708
+            },
+            "314005|sports|nba|90_100|30d_plus|active": {
+              "conditional_fill_fraction": "0.9181234689",
+              "p_fill": "0.4817349869",
+              "positive_samples": 122,
+              "samples": 252
+            },
+            "314005|sports|nba|90_100|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8030571353",
+              "p_fill": "0.2694995014",
+              "positive_samples": 311,
+              "samples": 1154
+            },
+            "314005|sports|nba|90_100|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.8029831436",
+              "p_fill": "0.1893836217",
+              "positive_samples": 112,
+              "samples": 592
+            }
+          },
+          "fields": [
+            "market_id",
+            "category",
+            "league",
+            "price_bucket",
+            "tte_bucket",
+            "liquidity_regime"
+          ]
+        }
+      ],
+      "samples": 35964
+    },
+    "300": {
+      "global": {
+        "conditional_fill_fraction": "0.8580106718",
+        "p_fill": "0.5911467023",
+        "positive_samples": 21260,
+        "samples": 35964
+      },
+      "levels": [
+        {
+          "cells": {
+            "denmark": {
+              "conditional_fill_fraction": "0.7239845677",
+              "p_fill": "0.4007566080",
+              "positive_samples": 795,
+              "samples": 1998
+            },
+            "foreign-policy": {
+              "conditional_fill_fraction": "0.9313473315",
+              "p_fill": "0.6172260360",
+              "positive_samples": 1234,
+              "samples": 1998
+            },
+            "iran": {
+              "conditional_fill_fraction": "0.8237972639",
+              "p_fill": "0.5718611445",
+              "positive_samples": 1142,
+              "samples": 1998
+            },
+            "pop-culture": {
+              "conditional_fill_fraction": "0.8421626957",
+              "p_fill": "0.6283493296",
+              "positive_samples": 2512,
+              "samples": 3996
+            },
+            "sports": {
+              "conditional_fill_fraction": "0.8530875012",
+              "p_fill": "0.6016782261",
+              "positive_samples": 13224,
+              "samples": 21978
+            },
+            "unknown": {
+              "conditional_fill_fraction": "0.9936280237",
+              "p_fill": "0.4969104542",
+              "positive_samples": 990,
+              "samples": 1998
+            },
+            "world-elections": {
+              "conditional_fill_fraction": "0.8760865315",
+              "p_fill": "0.6808355035",
+              "positive_samples": 1363,
+              "samples": 1998
+            }
+          },
+          "fields": [
+            "category"
+          ]
+        },
+        {
+          "cells": {
+            "denmark|unknown": {
+              "conditional_fill_fraction": "0.7191108912",
+              "p_fill": "0.3979401865",
+              "positive_samples": 795,
+              "samples": 1998
+            },
+            "foreign-policy|unknown": {
+              "conditional_fill_fraction": "0.9330879168",
+              "p_fill": "0.6176118250",
+              "positive_samples": 1234,
+              "samples": 1998
+            },
+            "iran|unknown": {
+              "conditional_fill_fraction": "0.8229214941",
+              "p_fill": "0.5715758552",
+              "positive_samples": 1142,
+              "samples": 1998
+            },
+            "pop-culture|unknown": {
+              "conditional_fill_fraction": "0.8419756621",
+              "p_fill": "0.6286265474",
+              "positive_samples": 2512,
+              "samples": 3996
+            },
+            "sports|epl": {
+              "conditional_fill_fraction": "0.8638775720",
+              "p_fill": "0.4891766996",
+              "positive_samples": 974,
+              "samples": 1998
+            },
+            "sports|fifa": {
+              "conditional_fill_fraction": "0.8504617596",
+              "p_fill": "0.5831803639",
+              "positive_samples": 9321,
+              "samples": 15984
+            },
+            "sports|nba": {
+              "conditional_fill_fraction": "0.8576743154",
+              "p_fill": "0.7320045571",
+              "positive_samples": 2929,
+              "samples": 3996
+            },
+            "unknown|unknown": {
+              "conditional_fill_fraction": "0.9976167694",
+              "p_fill": "0.4955164268",
+              "positive_samples": 990,
+              "samples": 1998
+            },
+            "world-elections|unknown": {
+              "conditional_fill_fraction": "0.8764758178",
+              "p_fill": "0.6821622609",
+              "positive_samples": 1363,
+              "samples": 1998
+            }
+          },
+          "fields": [
+            "category",
+            "league"
+          ]
+        },
+        {
+          "cells": {
+            "denmark|unknown|75_90": {
+              "conditional_fill_fraction": "0.7114099885",
+              "p_fill": "0.3916694733",
+              "positive_samples": 668,
+              "samples": 1706
+            },
+            "denmark|unknown|90_100": {
+              "conditional_fill_fraction": "0.7524167499",
+              "p_fill": "0.4314851105",
+              "positive_samples": 127,
+              "samples": 292
+            },
+            "foreign-policy|unknown|75_90": {
+              "conditional_fill_fraction": "0.9371365846",
+              "p_fill": "0.6180558423",
+              "positive_samples": 1225,
+              "samples": 1982
+            },
+            "iran|unknown|40_60": {
+              "conditional_fill_fraction": "0.8782096740",
+              "p_fill": "0.8027316087",
+              "positive_samples": 320,
+              "samples": 390
+            },
+            "iran|unknown|60_75": {
+              "conditional_fill_fraction": "0.8416574841",
+              "p_fill": "0.5463439883",
+              "positive_samples": 185,
+              "samples": 340
+            },
+            "iran|unknown|75_90": {
+              "conditional_fill_fraction": "0.7878309785",
+              "p_fill": "0.5039655436",
+              "positive_samples": 637,
+              "samples": 1268
+            },
+            "pop-culture|unknown|00_10": {
+              "conditional_fill_fraction": "0.8688773969",
+              "p_fill": "0.6049599588",
+              "positive_samples": 1208,
+              "samples": 1998
+            },
+            "pop-culture|unknown|90_100": {
+              "conditional_fill_fraction": "0.8170056781",
+              "p_fill": "0.6522972369",
+              "positive_samples": 1304,
+              "samples": 1998
+            },
+            "sports|epl|00_10": {
+              "conditional_fill_fraction": "0.8825080130",
+              "p_fill": "0.6668327113",
+              "positive_samples": 20,
+              "samples": 22
+            },
+            "sports|epl|10_25": {
+              "conditional_fill_fraction": "0.8506814532",
+              "p_fill": "0.4809187556",
+              "positive_samples": 611,
+              "samples": 1271
+            },
+            "sports|epl|25_40": {
+              "conditional_fill_fraction": "0.8849255405",
+              "p_fill": "0.4866330626",
+              "positive_samples": 343,
+              "samples": 705
+            },
+            "sports|fifa|00_10": {
+              "conditional_fill_fraction": "0.8520117846",
+              "p_fill": "0.6803146967",
+              "positive_samples": 5723,
+              "samples": 8408
+            },
+            "sports|fifa|10_25": {
+              "conditional_fill_fraction": "0.8479821383",
+              "p_fill": "0.4753478058",
+              "positive_samples": 3598,
+              "samples": 7576
+            },
+            "sports|nba|00_10": {
+              "conditional_fill_fraction": "0.8406995865",
+              "p_fill": "0.6691124934",
+              "positive_samples": 1335,
+              "samples": 1998
+            },
+            "sports|nba|90_100": {
+              "conditional_fill_fraction": "0.8720265995",
+              "p_fill": "0.7968245250",
+              "positive_samples": 1594,
+              "samples": 1998
+            },
+            "unknown|unknown|00_10": {
+              "conditional_fill_fraction": "0.9977340854",
+              "p_fill": "0.4954958051",
+              "positive_samples": 990,
+              "samples": 1998
+            },
+            "world-elections|unknown|25_40": {
+              "conditional_fill_fraction": "0.8764842016",
+              "p_fill": "0.6821818875",
+              "positive_samples": 1363,
+              "samples": 1998
+            }
+          },
+          "fields": [
+            "category",
+            "league",
+            "price_bucket"
+          ]
+        },
+        {
+          "cells": {
+            "denmark|unknown|75_90|30d_plus": {
+              "conditional_fill_fraction": "0.7110790041",
+              "p_fill": "0.3915611084",
+              "positive_samples": 668,
+              "samples": 1706
+            },
+            "denmark|unknown|90_100|30d_plus": {
+              "conditional_fill_fraction": "0.7587809267",
+              "p_fill": "0.4346104140",
+              "positive_samples": 127,
+              "samples": 292
+            },
+            "foreign-policy|unknown|75_90|30d_plus": {
+              "conditional_fill_fraction": "0.9372333655",
+              "p_fill": "0.6180624629",
+              "positive_samples": 1225,
+              "samples": 1982
+            },
+            "iran|unknown|40_60|30d_plus": {
+              "conditional_fill_fraction": "0.8829486608",
+              "p_fill": "0.8192427340",
+              "positive_samples": 320,
+              "samples": 390
+            },
+            "iran|unknown|60_75|30d_plus": {
+              "conditional_fill_fraction": "0.8442718083",
+              "p_fill": "0.5442981612",
+              "positive_samples": 185,
+              "samples": 340
+            },
+            "iran|unknown|75_90|30d_plus": {
+              "conditional_fill_fraction": "0.7862526945",
+              "p_fill": "0.5024029016",
+              "positive_samples": 637,
+              "samples": 1268
+            },
+            "pop-culture|unknown|00_10|30d_plus": {
+              "conditional_fill_fraction": "0.8695292968",
+              "p_fill": "0.6046098613",
+              "positive_samples": 1208,
+              "samples": 1998
+            },
+            "pop-culture|unknown|90_100|30d_plus": {
+              "conditional_fill_fraction": "0.8164441343",
+              "p_fill": "0.6526473950",
+              "positive_samples": 1304,
+              "samples": 1998
+            },
+            "sports|epl|00_10|30d_plus": {
+              "conditional_fill_fraction": "0.8936862776",
+              "p_fill": "0.7693265642",
+              "positive_samples": 20,
+              "samples": 22
+            },
+            "sports|epl|10_25|30d_plus": {
+              "conditional_fill_fraction": "0.8500638501",
+              "p_fill": "0.4807283341",
+              "positive_samples": 611,
+              "samples": 1271
+            },
+            "sports|epl|25_40|30d_plus": {
+              "conditional_fill_fraction": "0.8866184066",
+              "p_fill": "0.4865292407",
+              "positive_samples": 343,
+              "samples": 705
+            },
+            "sports|fifa|00_10|30d_plus": {
+              "conditional_fill_fraction": "0.8520198675",
+              "p_fill": "0.6806600428",
+              "positive_samples": 5723,
+              "samples": 8408
+            },
+            "sports|fifa|10_25|30d_plus": {
+              "conditional_fill_fraction": "0.8479616343",
+              "p_fill": "0.4749224867",
+              "positive_samples": 3598,
+              "samples": 7576
+            },
+            "sports|nba|00_10|30d_plus": {
+              "conditional_fill_fraction": "0.8403265156",
+              "p_fill": "0.6681821375",
+              "positive_samples": 1335,
+              "samples": 1998
+            },
+            "sports|nba|90_100|30d_plus": {
+              "conditional_fill_fraction": "0.8722917279",
+              "p_fill": "0.7977834003",
+              "positive_samples": 1594,
+              "samples": 1998
+            },
+            "unknown|unknown|00_10|unknown": {
+              "conditional_fill_fraction": "0.9977375359",
+              "p_fill": "0.4954955001",
+              "positive_samples": 990,
+              "samples": 1998
+            },
+            "world-elections|unknown|25_40|30d_plus": {
+              "conditional_fill_fraction": "0.8764843821",
+              "p_fill": "0.6821821778",
+              "positive_samples": 1363,
+              "samples": 1998
+            }
+          },
+          "fields": [
+            "category",
+            "league",
+            "price_bucket",
+            "tte_bucket"
+          ]
+        },
+        {
+          "cells": {
+            "denmark|unknown|75_90|30d_plus|active": {
+              "conditional_fill_fraction": "0.8324667825",
+              "p_fill": "0.5421666656",
+              "positive_samples": 30,
+              "samples": 47
+            },
+            "denmark|unknown|75_90|30d_plus|medium": {
+              "conditional_fill_fraction": "0.7337333984",
+              "p_fill": "0.4399751101",
+              "positive_samples": 221,
+              "samples": 499
+            },
+            "denmark|unknown|75_90|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.6820422050",
+              "p_fill": "0.3602914565",
+              "positive_samples": 417,
+              "samples": 1160
+            },
+            "denmark|unknown|90_100|30d_plus|active": {
+              "conditional_fill_fraction": "0.8375595888",
+              "p_fill": "0.6085943612",
+              "positive_samples": 18,
+              "samples": 21
+            },
+            "denmark|unknown|90_100|30d_plus|medium": {
+              "conditional_fill_fraction": "0.7786856858",
+              "p_fill": "0.4875069438",
+              "positive_samples": 44,
+              "samples": 87
+            },
+            "denmark|unknown|90_100|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.7054819514",
+              "p_fill": "0.3646650113",
+              "positive_samples": 65,
+              "samples": 184
+            },
+            "foreign-policy|unknown|75_90|30d_plus|active": {
+              "conditional_fill_fraction": "0.9741041322",
+              "p_fill": "0.8209842110",
+              "positive_samples": 300,
+              "samples": 358
+            },
+            "foreign-policy|unknown|75_90|30d_plus|medium": {
+              "conditional_fill_fraction": "0.9308461292",
+              "p_fill": "0.6786278624",
+              "positive_samples": 485,
+              "samples": 712
+            },
+            "foreign-policy|unknown|75_90|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.9183503381",
+              "p_fill": "0.4867748130",
+              "positive_samples": 440,
+              "samples": 912
+            },
+            "iran|unknown|40_60|30d_plus|active": {
+              "conditional_fill_fraction": "0.9051111091",
+              "p_fill": "0.8435142747",
+              "positive_samples": 258,
+              "samples": 305
+            },
+            "iran|unknown|40_60|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8219529316",
+              "p_fill": "0.7940123271",
+              "positive_samples": 58,
+              "samples": 74
+            },
+            "iran|unknown|60_75|30d_plus|active": {
+              "conditional_fill_fraction": "0.8656646598",
+              "p_fill": "0.8008954502",
+              "positive_samples": 99,
+              "samples": 114
+            },
+            "iran|unknown|60_75|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8349375544",
+              "p_fill": "0.5410970444",
+              "positive_samples": 67,
+              "samples": 124
+            },
+            "iran|unknown|60_75|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.8080304718",
+              "p_fill": "0.2676435215",
+              "positive_samples": 19,
+              "samples": 102
+            },
+            "iran|unknown|75_90|30d_plus|active": {
+              "conditional_fill_fraction": "0.8794216778",
+              "p_fill": "0.8329653193",
+              "positive_samples": 199,
+              "samples": 227
+            },
+            "iran|unknown|75_90|30d_plus|medium": {
+              "conditional_fill_fraction": "0.7695539127",
+              "p_fill": "0.6823321600",
+              "positive_samples": 322,
+              "samples": 464
+            },
+            "iran|unknown|75_90|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.6800535540",
+              "p_fill": "0.2159342455",
+              "positive_samples": 116,
+              "samples": 577
+            },
+            "pop-culture|unknown|00_10|30d_plus|active": {
+              "conditional_fill_fraction": "0.9175296446",
+              "p_fill": "0.8769225778",
+              "positive_samples": 273,
+              "samples": 302
+            },
+            "pop-culture|unknown|00_10|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8896437537",
+              "p_fill": "0.6485999002",
+              "positive_samples": 659,
+              "samples": 1014
+            },
+            "pop-culture|unknown|00_10|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.7767730574",
+              "p_fill": "0.4131155840",
+              "positive_samples": 276,
+              "samples": 682
+            },
+            "pop-culture|unknown|90_100|30d_plus|active": {
+              "conditional_fill_fraction": "0.9274416364",
+              "p_fill": "0.9395840883",
+              "positive_samples": 298,
+              "samples": 308
+            },
+            "pop-culture|unknown|90_100|30d_plus|medium": {
+              "conditional_fill_fraction": "0.7968596262",
+              "p_fill": "0.6428661646",
+              "positive_samples": 550,
+              "samples": 856
+            },
+            "pop-culture|unknown|90_100|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.7648700349",
+              "p_fill": "0.5504391457",
+              "positive_samples": 456,
+              "samples": 834
+            },
+            "sports|epl|10_25|30d_plus|active": {
+              "conditional_fill_fraction": "0.8734723514",
+              "p_fill": "0.7083758199",
+              "positive_samples": 72,
+              "samples": 92
+            },
+            "sports|epl|10_25|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8406617580",
+              "p_fill": "0.5756999119",
+              "positive_samples": 312,
+              "samples": 537
+            },
+            "sports|epl|10_25|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.8532129563",
+              "p_fill": "0.3592587054",
+              "positive_samples": 227,
+              "samples": 642
+            },
+            "sports|epl|25_40|30d_plus|active": {
+              "conditional_fill_fraction": "0.9421941665",
+              "p_fill": "0.7917946655",
+              "positive_samples": 63,
+              "samples": 68
+            },
+            "sports|epl|25_40|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8735446269",
+              "p_fill": "0.5537788870",
+              "positive_samples": 146,
+              "samples": 260
+            },
+            "sports|epl|25_40|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.8694429526",
+              "p_fill": "0.3651004354",
+              "positive_samples": 134,
+              "samples": 377
+            },
+            "sports|fifa|00_10|30d_plus|active": {
+              "conditional_fill_fraction": "0.9147995388",
+              "p_fill": "0.8523256626",
+              "positive_samples": 335,
+              "samples": 387
+            },
+            "sports|fifa|00_10|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8432482870",
+              "p_fill": "0.7351812746",
+              "positive_samples": 3568,
+              "samples": 4851
+            },
+            "sports|fifa|00_10|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.8566932778",
+              "p_fill": "0.5751311879",
+              "positive_samples": 1820,
+              "samples": 3170
+            },
+            "sports|fifa|10_25|30d_plus|active": {
+              "conditional_fill_fraction": "0.9396971505",
+              "p_fill": "0.8700711958",
+              "positive_samples": 935,
+              "samples": 1061
+            },
+            "sports|fifa|10_25|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8564890665",
+              "p_fill": "0.5706791912",
+              "positive_samples": 1429,
+              "samples": 2499
+            },
+            "sports|fifa|10_25|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.7680827483",
+              "p_fill": "0.3085140076",
+              "positive_samples": 1234,
+              "samples": 4016
+            },
+            "sports|nba|00_10|30d_plus|active": {
+              "conditional_fill_fraction": "0.8423634165",
+              "p_fill": "0.8281818565",
+              "positive_samples": 187,
+              "samples": 220
+            },
+            "sports|nba|00_10|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8224169795",
+              "p_fill": "0.6854958765",
+              "positive_samples": 734,
+              "samples": 1070
+            },
+            "sports|nba|00_10|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.8701231055",
+              "p_fill": "0.5881374853",
+              "positive_samples": 414,
+              "samples": 708
+            },
+            "sports|nba|90_100|30d_plus|active": {
+              "conditional_fill_fraction": "0.8836806910",
+              "p_fill": "0.8650124185",
+              "positive_samples": 220,
+              "samples": 252
+            },
+            "sports|nba|90_100|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8679700514",
+              "p_fill": "0.8149776199",
+              "positive_samples": 941,
+              "samples": 1154
+            },
+            "sports|nba|90_100|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.8752227451",
+              "p_fill": "0.7346197781",
+              "positive_samples": 433,
+              "samples": 592
+            },
+            "unknown|unknown|00_10|unknown|active": {
+              "conditional_fill_fraction": "0.9981667243",
+              "p_fill": "0.4999304145",
+              "positive_samples": 956,
+              "samples": 1912
+            },
+            "unknown|unknown|00_10|unknown|medium": {
+              "conditional_fill_fraction": "0.9987879657",
+              "p_fill": "0.4643734659",
+              "positive_samples": 26,
+              "samples": 58
+            },
+            "unknown|unknown|00_10|unknown|sparse": {
+              "conditional_fill_fraction": "0.9850559494",
+              "p_fill": "0.3942218104",
+              "positive_samples": 8,
+              "samples": 28
+            },
+            "world-elections|unknown|25_40|30d_plus|active": {
+              "conditional_fill_fraction": "0.8695387952",
+              "p_fill": "0.8240864620",
+              "positive_samples": 146,
+              "samples": 172
+            },
+            "world-elections|unknown|25_40|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8754310711",
+              "p_fill": "0.7514255499",
+              "positive_samples": 752,
+              "samples": 998
+            },
+            "world-elections|unknown|25_40|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.8806179537",
+              "p_fill": "0.5658105657",
+              "positive_samples": 465,
+              "samples": 828
+            }
+          },
+          "fields": [
+            "category",
+            "league",
+            "price_bucket",
+            "tte_bucket",
+            "liquidity_regime"
+          ]
+        },
+        {
+          "cells": {
+            "155219|denmark|unknown|75_90|30d_plus|active": {
+              "conditional_fill_fraction": "0.8931606717",
+              "p_fill": "0.6008441554",
+              "positive_samples": 30,
+              "samples": 47
+            },
+            "155219|denmark|unknown|75_90|30d_plus|medium": {
+              "conditional_fill_fraction": "0.7364410949",
+              "p_fill": "0.4427207057",
+              "positive_samples": 221,
+              "samples": 499
+            },
+            "155219|denmark|unknown|75_90|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.6800934265",
+              "p_fill": "0.3595031460",
+              "positive_samples": 417,
+              "samples": 1160
+            },
+            "155219|denmark|unknown|90_100|30d_plus|active": {
+              "conditional_fill_fraction": "0.8867962526",
+              "p_fill": "0.7109378595",
+              "positive_samples": 18,
+              "samples": 21
+            },
+            "155219|denmark|unknown|90_100|30d_plus|medium": {
+              "conditional_fill_fraction": "0.7867551828",
+              "p_fill": "0.5010701565",
+              "positive_samples": 44,
+              "samples": 87
+            },
+            "155219|denmark|unknown|90_100|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.6886506961",
+              "p_fill": "0.3548595810",
+              "positive_samples": 65,
+              "samples": 184
+            },
+            "163981|iran|unknown|40_60|30d_plus|active": {
+              "conditional_fill_fraction": "0.9074196975",
+              "p_fill": "0.8456878455",
+              "positive_samples": 258,
+              "samples": 305
+            },
+            "163981|iran|unknown|40_60|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8011589330",
+              "p_fill": "0.7867343251",
+              "positive_samples": 58,
+              "samples": 74
+            },
+            "163981|iran|unknown|60_75|30d_plus|active": {
+              "conditional_fill_fraction": "0.8706397416",
+              "p_fill": "0.8543532188",
+              "positive_samples": 99,
+              "samples": 114
+            },
+            "163981|iran|unknown|60_75|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8320506717",
+              "p_fill": "0.5404734502",
+              "positive_samples": 67,
+              "samples": 124
+            },
+            "163981|iran|unknown|60_75|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.7858418985",
+              "p_fill": "0.2047674670",
+              "positive_samples": 19,
+              "samples": 102
+            },
+            "163981|iran|unknown|75_90|30d_plus|active": {
+              "conditional_fill_fraction": "0.8916272214",
+              "p_fill": "0.8715523719",
+              "positive_samples": 199,
+              "samples": 227
+            },
+            "163981|iran|unknown|75_90|30d_plus|medium": {
+              "conditional_fill_fraction": "0.7681307210",
+              "p_fill": "0.6932590381",
+              "positive_samples": 322,
+              "samples": 464
+            },
+            "163981|iran|unknown|75_90|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.6582318128",
+              "p_fill": "0.2017759924",
+              "positive_samples": 116,
+              "samples": 577
+            },
+            "203815|pop-culture|unknown|00_10|30d_plus|active": {
+              "conditional_fill_fraction": "0.9222821543",
+              "p_fill": "0.9015291486",
+              "positive_samples": 273,
+              "samples": 302
+            },
+            "203815|pop-culture|unknown|00_10|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8905195646",
+              "p_fill": "0.6498639818",
+              "positive_samples": 659,
+              "samples": 1014
+            },
+            "203815|pop-culture|unknown|00_10|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.7676793085",
+              "p_fill": "0.4050470049",
+              "positive_samples": 276,
+              "samples": 682
+            },
+            "203815|pop-culture|unknown|90_100|30d_plus|active": {
+              "conditional_fill_fraction": "0.9375938469",
+              "p_fill": "0.9650518422",
+              "positive_samples": 298,
+              "samples": 308
+            },
+            "203815|pop-culture|unknown|90_100|30d_plus|medium": {
+              "conditional_fill_fraction": "0.7958466344",
+              "p_fill": "0.6425349717",
+              "positive_samples": 550,
+              "samples": 856
+            },
+            "203815|pop-culture|unknown|90_100|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.7616864485",
+              "p_fill": "0.5468902481",
+              "positive_samples": 456,
+              "samples": 834
+            },
+            "2813401|unknown|unknown|00_10|unknown|active": {
+              "conditional_fill_fraction": "0.9981797827",
+              "p_fill": "0.4999989250",
+              "positive_samples": 956,
+              "samples": 1912
+            },
+            "2813401|unknown|unknown|00_10|unknown|medium": {
+              "conditional_fill_fraction": "0.9993506959",
+              "p_fill": "0.4537636816",
+              "positive_samples": 26,
+              "samples": 58
+            },
+            "2813401|unknown|unknown|00_10|unknown|sparse": {
+              "conditional_fill_fraction": "0.9750441706",
+              "p_fill": "0.3418388674",
+              "positive_samples": 8,
+              "samples": 28
+            },
+            "303087|foreign-policy|unknown|75_90|30d_plus|active": {
+              "conditional_fill_fraction": "0.9774560201",
+              "p_fill": "0.8366740369",
+              "positive_samples": 300,
+              "samples": 358
+            },
+            "303087|foreign-policy|unknown|75_90|30d_plus|medium": {
+              "conditional_fill_fraction": "0.9304740572",
+              "p_fill": "0.6810765982",
+              "positive_samples": 485,
+              "samples": 712
+            },
+            "303087|foreign-policy|unknown|75_90|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.9171450385",
+              "p_fill": "0.4825936777",
+              "positive_samples": 440,
+              "samples": 912
+            },
+            "304037|sports|epl|10_25|30d_plus|active": {
+              "conditional_fill_fraction": "0.8803572047",
+              "p_fill": "0.7643547098",
+              "positive_samples": 72,
+              "samples": 92
+            },
+            "304037|sports|epl|10_25|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8398370131",
+              "p_fill": "0.5807248631",
+              "positive_samples": 312,
+              "samples": 537
+            },
+            "304037|sports|epl|10_25|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.8535805563",
+              "p_fill": "0.3538359541",
+              "positive_samples": 227,
+              "samples": 642
+            },
+            "304037|sports|epl|25_40|30d_plus|active": {
+              "conditional_fill_fraction": "0.9601218310",
+              "p_fill": "0.8852432649",
+              "positive_samples": 63,
+              "samples": 68
+            },
+            "304037|sports|epl|25_40|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8713161417",
+              "p_fill": "0.5607357469",
+              "positive_samples": 146,
+              "samples": 260
+            },
+            "304037|sports|epl|25_40|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.8663011012",
+              "p_fill": "0.3561499092",
+              "positive_samples": 134,
+              "samples": 377
+            },
+            "309262|world-elections|unknown|25_40|30d_plus|active": {
+              "conditional_fill_fraction": "0.8683548883",
+              "p_fill": "0.8451613557",
+              "positive_samples": 146,
+              "samples": 172
+            },
+            "309262|world-elections|unknown|25_40|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8753906628",
+              "p_fill": "0.7534462709",
+              "positive_samples": 752,
+              "samples": 998
+            },
+            "309262|world-elections|unknown|25_40|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.8808684732",
+              "p_fill": "0.5617416282",
+              "positive_samples": 465,
+              "samples": 828
+            },
+            "309650|sports|fifa|00_10|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8179626313",
+              "p_fill": "0.7627940017",
+              "positive_samples": 965,
+              "samples": 1264
+            },
+            "309650|sports|fifa|00_10|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.8817702430",
+              "p_fill": "0.6567565984",
+              "positive_samples": 474,
+              "samples": 718
+            },
+            "309660|sports|fifa|00_10|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8611012232",
+              "p_fill": "0.6988906256",
+              "positive_samples": 825,
+              "samples": 1182
+            },
+            "309660|sports|fifa|00_10|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.8621963825",
+              "p_fill": "0.6400649827",
+              "positive_samples": 514,
+              "samples": 800
+            },
+            "309661|sports|fifa|00_10|30d_plus|active": {
+              "conditional_fill_fraction": "0.8844508160",
+              "p_fill": "0.8113953976",
+              "positive_samples": 15,
+              "samples": 20
+            },
+            "309661|sports|fifa|00_10|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8216744993",
+              "p_fill": "0.7970894931",
+              "positive_samples": 1113,
+              "samples": 1394
+            },
+            "309661|sports|fifa|00_10|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.8547270433",
+              "p_fill": "0.7121399603",
+              "positive_samples": 420,
+              "samples": 584
+            },
+            "309663|sports|fifa|00_10|30d_plus|active": {
+              "conditional_fill_fraction": "0.9157978621",
+              "p_fill": "0.9273256024",
+              "positive_samples": 82,
+              "samples": 86
+            },
+            "309663|sports|fifa|00_10|30d_plus|medium": {
+              "conditional_fill_fraction": "0.9212276650",
+              "p_fill": "0.6931050496",
+              "positive_samples": 93,
+              "samples": 136
+            },
+            "309663|sports|fifa|00_10|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.8806423552",
+              "p_fill": "0.3236980198",
+              "positive_samples": 75,
+              "samples": 255
+            },
+            "309663|sports|fifa|10_25|30d_plus|active": {
+              "conditional_fill_fraction": "0.9334893511",
+              "p_fill": "0.9218085345",
+              "positive_samples": 291,
+              "samples": 314
+            },
+            "309663|sports|fifa|10_25|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8133715903",
+              "p_fill": "0.6302006262",
+              "positive_samples": 361,
+              "samples": 570
+            },
+            "309663|sports|fifa|10_25|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.7842005555",
+              "p_fill": "0.3377142732",
+              "positive_samples": 216,
+              "samples": 637
+            },
+            "309664|sports|fifa|00_10|30d_plus|active": {
+              "conditional_fill_fraction": "0.9374106701",
+              "p_fill": "0.8722348369",
+              "positive_samples": 189,
+              "samples": 216
+            },
+            "309664|sports|fifa|00_10|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8885792872",
+              "p_fill": "0.6678967812",
+              "positive_samples": 551,
+              "samples": 828
+            },
+            "309664|sports|fifa|00_10|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.8226004157",
+              "p_fill": "0.4263242415",
+              "positive_samples": 314,
+              "samples": 747
+            },
+            "309664|sports|fifa|10_25|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8910668481",
+              "p_fill": "0.5680041748",
+              "positive_samples": 34,
+              "samples": 60
+            },
+            "309664|sports|fifa|10_25|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.7943945720",
+              "p_fill": "0.2700309727",
+              "positive_samples": 38,
+              "samples": 145
+            },
+            "309665|sports|fifa|00_10|30d_plus|active": {
+              "conditional_fill_fraction": "0.9488797233",
+              "p_fill": "0.7233296806",
+              "positive_samples": 20,
+              "samples": 33
+            },
+            "309665|sports|fifa|00_10|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8111283716",
+              "p_fill": "0.5591615356",
+              "positive_samples": 21,
+              "samples": 47
+            },
+            "309665|sports|fifa|00_10|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.7549162935",
+              "p_fill": "0.4193118296",
+              "positive_samples": 23,
+              "samples": 66
+            },
+            "309665|sports|fifa|10_25|30d_plus|active": {
+              "conditional_fill_fraction": "0.9445189751",
+              "p_fill": "0.8261647994",
+              "positive_samples": 135,
+              "samples": 165
+            },
+            "309665|sports|fifa|10_25|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8588476416",
+              "p_fill": "0.4974685793",
+              "positive_samples": 254,
+              "samples": 515
+            },
+            "309665|sports|fifa|10_25|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.7071650552",
+              "p_fill": "0.2814104994",
+              "positive_samples": 329,
+              "samples": 1172
+            },
+            "309666|sports|fifa|10_25|30d_plus|active": {
+              "conditional_fill_fraction": "0.9521650519",
+              "p_fill": "0.8542082652",
+              "positive_samples": 360,
+              "samples": 422
+            },
+            "309666|sports|fifa|10_25|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8618771825",
+              "p_fill": "0.6085554563",
+              "positive_samples": 404,
+              "samples": 662
+            },
+            "309666|sports|fifa|10_25|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.7884699475",
+              "p_fill": "0.2937027757",
+              "positive_samples": 268,
+              "samples": 914
+            },
+            "309667|sports|fifa|10_25|30d_plus|active": {
+              "conditional_fill_fraction": "0.9338557988",
+              "p_fill": "0.9207560419",
+              "positive_samples": 147,
+              "samples": 158
+            },
+            "309667|sports|fifa|10_25|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8857834026",
+              "p_fill": "0.5444880550",
+              "positive_samples": 376,
+              "samples": 692
+            },
+            "309667|sports|fifa|10_25|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.7865900491",
+              "p_fill": "0.3329842277",
+              "positive_samples": 383,
+              "samples": 1148
+            },
+            "314005|sports|nba|00_10|30d_plus|active": {
+              "conditional_fill_fraction": "0.8426450157",
+              "p_fill": "0.8473818228",
+              "positive_samples": 187,
+              "samples": 220
+            },
+            "314005|sports|nba|00_10|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8217137254",
+              "p_fill": "0.6859680694",
+              "positive_samples": 734,
+              "samples": 1070
+            },
+            "314005|sports|nba|00_10|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.8721363886",
+              "p_fill": "0.5848836376",
+              "positive_samples": 414,
+              "samples": 708
+            },
+            "314005|sports|nba|90_100|30d_plus|active": {
+              "conditional_fill_fraction": "0.8850473666",
+              "p_fill": "0.8721644417",
+              "positive_samples": 220,
+              "samples": 252
+            },
+            "314005|sports|nba|90_100|30d_plus|medium": {
+              "conditional_fill_fraction": "0.8678365290",
+              "p_fill": "0.8154132843",
+              "positive_samples": 941,
+              "samples": 1154
+            },
+            "314005|sports|nba|90_100|30d_plus|sparse": {
+              "conditional_fill_fraction": "0.8754126598",
+              "p_fill": "0.7315733012",
+              "positive_samples": 433,
+              "samples": 592
+            }
+          },
+          "fields": [
+            "market_id",
+            "category",
+            "league",
+            "price_bucket",
+            "tte_bucket",
+            "liquidity_regime"
+          ]
+        }
+      ],
+      "samples": 35964
+    }
+  },
+  "label": "future_same_side_limit_eligible_orderfilled",
+  "levels": [
+    [
+      "category"
+    ],
+    [
+      "category",
+      "league"
+    ],
+    [
+      "category",
+      "league",
+      "price_bucket"
+    ],
+    [
+      "category",
+      "league",
+      "price_bucket",
+      "tte_bucket"
+    ],
+    [
+      "category",
+      "league",
+      "price_bucket",
+      "tte_bucket",
+      "liquidity_regime"
+    ],
+    [
+      "market_id",
+      "category",
+      "league",
+      "price_bucket",
+      "tte_bucket",
+      "liquidity_regime"
+    ]
+  ],
+  "markets": [
+    {
+      "category": "sports",
+      "end_time": "2026-07-20 00:00:00",
+      "league": "fifa",
+      "market_id": 309665,
+      "trade_rows": 5000
+    },
+    {
+      "category": "sports",
+      "end_time": "2026-07-20 00:00:00",
+      "league": "fifa",
+      "market_id": 309667,
+      "trade_rows": 5000
+    },
+    {
+      "category": "sports",
+      "end_time": "2026-07-20 00:00:00",
+      "league": "fifa",
+      "market_id": 309663,
+      "trade_rows": 5000
+    },
+    {
+      "category": "sports",
+      "end_time": "2026-05-27 00:00:00",
+      "league": "epl",
+      "market_id": 304037,
+      "trade_rows": 5000
+    },
+    {
+      "category": "foreign-policy",
+      "end_time": "2026-12-31 00:00:00",
+      "league": "unknown",
+      "market_id": 303087,
+      "trade_rows": 5000
+    },
+    {
+      "category": "unknown",
+      "end_time": null,
+      "league": "unknown",
+      "market_id": 2813401,
+      "trade_rows": 5000
+    },
+    {
+      "category": "sports",
+      "end_time": "2026-07-20 00:00:00",
+      "league": "fifa",
+      "market_id": 309661,
+      "trade_rows": 5000
+    },
+    {
+      "category": "sports",
+      "end_time": "2026-07-20 00:00:00",
+      "league": "fifa",
+      "market_id": 309666,
+      "trade_rows": 5000
+    },
+    {
+      "category": "sports",
+      "end_time": "2026-07-01 00:00:00",
+      "league": "nba",
+      "market_id": 314005,
+      "trade_rows": 5000
+    },
+    {
+      "category": "iran",
+      "end_time": "2026-06-30 00:00:00",
+      "league": "unknown",
+      "market_id": 163981,
+      "trade_rows": 5000
+    },
+    {
+      "category": "sports",
+      "end_time": "2026-07-20 00:00:00",
+      "league": "fifa",
+      "market_id": 309650,
+      "trade_rows": 5000
+    },
+    {
+      "category": "sports",
+      "end_time": "2026-07-20 00:00:00",
+      "league": "fifa",
+      "market_id": 309660,
+      "trade_rows": 5000
+    },
+    {
+      "category": "pop-culture",
+      "end_time": "2026-12-31 00:00:00",
+      "league": "unknown",
+      "market_id": 203815,
+      "trade_rows": 5000
+    },
+    {
+      "category": "sports",
+      "end_time": "2026-07-01 00:00:00",
+      "league": "nba",
+      "market_id": 314005,
+      "trade_rows": 5000
+    },
+    {
+      "category": "denmark",
+      "end_time": "2026-12-31 00:00:00",
+      "league": "unknown",
+      "market_id": 155219,
+      "trade_rows": 5000
+    },
+    {
+      "category": "pop-culture",
+      "end_time": "2026-12-31 00:00:00",
+      "league": "unknown",
+      "market_id": 203815,
+      "trade_rows": 5000
+    },
+    {
+      "category": "world-elections",
+      "end_time": "2028-11-07 00:00:00",
+      "league": "unknown",
+      "market_id": 309262,
+      "trade_rows": 5000
+    },
+    {
+      "category": "sports",
+      "end_time": "2026-07-20 00:00:00",
+      "league": "fifa",
+      "market_id": 309664,
+      "trade_rows": 5000
+    }
+  ],
+  "min_cell_samples": 20,
+  "prior_strength": "30",
+  "schema_version": "trade_only_hierarchical_prior_v1"
+}

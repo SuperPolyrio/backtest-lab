@@ -1,0 +1,926 @@
+{
+  "boundary": {
+    "calibration_lob_usage": "offline_label_only",
+    "default_result_policy": "reject_uncertain_orders",
+    "not_l2_l3_or_queue_accurate": true,
+    "runtime_lob_usage": "none"
+  },
+  "calibration_report": {
+    "candidates": [
+      {
+        "adverse_price_error": "0E-10",
+        "avg_abs_price_error": "0E-10",
+        "avg_abs_size_error": "16.3103644592",
+        "both_filled_same_pct": "0E-10",
+        "candidate": {
+          "execution_params": {
+            "execution_horizon_by_tif": {
+              "FAK": "1 block / 1s",
+              "FOK": "1 block",
+              "GTC": "30s",
+              "GTD": "expires_at",
+              "IOC": "1 block / 1s"
+            },
+            "market_window_blocks": 20,
+            "market_window_cap_fraction": "0.75",
+            "name": "lob_holdout_calibrated_fill_only",
+            "p_depth_valid_threshold": "0.60",
+            "participation_rate": "0.010",
+            "price_buffer_abs": "0.010",
+            "quote_proxy_ttl_seconds": "300",
+            "trailing_volume_cap_fraction": "0.010"
+          },
+          "rule": {
+            "capacity_scale": true,
+            "high_probability": "0.80",
+            "max_horizon_seconds": null,
+            "medium_probability": "0.60",
+            "min_future_eligible_trade_count": 1,
+            "min_future_eligible_volume": "0",
+            "min_probability": "0.60",
+            "min_trailing_opposite_side_count": 0,
+            "min_trailing_same_side_count": 1,
+            "min_trailing_same_side_volume": "0",
+            "name": "lob_holdout_calibrated_fill_only",
+            "require_pre_arrival_quote_proxy": true,
+            "trailing_window_seconds": "300"
+          }
+        },
+        "execution_params": {
+          "execution_horizon_by_tif": {
+            "FAK": "1 block / 1s",
+            "FOK": "1 block",
+            "GTC": "30s",
+            "GTD": "expires_at",
+            "IOC": "1 block / 1s"
+          },
+          "market_window_blocks": 20,
+          "market_window_cap_fraction": "0.75",
+          "name": "lob_holdout_calibrated_fill_only",
+          "p_depth_valid_threshold": "0.60",
+          "participation_rate": "0.010",
+          "price_buffer_abs": "0.010",
+          "quote_proxy_ttl_seconds": "300",
+          "trailing_volume_cap_fraction": "0.010"
+        },
+        "false_negative_rate": "0.4255952381",
+        "false_positive_rate": "0.0009920635",
+        "index": 2,
+        "loss": "0.4553571431",
+        "overfill_rate": "0E-10",
+        "precision": "0.9230769231",
+        "recall": "0.0272108844",
+        "rule": {
+          "capacity_scale": true,
+          "high_probability": "0.80",
+          "max_horizon_seconds": null,
+          "medium_probability": "0.60",
+          "min_future_eligible_trade_count": 1,
+          "min_future_eligible_volume": "0",
+          "min_probability": "0.60",
+          "min_trailing_opposite_side_count": 0,
+          "min_trailing_same_side_count": 1,
+          "min_trailing_same_side_volume": "0",
+          "name": "lob_holdout_calibrated_fill_only",
+          "require_pre_arrival_quote_proxy": true,
+          "trailing_window_seconds": "300"
+        },
+        "samples": 1008,
+        "split_metrics": {
+          "calibration": {
+            "adverse_price_error": "0E-10",
+            "avg_abs_price_error": "0E-10",
+            "avg_abs_size_error": "5.4055362500",
+            "both_filled": 3,
+            "both_filled_same": 0,
+            "both_filled_same_pct": "0E-10",
+            "depth_only": 184,
+            "false_negative_rate": "0.4107142857",
+            "false_positive_rate": "0E-10",
+            "fill_only_only": 0,
+            "overfill_rate": "0E-10",
+            "precision": "1.0000000000",
+            "recall": "0.0160427807",
+            "samples": 448,
+            "underfill_rate": "0.0066964286",
+            "verdict_counts": {
+              "both_filled_size_delta": 3,
+              "both_no_fill": 261,
+              "depth_only": 184
+            }
+          },
+          "holdout": {
+            "adverse_price_error": "0E-10",
+            "avg_abs_price_error": "0E-10",
+            "avg_abs_size_error": "4.8902857400",
+            "both_filled": 1,
+            "both_filled_same": 0,
+            "both_filled_same_pct": "0E-10",
+            "depth_only": 50,
+            "false_negative_rate": "0.4464285714",
+            "false_positive_rate": "0E-10",
+            "fill_only_only": 0,
+            "overfill_rate": "0E-10",
+            "precision": "1.0000000000",
+            "recall": "0.0196078431",
+            "samples": 112,
+            "underfill_rate": "0.0089285714",
+            "verdict_counts": {
+              "both_filled_size_delta": 1,
+              "both_no_fill": 61,
+              "depth_only": 50
+            }
+          },
+          "validation": {
+            "adverse_price_error": "0E-10",
+            "avg_abs_price_error": "0E-10",
+            "avg_abs_size_error": "21.8271848775",
+            "both_filled": 8,
+            "both_filled_same": 0,
+            "both_filled_same_pct": "0E-10",
+            "depth_only": 195,
+            "false_negative_rate": "0.4352678571",
+            "false_positive_rate": "0.0022321429",
+            "fill_only_only": 1,
+            "overfill_rate": "0E-10",
+            "precision": "0.8888888889",
+            "recall": "0.0394088670",
+            "samples": 448,
+            "underfill_rate": "0.0178571429",
+            "verdict_counts": {
+              "both_filled_size_delta": 8,
+              "both_no_fill": 244,
+              "depth_only": 195,
+              "fill_only_only": 1
+            }
+          }
+        },
+        "status": "pass",
+        "underfill_rate": "0.0119047619",
+        "verdict_counts": {
+          "both_filled_size_delta": 12,
+          "both_no_fill": 566,
+          "depth_only": 429,
+          "fill_only_only": 1
+        }
+      },
+      {
+        "adverse_price_error": "0E-10",
+        "avg_abs_price_error": "0E-10",
+        "avg_abs_size_error": "13.8812827729",
+        "both_filled_same_pct": "0E-10",
+        "candidate": {
+          "execution_params": {
+            "execution_horizon_by_tif": {
+              "FAK": "1 block / 1s",
+              "FOK": "1 block",
+              "GTC": "30s",
+              "GTD": "expires_at",
+              "IOC": "1 block / 1s"
+            },
+            "market_window_blocks": 20,
+            "market_window_cap_fraction": "1.00",
+            "name": "lob_holdout_calibrated_fill_only",
+            "p_depth_valid_threshold": "0.60",
+            "participation_rate": "0.025",
+            "price_buffer_abs": "0.010",
+            "quote_proxy_ttl_seconds": "300",
+            "trailing_volume_cap_fraction": "0.025"
+          },
+          "rule": {
+            "capacity_scale": true,
+            "high_probability": "0.80",
+            "max_horizon_seconds": null,
+            "medium_probability": "0.60",
+            "min_future_eligible_trade_count": 1,
+            "min_future_eligible_volume": "0",
+            "min_probability": "0.60",
+            "min_trailing_opposite_side_count": 0,
+            "min_trailing_same_side_count": 1,
+            "min_trailing_same_side_volume": "0",
+            "name": "lob_holdout_calibrated_fill_only",
+            "require_pre_arrival_quote_proxy": true,
+            "trailing_window_seconds": "300"
+          }
+        },
+        "execution_params": {
+          "execution_horizon_by_tif": {
+            "FAK": "1 block / 1s",
+            "FOK": "1 block",
+            "GTC": "30s",
+            "GTD": "expires_at",
+            "IOC": "1 block / 1s"
+          },
+          "market_window_blocks": 20,
+          "market_window_cap_fraction": "1.00",
+          "name": "lob_holdout_calibrated_fill_only",
+          "p_depth_valid_threshold": "0.60",
+          "participation_rate": "0.025",
+          "price_buffer_abs": "0.010",
+          "quote_proxy_ttl_seconds": "300",
+          "trailing_volume_cap_fraction": "0.025"
+        },
+        "false_negative_rate": "0.4255952381",
+        "false_positive_rate": "0.0009920635",
+        "index": 3,
+        "loss": "0.4553571431",
+        "overfill_rate": "0E-10",
+        "precision": "0.9230769231",
+        "recall": "0.0272108844",
+        "rule": {
+          "capacity_scale": true,
+          "high_probability": "0.80",
+          "max_horizon_seconds": null,
+          "medium_probability": "0.60",
+          "min_future_eligible_trade_count": 1,
+          "min_future_eligible_volume": "0",
+          "min_probability": "0.60",
+          "min_trailing_opposite_side_count": 0,
+          "min_trailing_same_side_count": 1,
+          "min_trailing_same_side_volume": "0",
+          "name": "lob_holdout_calibrated_fill_only",
+          "require_pre_arrival_quote_proxy": true,
+          "trailing_window_seconds": "300"
+        },
+        "samples": 1008,
+        "split_metrics": {
+          "calibration": {
+            "adverse_price_error": "0E-10",
+            "avg_abs_price_error": "0E-10",
+            "avg_abs_size_error": "5.2026676250",
+            "both_filled": 3,
+            "both_filled_same": 0,
+            "both_filled_same_pct": "0E-10",
+            "depth_only": 184,
+            "false_negative_rate": "0.4107142857",
+            "false_positive_rate": "0E-10",
+            "fill_only_only": 0,
+            "overfill_rate": "0E-10",
+            "precision": "1.0000000000",
+            "recall": "0.0160427807",
+            "samples": 448,
+            "underfill_rate": "0.0066964286",
+            "verdict_counts": {
+              "both_filled_size_delta": 3,
+              "both_no_fill": 261,
+              "depth_only": 184
+            }
+          },
+          "holdout": {
+            "adverse_price_error": "0E-10",
+            "avg_abs_price_error": "0E-10",
+            "avg_abs_size_error": "4.7257143500",
+            "both_filled": 1,
+            "both_filled_same": 0,
+            "both_filled_same_pct": "0E-10",
+            "depth_only": 50,
+            "false_negative_rate": "0.4464285714",
+            "false_positive_rate": "0E-10",
+            "fill_only_only": 0,
+            "overfill_rate": "0E-10",
+            "precision": "1.0000000000",
+            "recall": "0.0196078431",
+            "samples": 112,
+            "underfill_rate": "0.0089285714",
+            "verdict_counts": {
+              "both_filled_size_delta": 1,
+              "both_no_fill": 61,
+              "depth_only": 50
+            }
+          },
+          "validation": {
+            "adverse_price_error": "0E-10",
+            "avg_abs_price_error": "0E-10",
+            "avg_abs_size_error": "18.2802095063",
+            "both_filled": 8,
+            "both_filled_same": 0,
+            "both_filled_same_pct": "0E-10",
+            "depth_only": 195,
+            "false_negative_rate": "0.4352678571",
+            "false_positive_rate": "0.0022321429",
+            "fill_only_only": 1,
+            "overfill_rate": "0E-10",
+            "precision": "0.8888888889",
+            "recall": "0.0394088670",
+            "samples": 448,
+            "underfill_rate": "0.0178571429",
+            "verdict_counts": {
+              "both_filled_size_delta": 8,
+              "both_no_fill": 244,
+              "depth_only": 195,
+              "fill_only_only": 1
+            }
+          }
+        },
+        "status": "pass",
+        "underfill_rate": "0.0119047619",
+        "verdict_counts": {
+          "both_filled_size_delta": 12,
+          "both_no_fill": 566,
+          "depth_only": 429,
+          "fill_only_only": 1
+        }
+      },
+      {
+        "adverse_price_error": "0.0050000000",
+        "avg_abs_price_error": "0.0050000000",
+        "avg_abs_size_error": "17.1200583546",
+        "both_filled_same_pct": "0E-10",
+        "candidate": {
+          "execution_params": {
+            "execution_horizon_by_tif": {
+              "FAK": "1 block / 1s",
+              "FOK": "1 block",
+              "GTC": "30s",
+              "GTD": "expires_at",
+              "IOC": "1 block / 1s"
+            },
+            "market_window_blocks": 20,
+            "market_window_cap_fraction": "0.50",
+            "name": "lob_holdout_calibrated_fill_only",
+            "p_depth_valid_threshold": "0.60",
+            "participation_rate": "0.005",
+            "price_buffer_abs": "0.005",
+            "quote_proxy_ttl_seconds": "300",
+            "trailing_volume_cap_fraction": "0.005"
+          },
+          "rule": {
+            "capacity_scale": true,
+            "high_probability": "0.80",
+            "max_horizon_seconds": null,
+            "medium_probability": "0.60",
+            "min_future_eligible_trade_count": 1,
+            "min_future_eligible_volume": "0",
+            "min_probability": "0.60",
+            "min_trailing_opposite_side_count": 0,
+            "min_trailing_same_side_count": 1,
+            "min_trailing_same_side_volume": "0",
+            "name": "lob_holdout_calibrated_fill_only",
+            "require_pre_arrival_quote_proxy": true,
+            "trailing_window_seconds": "300"
+          }
+        },
+        "execution_params": {
+          "execution_horizon_by_tif": {
+            "FAK": "1 block / 1s",
+            "FOK": "1 block",
+            "GTC": "30s",
+            "GTD": "expires_at",
+            "IOC": "1 block / 1s"
+          },
+          "market_window_blocks": 20,
+          "market_window_cap_fraction": "0.50",
+          "name": "lob_holdout_calibrated_fill_only",
+          "p_depth_valid_threshold": "0.60",
+          "participation_rate": "0.005",
+          "price_buffer_abs": "0.005",
+          "quote_proxy_ttl_seconds": "300",
+          "trailing_volume_cap_fraction": "0.005"
+        },
+        "false_negative_rate": "0.4255952381",
+        "false_positive_rate": "0.0009920635",
+        "index": 0,
+        "loss": "0.4653571431",
+        "overfill_rate": "0E-10",
+        "precision": "0.9230769231",
+        "recall": "0.0272108844",
+        "rule": {
+          "capacity_scale": true,
+          "high_probability": "0.80",
+          "max_horizon_seconds": null,
+          "medium_probability": "0.60",
+          "min_future_eligible_trade_count": 1,
+          "min_future_eligible_volume": "0",
+          "min_probability": "0.60",
+          "min_trailing_opposite_side_count": 0,
+          "min_trailing_same_side_count": 1,
+          "min_trailing_same_side_volume": "0",
+          "name": "lob_holdout_calibrated_fill_only",
+          "require_pre_arrival_quote_proxy": true,
+          "trailing_window_seconds": "300"
+        },
+        "samples": 1008,
+        "split_metrics": {
+          "calibration": {
+            "adverse_price_error": "0.0050000000",
+            "avg_abs_price_error": "0.0050000000",
+            "avg_abs_size_error": "5.4731591250",
+            "both_filled": 3,
+            "both_filled_same": 0,
+            "both_filled_same_pct": "0E-10",
+            "depth_only": 184,
+            "false_negative_rate": "0.4107142857",
+            "false_positive_rate": "0E-10",
+            "fill_only_only": 0,
+            "overfill_rate": "0E-10",
+            "precision": "1.0000000000",
+            "recall": "0.0160427807",
+            "samples": 448,
+            "underfill_rate": "0.0066964286",
+            "verdict_counts": {
+              "both_filled_size_delta": 3,
+              "both_no_fill": 261,
+              "depth_only": 184
+            }
+          },
+          "holdout": {
+            "adverse_price_error": "0.0050000000",
+            "avg_abs_price_error": "0.0050000000",
+            "avg_abs_size_error": "4.9451428700",
+            "both_filled": 1,
+            "both_filled_same": 0,
+            "both_filled_same_pct": "0E-10",
+            "depth_only": 50,
+            "false_negative_rate": "0.4464285714",
+            "false_positive_rate": "0E-10",
+            "fill_only_only": 0,
+            "overfill_rate": "0E-10",
+            "precision": "1.0000000000",
+            "recall": "0.0196078431",
+            "samples": 112,
+            "underfill_rate": "0.0089285714",
+            "verdict_counts": {
+              "both_filled_size_delta": 1,
+              "both_no_fill": 61,
+              "depth_only": 50
+            }
+          },
+          "validation": {
+            "adverse_price_error": "0.0050000000",
+            "avg_abs_price_error": "0.0050000000",
+            "avg_abs_size_error": "23.0095100013",
+            "both_filled": 8,
+            "both_filled_same": 0,
+            "both_filled_same_pct": "0E-10",
+            "depth_only": 195,
+            "false_negative_rate": "0.4352678571",
+            "false_positive_rate": "0.0022321429",
+            "fill_only_only": 1,
+            "overfill_rate": "0E-10",
+            "precision": "0.8888888889",
+            "recall": "0.0394088670",
+            "samples": 448,
+            "underfill_rate": "0.0178571429",
+            "verdict_counts": {
+              "both_filled_size_delta": 8,
+              "both_no_fill": 244,
+              "depth_only": 195,
+              "fill_only_only": 1
+            }
+          }
+        },
+        "status": "pass",
+        "underfill_rate": "0.0119047619",
+        "verdict_counts": {
+          "both_filled_size_delta": 12,
+          "both_no_fill": 566,
+          "depth_only": 429,
+          "fill_only_only": 1
+        }
+      },
+      {
+        "adverse_price_error": "0.0050000000",
+        "avg_abs_price_error": "0.0050000000",
+        "avg_abs_size_error": "16.3103644592",
+        "both_filled_same_pct": "0E-10",
+        "candidate": {
+          "execution_params": {
+            "execution_horizon_by_tif": {
+              "FAK": "1 block / 1s",
+              "FOK": "1 block",
+              "GTC": "30s",
+              "GTD": "expires_at",
+              "IOC": "1 block / 1s"
+            },
+            "market_window_blocks": 20,
+            "market_window_cap_fraction": "0.75",
+            "name": "lob_holdout_calibrated_fill_only",
+            "p_depth_valid_threshold": "0.60",
+            "participation_rate": "0.010",
+            "price_buffer_abs": "0.005",
+            "quote_proxy_ttl_seconds": "300",
+            "trailing_volume_cap_fraction": "0.010"
+          },
+          "rule": {
+            "capacity_scale": true,
+            "high_probability": "0.80",
+            "max_horizon_seconds": null,
+            "medium_probability": "0.60",
+            "min_future_eligible_trade_count": 1,
+            "min_future_eligible_volume": "0",
+            "min_probability": "0.60",
+            "min_trailing_opposite_side_count": 0,
+            "min_trailing_same_side_count": 1,
+            "min_trailing_same_side_volume": "0",
+            "name": "lob_holdout_calibrated_fill_only",
+            "require_pre_arrival_quote_proxy": true,
+            "trailing_window_seconds": "300"
+          }
+        },
+        "execution_params": {
+          "execution_horizon_by_tif": {
+            "FAK": "1 block / 1s",
+            "FOK": "1 block",
+            "GTC": "30s",
+            "GTD": "expires_at",
+            "IOC": "1 block / 1s"
+          },
+          "market_window_blocks": 20,
+          "market_window_cap_fraction": "0.75",
+          "name": "lob_holdout_calibrated_fill_only",
+          "p_depth_valid_threshold": "0.60",
+          "participation_rate": "0.010",
+          "price_buffer_abs": "0.005",
+          "quote_proxy_ttl_seconds": "300",
+          "trailing_volume_cap_fraction": "0.010"
+        },
+        "false_negative_rate": "0.4255952381",
+        "false_positive_rate": "0.0009920635",
+        "index": 1,
+        "loss": "0.4653571431",
+        "overfill_rate": "0E-10",
+        "precision": "0.9230769231",
+        "recall": "0.0272108844",
+        "rule": {
+          "capacity_scale": true,
+          "high_probability": "0.80",
+          "max_horizon_seconds": null,
+          "medium_probability": "0.60",
+          "min_future_eligible_trade_count": 1,
+          "min_future_eligible_volume": "0",
+          "min_probability": "0.60",
+          "min_trailing_opposite_side_count": 0,
+          "min_trailing_same_side_count": 1,
+          "min_trailing_same_side_volume": "0",
+          "name": "lob_holdout_calibrated_fill_only",
+          "require_pre_arrival_quote_proxy": true,
+          "trailing_window_seconds": "300"
+        },
+        "samples": 1008,
+        "split_metrics": {
+          "calibration": {
+            "adverse_price_error": "0.0050000000",
+            "avg_abs_price_error": "0.0050000000",
+            "avg_abs_size_error": "5.4055362500",
+            "both_filled": 3,
+            "both_filled_same": 0,
+            "both_filled_same_pct": "0E-10",
+            "depth_only": 184,
+            "false_negative_rate": "0.4107142857",
+            "false_positive_rate": "0E-10",
+            "fill_only_only": 0,
+            "overfill_rate": "0E-10",
+            "precision": "1.0000000000",
+            "recall": "0.0160427807",
+            "samples": 448,
+            "underfill_rate": "0.0066964286",
+            "verdict_counts": {
+              "both_filled_size_delta": 3,
+              "both_no_fill": 261,
+              "depth_only": 184
+            }
+          },
+          "holdout": {
+            "adverse_price_error": "0.0050000000",
+            "avg_abs_price_error": "0.0050000000",
+            "avg_abs_size_error": "4.8902857400",
+            "both_filled": 1,
+            "both_filled_same": 0,
+            "both_filled_same_pct": "0E-10",
+            "depth_only": 50,
+            "false_negative_rate": "0.4464285714",
+            "false_positive_rate": "0E-10",
+            "fill_only_only": 0,
+            "overfill_rate": "0E-10",
+            "precision": "1.0000000000",
+            "recall": "0.0196078431",
+            "samples": 112,
+            "underfill_rate": "0.0089285714",
+            "verdict_counts": {
+              "both_filled_size_delta": 1,
+              "both_no_fill": 61,
+              "depth_only": 50
+            }
+          },
+          "validation": {
+            "adverse_price_error": "0.0050000000",
+            "avg_abs_price_error": "0.0050000000",
+            "avg_abs_size_error": "21.8271848775",
+            "both_filled": 8,
+            "both_filled_same": 0,
+            "both_filled_same_pct": "0E-10",
+            "depth_only": 195,
+            "false_negative_rate": "0.4352678571",
+            "false_positive_rate": "0.0022321429",
+            "fill_only_only": 1,
+            "overfill_rate": "0E-10",
+            "precision": "0.8888888889",
+            "recall": "0.0394088670",
+            "samples": 448,
+            "underfill_rate": "0.0178571429",
+            "verdict_counts": {
+              "both_filled_size_delta": 8,
+              "both_no_fill": 244,
+              "depth_only": 195,
+              "fill_only_only": 1
+            }
+          }
+        },
+        "status": "pass",
+        "underfill_rate": "0.0119047619",
+        "verdict_counts": {
+          "both_filled_size_delta": 12,
+          "both_no_fill": 566,
+          "depth_only": 429,
+          "fill_only_only": 1
+        }
+      }
+    ],
+    "status": "pass",
+    "summary": {
+      "adverse_price_error": "0E-10",
+      "avg_abs_price_error": "0E-10",
+      "avg_abs_size_error": "16.3103644592",
+      "candidates_evaluated": 4,
+      "execution_stability": {
+        "avg_split_quality": "0.5598958333",
+        "blockers": [],
+        "grade": "REVIEW",
+        "min_split_coverage": "1.0000000000",
+        "min_split_samples": 100,
+        "quality_by_split": {
+          "calibration": "0.5859375000",
+          "holdout": "0.5491071429",
+          "validation": "0.5446428569"
+        },
+        "sample_counts": {
+          "calibration": 448,
+          "holdout": 112,
+          "validation": 448
+        },
+        "sample_coverage": "1.0000000000",
+        "schema_version": "fill_only_execution_stability_v1",
+        "score": "0.7534784225",
+        "spread_penalty": "0.0044642858",
+        "target_total_samples": 1000
+      },
+      "false_negative_rate": "0.4255952381",
+      "false_positive_rate": "0.0009920635",
+      "output_profile": "runtime_outputs/fill_trade_validation/fill_only_lob_validity_profile_1000_grid4.json",
+      "overfill_rate": "0E-10",
+      "precision": "0.9230769231",
+      "recall": "0.0272108844",
+      "samples": 1008,
+      "selected_execution_params": {
+        "execution_horizon_by_tif": {
+          "FAK": "1 block / 1s",
+          "FOK": "1 block",
+          "GTC": "30s",
+          "GTD": "expires_at",
+          "IOC": "1 block / 1s"
+        },
+        "market_window_blocks": 20,
+        "market_window_cap_fraction": "0.75",
+        "name": "lob_holdout_calibrated_fill_only",
+        "p_depth_valid_threshold": "0.60",
+        "participation_rate": "0.010",
+        "price_buffer_abs": "0.010",
+        "quote_proxy_ttl_seconds": "300",
+        "trailing_volume_cap_fraction": "0.010"
+      },
+      "selected_loss": "0.4553571431",
+      "selected_rule": {
+        "capacity_scale": true,
+        "high_probability": "0.80",
+        "max_horizon_seconds": null,
+        "medium_probability": "0.60",
+        "min_future_eligible_trade_count": 1,
+        "min_future_eligible_volume": "0",
+        "min_probability": "0.60",
+        "min_trailing_opposite_side_count": 0,
+        "min_trailing_same_side_count": 1,
+        "min_trailing_same_side_volume": "0",
+        "name": "lob_holdout_calibrated_fill_only",
+        "require_pre_arrival_quote_proxy": true,
+        "trailing_window_seconds": "300"
+      },
+      "split_key": "market",
+      "split_metrics": {
+        "calibration": {
+          "adverse_price_error": "0E-10",
+          "avg_abs_price_error": "0E-10",
+          "avg_abs_size_error": "5.4055362500",
+          "both_filled": 3,
+          "both_filled_same": 0,
+          "both_filled_same_pct": "0E-10",
+          "depth_only": 184,
+          "false_negative_rate": "0.4107142857",
+          "false_positive_rate": "0E-10",
+          "fill_only_only": 0,
+          "overfill_rate": "0E-10",
+          "precision": "1.0000000000",
+          "recall": "0.0160427807",
+          "samples": 448,
+          "underfill_rate": "0.0066964286",
+          "verdict_counts": {
+            "both_filled_size_delta": 3,
+            "both_no_fill": 261,
+            "depth_only": 184
+          }
+        },
+        "holdout": {
+          "adverse_price_error": "0E-10",
+          "avg_abs_price_error": "0E-10",
+          "avg_abs_size_error": "4.8902857400",
+          "both_filled": 1,
+          "both_filled_same": 0,
+          "both_filled_same_pct": "0E-10",
+          "depth_only": 50,
+          "false_negative_rate": "0.4464285714",
+          "false_positive_rate": "0E-10",
+          "fill_only_only": 0,
+          "overfill_rate": "0E-10",
+          "precision": "1.0000000000",
+          "recall": "0.0196078431",
+          "samples": 112,
+          "underfill_rate": "0.0089285714",
+          "verdict_counts": {
+            "both_filled_size_delta": 1,
+            "both_no_fill": 61,
+            "depth_only": 50
+          }
+        },
+        "validation": {
+          "adverse_price_error": "0E-10",
+          "avg_abs_price_error": "0E-10",
+          "avg_abs_size_error": "21.8271848775",
+          "both_filled": 8,
+          "both_filled_same": 0,
+          "both_filled_same_pct": "0E-10",
+          "depth_only": 195,
+          "false_negative_rate": "0.4352678571",
+          "false_positive_rate": "0.0022321429",
+          "fill_only_only": 1,
+          "overfill_rate": "0E-10",
+          "precision": "0.8888888889",
+          "recall": "0.0394088670",
+          "samples": 448,
+          "underfill_rate": "0.0178571429",
+          "verdict_counts": {
+            "both_filled_size_delta": 8,
+            "both_no_fill": 244,
+            "depth_only": 195,
+            "fill_only_only": 1
+          }
+        }
+      },
+      "underfill_rate": "0.0119047619",
+      "verdict_counts": {
+        "both_filled_size_delta": 12,
+        "both_no_fill": 566,
+        "depth_only": 429,
+        "fill_only_only": 1
+      }
+    },
+    "title": "Fill-Only LOB Validity Calibration"
+  },
+  "execution_stability": {
+    "avg_split_quality": "0.5598958333",
+    "blockers": [],
+    "grade": "REVIEW",
+    "min_split_coverage": "1.0000000000",
+    "min_split_samples": 100,
+    "quality_by_split": {
+      "calibration": "0.5859375000",
+      "holdout": "0.5491071429",
+      "validation": "0.5446428569"
+    },
+    "sample_counts": {
+      "calibration": 448,
+      "holdout": 112,
+      "validation": 448
+    },
+    "sample_coverage": "1.0000000000",
+    "schema_version": "fill_only_execution_stability_v1",
+    "score": "0.7534784225",
+    "spread_penalty": "0.0044642858",
+    "target_total_samples": 1000
+  },
+  "holdout_metrics": {
+    "adverse_price_error": "0E-10",
+    "avg_abs_price_error": "0E-10",
+    "avg_abs_size_error": "16.3103644592",
+    "false_negative_rate": "0.4255952381",
+    "false_positive_rate": "0.0009920635",
+    "overfill_rate": "0E-10",
+    "precision": "0.9230769231",
+    "recall": "0.0272108844",
+    "samples": 1008,
+    "underfill_rate": "0.0119047619"
+  },
+  "holdout_set": "pmxt_v2_team_vs_team_main_lifecycle",
+  "params": {
+    "capacity_scale": true,
+    "execution_horizon_by_tif": {
+      "FAK": "1 block / 1s",
+      "FOK": "1 block",
+      "GTC": "30s",
+      "GTD": "expires_at",
+      "IOC": "1 block / 1s"
+    },
+    "high_probability": "0.80",
+    "market_window_blocks": 20,
+    "market_window_cap_fraction": "0.75",
+    "max_horizon_seconds": null,
+    "medium_probability": "0.60",
+    "min_future_eligible_trade_count": 1,
+    "min_future_eligible_volume": "0",
+    "min_probability": "0.60",
+    "min_trailing_opposite_side_count": 0,
+    "min_trailing_same_side_count": 1,
+    "min_trailing_same_side_volume": "0",
+    "name": "lob_holdout_calibrated_fill_only",
+    "p_depth_valid_threshold": "0.60",
+    "participation_rate": "0.010",
+    "price_buffer_abs": "0.010",
+    "price_buffer_ticks": "1",
+    "quote_proxy_ttl_seconds": "300",
+    "require_pre_arrival_quote_proxy": true,
+    "trailing_volume_cap_fraction": "0.010",
+    "trailing_window_seconds": "300"
+  },
+  "profile_name": "lob_holdout_calibrated_fill_only_v1",
+  "profile_role": "primary_conservative",
+  "schema_version": "fill_only_lob_validity_profile_v1",
+  "split_key": "market",
+  "split_metrics": {
+    "calibration": {
+      "adverse_price_error": "0E-10",
+      "avg_abs_price_error": "0E-10",
+      "avg_abs_size_error": "5.4055362500",
+      "both_filled": 3,
+      "both_filled_same": 0,
+      "both_filled_same_pct": "0E-10",
+      "depth_only": 184,
+      "false_negative_rate": "0.4107142857",
+      "false_positive_rate": "0E-10",
+      "fill_only_only": 0,
+      "overfill_rate": "0E-10",
+      "precision": "1.0000000000",
+      "recall": "0.0160427807",
+      "samples": 448,
+      "underfill_rate": "0.0066964286",
+      "verdict_counts": {
+        "both_filled_size_delta": 3,
+        "both_no_fill": 261,
+        "depth_only": 184
+      }
+    },
+    "holdout": {
+      "adverse_price_error": "0E-10",
+      "avg_abs_price_error": "0E-10",
+      "avg_abs_size_error": "4.8902857400",
+      "both_filled": 1,
+      "both_filled_same": 0,
+      "both_filled_same_pct": "0E-10",
+      "depth_only": 50,
+      "false_negative_rate": "0.4464285714",
+      "false_positive_rate": "0E-10",
+      "fill_only_only": 0,
+      "overfill_rate": "0E-10",
+      "precision": "1.0000000000",
+      "recall": "0.0196078431",
+      "samples": 112,
+      "underfill_rate": "0.0089285714",
+      "verdict_counts": {
+        "both_filled_size_delta": 1,
+        "both_no_fill": 61,
+        "depth_only": 50
+      }
+    },
+    "validation": {
+      "adverse_price_error": "0E-10",
+      "avg_abs_price_error": "0E-10",
+      "avg_abs_size_error": "21.8271848775",
+      "both_filled": 8,
+      "both_filled_same": 0,
+      "both_filled_same_pct": "0E-10",
+      "depth_only": 195,
+      "false_negative_rate": "0.4352678571",
+      "false_positive_rate": "0.0022321429",
+      "fill_only_only": 1,
+      "overfill_rate": "0E-10",
+      "precision": "0.8888888889",
+      "recall": "0.0394088670",
+      "samples": 448,
+      "underfill_rate": "0.0178571429",
+      "verdict_counts": {
+        "both_filled_size_delta": 8,
+        "both_no_fill": 244,
+        "depth_only": 195,
+        "fill_only_only": 1
+      }
+    }
+  },
+  "trained_on": "2026-07-09T09:36:35.280736+00:00"
+}

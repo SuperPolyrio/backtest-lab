@@ -1,0 +1,3630 @@
+{
+  "artifact_hash": "3416631e0a55787776941c44ea0c5c4ce760c1ab412cd9ae5e61cbd68bf84d85",
+  "authenticated_holdout": {
+    "calibration_conclusion": null,
+    "outcome_counts": {
+      "FULL": 0,
+      "NO_FILL": 4,
+      "PARTIAL": 0
+    },
+    "promotion_allowed": false,
+    "sample_count": 4,
+    "source_evaluation_sha256": "8ca916fe96a090bdc392bf795024e1006c8c1885d859bb28649b3127c28f359f",
+    "source_rows_available": false,
+    "source_rows_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "status": "BLOCKED"
+  },
+  "curves": {
+    "CATEGORY:CRYPTO|SIDE:BUY|POSITION:AT_BEST": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 11,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 11,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 11,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 3,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 900,
+          "sample_count": 8,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 11
+    },
+    "CATEGORY:CRYPTO|SIDE:BUY|POSITION:AT_BEST|QUEUE:Q1_LE_1X": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 1,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 1,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 1,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 1
+    },
+    "CATEGORY:CRYPTO|SIDE:BUY|POSITION:AT_BEST|QUEUE:Q2_1_TO_5X": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 3,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 3,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 3,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 2,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 900,
+          "sample_count": 1,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 3
+    },
+    "CATEGORY:CRYPTO|SIDE:BUY|POSITION:AT_BEST|QUEUE:Q3_5_TO_20X": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 2,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 2,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 2,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 900,
+          "sample_count": 2,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 2
+    },
+    "CATEGORY:CRYPTO|SIDE:BUY|POSITION:AT_BEST|QUEUE:Q4_GT_20X": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 5,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 5,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 5,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 900,
+          "sample_count": 5,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 5
+    },
+    "CATEGORY:CRYPTO|SIDE:BUY|POSITION:ONE_TICK_BEHIND": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 11,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 11,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 11,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 3,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 900,
+          "sample_count": 8,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 11
+    },
+    "CATEGORY:CRYPTO|SIDE:BUY|POSITION:ONE_TICK_BEHIND|QUEUE:Q0_FRONT": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 6,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 6,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 6,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 3,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 900,
+          "sample_count": 3,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 6
+    },
+    "CATEGORY:CRYPTO|SIDE:BUY|POSITION:ONE_TICK_BEHIND|QUEUE:Q2_1_TO_5X": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 1,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 1,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 1,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 900,
+          "sample_count": 1,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 1
+    },
+    "CATEGORY:CRYPTO|SIDE:BUY|POSITION:ONE_TICK_BEHIND|QUEUE:Q4_GT_20X": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 4,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 4,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 4,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 900,
+          "sample_count": 4,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 4
+    },
+    "CATEGORY:CRYPTO|SIDE:BUY|POSITION:ONE_TICK_INSIDE_SPREAD": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 10,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 10,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 10,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 3,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 900,
+          "sample_count": 7,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 10
+    },
+    "CATEGORY:CRYPTO|SIDE:BUY|POSITION:ONE_TICK_INSIDE_SPREAD|QUEUE:Q0_FRONT": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 10,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 10,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 10,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 3,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 900,
+          "sample_count": 7,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 10
+    },
+    "CATEGORY:CRYPTO|SIDE:SELL|POSITION:AT_BEST": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 1,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 25,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 2,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 24,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 3,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 23,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 6,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 900,
+          "sample_count": 20,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 25
+    },
+    "CATEGORY:CRYPTO|SIDE:SELL|POSITION:AT_BEST|QUEUE:Q1_LE_1X": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 4,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 4,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 4,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 1,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 900,
+          "sample_count": 3,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 4
+    },
+    "CATEGORY:CRYPTO|SIDE:SELL|POSITION:AT_BEST|QUEUE:Q2_1_TO_5X": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 4,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 4,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 4,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 1,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 900,
+          "sample_count": 3,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 4
+    },
+    "CATEGORY:CRYPTO|SIDE:SELL|POSITION:AT_BEST|QUEUE:Q3_5_TO_20X": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 4,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 4,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 4,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 900,
+          "sample_count": 4,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 4
+    },
+    "CATEGORY:CRYPTO|SIDE:SELL|POSITION:AT_BEST|QUEUE:Q4_GT_20X": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 1,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 13,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 2,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 12,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 3,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 11,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 4,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 900,
+          "sample_count": 10,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 13
+    },
+    "CATEGORY:CRYPTO|SIDE:SELL|POSITION:ONE_TICK_BEHIND": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 1,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 25,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 1,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 25,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 2,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 24,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 6,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 900,
+          "sample_count": 20,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 25
+    },
+    "CATEGORY:CRYPTO|SIDE:SELL|POSITION:ONE_TICK_BEHIND|QUEUE:Q0_FRONT": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 18,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 18,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 1,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 17,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 3,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 900,
+          "sample_count": 15,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 18
+    },
+    "CATEGORY:CRYPTO|SIDE:SELL|POSITION:ONE_TICK_BEHIND|QUEUE:Q1_LE_1X": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 900,
+          "sample_count": 1,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 1
+    },
+    "CATEGORY:CRYPTO|SIDE:SELL|POSITION:ONE_TICK_BEHIND|QUEUE:Q2_1_TO_5X": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 1,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 2,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 1,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 2,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 1,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 2,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 2,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 900,
+          "sample_count": 1,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 2
+    },
+    "CATEGORY:CRYPTO|SIDE:SELL|POSITION:ONE_TICK_BEHIND|QUEUE:Q3_5_TO_20X": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 1,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 1,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 1,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 900,
+          "sample_count": 1,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 1
+    },
+    "CATEGORY:CRYPTO|SIDE:SELL|POSITION:ONE_TICK_BEHIND|QUEUE:Q4_GT_20X": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 3,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 3,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 3,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 1,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 900,
+          "sample_count": 2,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 3
+    },
+    "CATEGORY:CRYPTO|SIDE:SELL|POSITION:ONE_TICK_INSIDE_SPREAD": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 1,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 23,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 2,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 22,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 3,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 21,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 6,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 900,
+          "sample_count": 18,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 23
+    },
+    "CATEGORY:CRYPTO|SIDE:SELL|POSITION:ONE_TICK_INSIDE_SPREAD|QUEUE:Q0_FRONT": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 1,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 23,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 2,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 22,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 3,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 21,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 6,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 900,
+          "sample_count": 18,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 23
+    },
+    "CATEGORY:POLITICS|SIDE:BUY|POSITION:AT_BEST": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 13,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 13,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 13,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 2,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 900,
+          "sample_count": 11,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 13
+    },
+    "CATEGORY:POLITICS|SIDE:BUY|POSITION:AT_BEST|QUEUE:Q2_1_TO_5X": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 3,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 3,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 3,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 1,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 900,
+          "sample_count": 2,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 3
+    },
+    "CATEGORY:POLITICS|SIDE:BUY|POSITION:AT_BEST|QUEUE:Q3_5_TO_20X": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 4,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 4,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 4,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 900,
+          "sample_count": 4,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 4
+    },
+    "CATEGORY:POLITICS|SIDE:BUY|POSITION:AT_BEST|QUEUE:Q4_GT_20X": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 6,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 6,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 6,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 1,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 900,
+          "sample_count": 5,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 6
+    },
+    "CATEGORY:POLITICS|SIDE:BUY|POSITION:ONE_TICK_BEHIND": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 12,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 12,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 12,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 2,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 900,
+          "sample_count": 10,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 12
+    },
+    "CATEGORY:POLITICS|SIDE:BUY|POSITION:ONE_TICK_BEHIND|QUEUE:Q0_FRONT": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 10,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 10,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 10,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 2,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 900,
+          "sample_count": 8,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 10
+    },
+    "CATEGORY:POLITICS|SIDE:BUY|POSITION:ONE_TICK_BEHIND|QUEUE:Q4_GT_20X": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 2,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 2,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 2,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 900,
+          "sample_count": 2,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 2
+    },
+    "CATEGORY:POLITICS|SIDE:BUY|POSITION:ONE_TICK_INSIDE_SPREAD": {
+      "event_count": 1,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.083333333333",
+          "horizon_seconds": 30,
+          "sample_count": 12,
+          "survival_probability": "0.916666666667"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.083333333333",
+          "horizon_seconds": 120,
+          "sample_count": 12,
+          "survival_probability": "0.916666666667"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.083333333333",
+          "horizon_seconds": 300,
+          "sample_count": 12,
+          "survival_probability": "0.916666666667"
+        },
+        {
+          "censored_count": 2,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.1",
+          "horizon_seconds": 900,
+          "sample_count": 10,
+          "survival_probability": "0.9"
+        }
+      ],
+      "sample_count": 12
+    },
+    "CATEGORY:POLITICS|SIDE:BUY|POSITION:ONE_TICK_INSIDE_SPREAD|QUEUE:Q0_FRONT": {
+      "event_count": 1,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.083333333333",
+          "horizon_seconds": 30,
+          "sample_count": 12,
+          "survival_probability": "0.916666666667"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.083333333333",
+          "horizon_seconds": 120,
+          "sample_count": 12,
+          "survival_probability": "0.916666666667"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.083333333333",
+          "horizon_seconds": 300,
+          "sample_count": 12,
+          "survival_probability": "0.916666666667"
+        },
+        {
+          "censored_count": 2,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.1",
+          "horizon_seconds": 900,
+          "sample_count": 10,
+          "survival_probability": "0.9"
+        }
+      ],
+      "sample_count": 12
+    },
+    "CATEGORY:POLITICS|SIDE:SELL|POSITION:AT_BEST": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 12,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 12,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 12,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 900,
+          "sample_count": 12,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 12
+    },
+    "CATEGORY:POLITICS|SIDE:SELL|POSITION:AT_BEST|QUEUE:Q2_1_TO_5X": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 4,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 4,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 4,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 900,
+          "sample_count": 4,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 4
+    },
+    "CATEGORY:POLITICS|SIDE:SELL|POSITION:AT_BEST|QUEUE:Q3_5_TO_20X": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 5,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 5,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 5,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 900,
+          "sample_count": 5,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 5
+    },
+    "CATEGORY:POLITICS|SIDE:SELL|POSITION:AT_BEST|QUEUE:Q4_GT_20X": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 3,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 3,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 3,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 900,
+          "sample_count": 3,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 3
+    },
+    "CATEGORY:POLITICS|SIDE:SELL|POSITION:ONE_TICK_BEHIND": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 12,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 12,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 12,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 900,
+          "sample_count": 12,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 12
+    },
+    "CATEGORY:POLITICS|SIDE:SELL|POSITION:ONE_TICK_BEHIND|QUEUE:Q0_FRONT": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 8,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 8,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 8,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 900,
+          "sample_count": 8,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 8
+    },
+    "CATEGORY:POLITICS|SIDE:SELL|POSITION:ONE_TICK_BEHIND|QUEUE:Q3_5_TO_20X": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 1,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 1,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 1,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 900,
+          "sample_count": 1,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 1
+    },
+    "CATEGORY:POLITICS|SIDE:SELL|POSITION:ONE_TICK_BEHIND|QUEUE:Q4_GT_20X": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 3,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 3,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 3,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 900,
+          "sample_count": 3,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 3
+    },
+    "CATEGORY:POLITICS|SIDE:SELL|POSITION:ONE_TICK_INSIDE_SPREAD": {
+      "event_count": 1,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.090909090909",
+          "horizon_seconds": 30,
+          "sample_count": 11,
+          "survival_probability": "0.909090909091"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.090909090909",
+          "horizon_seconds": 120,
+          "sample_count": 11,
+          "survival_probability": "0.909090909091"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.090909090909",
+          "horizon_seconds": 300,
+          "sample_count": 11,
+          "survival_probability": "0.909090909091"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.090909090909",
+          "horizon_seconds": 900,
+          "sample_count": 11,
+          "survival_probability": "0.909090909091"
+        }
+      ],
+      "sample_count": 11
+    },
+    "CATEGORY:POLITICS|SIDE:SELL|POSITION:ONE_TICK_INSIDE_SPREAD|QUEUE:Q0_FRONT": {
+      "event_count": 1,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.090909090909",
+          "horizon_seconds": 30,
+          "sample_count": 11,
+          "survival_probability": "0.909090909091"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.090909090909",
+          "horizon_seconds": 120,
+          "sample_count": 11,
+          "survival_probability": "0.909090909091"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.090909090909",
+          "horizon_seconds": 300,
+          "sample_count": 11,
+          "survival_probability": "0.909090909091"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.090909090909",
+          "horizon_seconds": 900,
+          "sample_count": 11,
+          "survival_probability": "0.909090909091"
+        }
+      ],
+      "sample_count": 11
+    },
+    "CATEGORY:SPORTS|SIDE:BUY|POSITION:AT_BEST": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 15,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 15,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 15,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 2,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 900,
+          "sample_count": 13,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 15
+    },
+    "CATEGORY:SPORTS|SIDE:BUY|POSITION:AT_BEST|QUEUE:Q2_1_TO_5X": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 2,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 2,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 2,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 900,
+          "sample_count": 2,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 2
+    },
+    "CATEGORY:SPORTS|SIDE:BUY|POSITION:AT_BEST|QUEUE:Q3_5_TO_20X": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 1,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 1,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 1,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 900,
+          "sample_count": 1,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 1
+    },
+    "CATEGORY:SPORTS|SIDE:BUY|POSITION:AT_BEST|QUEUE:Q4_GT_20X": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 12,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 12,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 12,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 2,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 900,
+          "sample_count": 10,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 12
+    },
+    "CATEGORY:SPORTS|SIDE:BUY|POSITION:ONE_TICK_BEHIND": {
+      "event_count": 1,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 15,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 15,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 15,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 2,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.076923076923",
+          "horizon_seconds": 900,
+          "sample_count": 13,
+          "survival_probability": "0.923076923077"
+        }
+      ],
+      "sample_count": 15
+    },
+    "CATEGORY:SPORTS|SIDE:BUY|POSITION:ONE_TICK_BEHIND|QUEUE:Q0_FRONT": {
+      "event_count": 1,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 15,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 15,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 15,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 2,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.076923076923",
+          "horizon_seconds": 900,
+          "sample_count": 13,
+          "survival_probability": "0.923076923077"
+        }
+      ],
+      "sample_count": 15
+    },
+    "CATEGORY:SPORTS|SIDE:BUY|POSITION:ONE_TICK_INSIDE_SPREAD": {
+      "event_count": 1,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 15,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 15,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 15,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 2,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.076923076923",
+          "horizon_seconds": 900,
+          "sample_count": 13,
+          "survival_probability": "0.923076923077"
+        }
+      ],
+      "sample_count": 15
+    },
+    "CATEGORY:SPORTS|SIDE:BUY|POSITION:ONE_TICK_INSIDE_SPREAD|QUEUE:Q0_FRONT": {
+      "event_count": 1,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 15,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 15,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 15,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 2,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.076923076923",
+          "horizon_seconds": 900,
+          "sample_count": 13,
+          "survival_probability": "0.923076923077"
+        }
+      ],
+      "sample_count": 15
+    },
+    "CATEGORY:SPORTS|SIDE:SELL|POSITION:AT_BEST": {
+      "event_count": 2,
+      "points": [
+        {
+          "censored_count": 4,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.071428571429",
+          "horizon_seconds": 30,
+          "sample_count": 14,
+          "survival_probability": "0.928571428571"
+        },
+        {
+          "censored_count": 4,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.071428571429",
+          "horizon_seconds": 120,
+          "sample_count": 14,
+          "survival_probability": "0.928571428571"
+        },
+        {
+          "censored_count": 4,
+          "conditional_fill_fraction": "1",
+          "event_count": 2,
+          "fill_probability": "0.142857142857",
+          "horizon_seconds": 300,
+          "sample_count": 14,
+          "survival_probability": "0.857142857143"
+        },
+        {
+          "censored_count": 5,
+          "conditional_fill_fraction": "1",
+          "event_count": 2,
+          "fill_probability": "0.153846153846",
+          "horizon_seconds": 900,
+          "sample_count": 13,
+          "survival_probability": "0.846153846154"
+        }
+      ],
+      "sample_count": 14
+    },
+    "CATEGORY:SPORTS|SIDE:SELL|POSITION:AT_BEST|QUEUE:Q1_LE_1X": {
+      "event_count": 2,
+      "points": [
+        {
+          "censored_count": 1,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.333333333333",
+          "horizon_seconds": 30,
+          "sample_count": 3,
+          "survival_probability": "0.666666666667"
+        },
+        {
+          "censored_count": 1,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.333333333333",
+          "horizon_seconds": 120,
+          "sample_count": 3,
+          "survival_probability": "0.666666666667"
+        },
+        {
+          "censored_count": 1,
+          "conditional_fill_fraction": "1",
+          "event_count": 2,
+          "fill_probability": "0.666666666667",
+          "horizon_seconds": 300,
+          "sample_count": 3,
+          "survival_probability": "0.333333333333"
+        },
+        {
+          "censored_count": 2,
+          "conditional_fill_fraction": "1",
+          "event_count": 2,
+          "fill_probability": "1",
+          "horizon_seconds": 900,
+          "sample_count": 2,
+          "survival_probability": "0"
+        }
+      ],
+      "sample_count": 3
+    },
+    "CATEGORY:SPORTS|SIDE:SELL|POSITION:AT_BEST|QUEUE:Q4_GT_20X": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 1,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 11,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 1,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 11,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 1,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 11,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 1,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 900,
+          "sample_count": 11,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 11
+    },
+    "CATEGORY:SPORTS|SIDE:SELL|POSITION:ONE_TICK_BEHIND": {
+      "event_count": 3,
+      "points": [
+        {
+          "censored_count": 1,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.071428571429",
+          "horizon_seconds": 30,
+          "sample_count": 14,
+          "survival_probability": "0.928571428571"
+        },
+        {
+          "censored_count": 1,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.071428571429",
+          "horizon_seconds": 120,
+          "sample_count": 14,
+          "survival_probability": "0.928571428571"
+        },
+        {
+          "censored_count": 1,
+          "conditional_fill_fraction": "1",
+          "event_count": 3,
+          "fill_probability": "0.214285714286",
+          "horizon_seconds": 300,
+          "sample_count": 14,
+          "survival_probability": "0.785714285714"
+        },
+        {
+          "censored_count": 2,
+          "conditional_fill_fraction": "1",
+          "event_count": 3,
+          "fill_probability": "0.230769230769",
+          "horizon_seconds": 900,
+          "sample_count": 13,
+          "survival_probability": "0.769230769231"
+        }
+      ],
+      "sample_count": 14
+    },
+    "CATEGORY:SPORTS|SIDE:SELL|POSITION:ONE_TICK_BEHIND|QUEUE:Q0_FRONT": {
+      "event_count": 3,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.071428571429",
+          "horizon_seconds": 30,
+          "sample_count": 14,
+          "survival_probability": "0.928571428571"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.071428571429",
+          "horizon_seconds": 120,
+          "sample_count": 14,
+          "survival_probability": "0.928571428571"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "1",
+          "event_count": 3,
+          "fill_probability": "0.214285714286",
+          "horizon_seconds": 300,
+          "sample_count": 14,
+          "survival_probability": "0.785714285714"
+        },
+        {
+          "censored_count": 1,
+          "conditional_fill_fraction": "1",
+          "event_count": 3,
+          "fill_probability": "0.230769230769",
+          "horizon_seconds": 900,
+          "sample_count": 13,
+          "survival_probability": "0.769230769231"
+        }
+      ],
+      "sample_count": 14
+    },
+    "CATEGORY:SPORTS|SIDE:SELL|POSITION:ONE_TICK_INSIDE_SPREAD": {
+      "event_count": 6,
+      "points": [
+        {
+          "censored_count": 4,
+          "conditional_fill_fraction": "1",
+          "event_count": 4,
+          "fill_probability": "0.285714285714",
+          "horizon_seconds": 30,
+          "sample_count": 14,
+          "survival_probability": "0.714285714286"
+        },
+        {
+          "censored_count": 4,
+          "conditional_fill_fraction": "1",
+          "event_count": 4,
+          "fill_probability": "0.285714285714",
+          "horizon_seconds": 120,
+          "sample_count": 14,
+          "survival_probability": "0.714285714286"
+        },
+        {
+          "censored_count": 4,
+          "conditional_fill_fraction": "1",
+          "event_count": 5,
+          "fill_probability": "0.357142857143",
+          "horizon_seconds": 300,
+          "sample_count": 14,
+          "survival_probability": "0.642857142857"
+        },
+        {
+          "censored_count": 5,
+          "conditional_fill_fraction": "1",
+          "event_count": 6,
+          "fill_probability": "0.461538461538",
+          "horizon_seconds": 900,
+          "sample_count": 13,
+          "survival_probability": "0.538461538462"
+        }
+      ],
+      "sample_count": 14
+    },
+    "CATEGORY:SPORTS|SIDE:SELL|POSITION:ONE_TICK_INSIDE_SPREAD|QUEUE:Q0_FRONT": {
+      "event_count": 6,
+      "points": [
+        {
+          "censored_count": 4,
+          "conditional_fill_fraction": "1",
+          "event_count": 4,
+          "fill_probability": "0.285714285714",
+          "horizon_seconds": 30,
+          "sample_count": 14,
+          "survival_probability": "0.714285714286"
+        },
+        {
+          "censored_count": 4,
+          "conditional_fill_fraction": "1",
+          "event_count": 4,
+          "fill_probability": "0.285714285714",
+          "horizon_seconds": 120,
+          "sample_count": 14,
+          "survival_probability": "0.714285714286"
+        },
+        {
+          "censored_count": 4,
+          "conditional_fill_fraction": "1",
+          "event_count": 5,
+          "fill_probability": "0.357142857143",
+          "horizon_seconds": 300,
+          "sample_count": 14,
+          "survival_probability": "0.642857142857"
+        },
+        {
+          "censored_count": 5,
+          "conditional_fill_fraction": "1",
+          "event_count": 6,
+          "fill_probability": "0.461538461538",
+          "horizon_seconds": 900,
+          "sample_count": 13,
+          "survival_probability": "0.538461538462"
+        }
+      ],
+      "sample_count": 14
+    },
+    "CATEGORY:WEATHER|SIDE:BUY|POSITION:AT_BEST": {
+      "event_count": 1,
+      "points": [
+        {
+          "censored_count": 3,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 19,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 4,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 18,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 4,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 18,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 9,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.076923076923",
+          "horizon_seconds": 900,
+          "sample_count": 13,
+          "survival_probability": "0.923076923077"
+        }
+      ],
+      "sample_count": 19
+    },
+    "CATEGORY:WEATHER|SIDE:BUY|POSITION:AT_BEST|QUEUE:Q1_LE_1X": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 2,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 4,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 2,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 4,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 2,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 4,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 2,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 900,
+          "sample_count": 4,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 4
+    },
+    "CATEGORY:WEATHER|SIDE:BUY|POSITION:AT_BEST|QUEUE:Q2_1_TO_5X": {
+      "event_count": 1,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 9,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 1,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 8,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 1,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 8,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 3,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.166666666667",
+          "horizon_seconds": 900,
+          "sample_count": 6,
+          "survival_probability": "0.833333333333"
+        }
+      ],
+      "sample_count": 9
+    },
+    "CATEGORY:WEATHER|SIDE:BUY|POSITION:AT_BEST|QUEUE:Q3_5_TO_20X": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 1,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 3,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 1,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 3,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 1,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 3,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 3,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 900,
+          "sample_count": 1,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 3
+    },
+    "CATEGORY:WEATHER|SIDE:BUY|POSITION:AT_BEST|QUEUE:Q4_GT_20X": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 3,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 3,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 3,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 1,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 900,
+          "sample_count": 2,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 3
+    },
+    "CATEGORY:WEATHER|SIDE:BUY|POSITION:ONE_TICK_BEHIND": {
+      "event_count": 1,
+      "points": [
+        {
+          "censored_count": 3,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 19,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 4,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 18,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 4,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 18,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 9,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.076923076923",
+          "horizon_seconds": 900,
+          "sample_count": 13,
+          "survival_probability": "0.923076923077"
+        }
+      ],
+      "sample_count": 19
+    },
+    "CATEGORY:WEATHER|SIDE:BUY|POSITION:ONE_TICK_BEHIND|QUEUE:Q0_FRONT": {
+      "event_count": 1,
+      "points": [
+        {
+          "censored_count": 2,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 17,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 3,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 16,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 3,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 16,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 7,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.083333333333",
+          "horizon_seconds": 900,
+          "sample_count": 12,
+          "survival_probability": "0.916666666667"
+        }
+      ],
+      "sample_count": 17
+    },
+    "CATEGORY:WEATHER|SIDE:BUY|POSITION:ONE_TICK_BEHIND|QUEUE:Q2_1_TO_5X": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 1,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 1,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 1,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 1
+    },
+    "CATEGORY:WEATHER|SIDE:BUY|POSITION:ONE_TICK_BEHIND|QUEUE:Q4_GT_20X": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 1,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 1,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 1,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 900,
+          "sample_count": 1,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 1
+    },
+    "CATEGORY:WEATHER|SIDE:BUY|POSITION:ONE_TICK_INSIDE_SPREAD": {
+      "event_count": 2,
+      "points": [
+        {
+          "censored_count": 3,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.052631578947",
+          "horizon_seconds": 30,
+          "sample_count": 19,
+          "survival_probability": "0.947368421053"
+        },
+        {
+          "censored_count": 3,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.052631578947",
+          "horizon_seconds": 120,
+          "sample_count": 19,
+          "survival_probability": "0.947368421053"
+        },
+        {
+          "censored_count": 3,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.052631578947",
+          "horizon_seconds": 300,
+          "sample_count": 19,
+          "survival_probability": "0.947368421053"
+        },
+        {
+          "censored_count": 8,
+          "conditional_fill_fraction": "1",
+          "event_count": 2,
+          "fill_probability": "0.142857142857",
+          "horizon_seconds": 900,
+          "sample_count": 14,
+          "survival_probability": "0.857142857143"
+        }
+      ],
+      "sample_count": 19
+    },
+    "CATEGORY:WEATHER|SIDE:BUY|POSITION:ONE_TICK_INSIDE_SPREAD|QUEUE:Q0_FRONT": {
+      "event_count": 2,
+      "points": [
+        {
+          "censored_count": 3,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.052631578947",
+          "horizon_seconds": 30,
+          "sample_count": 19,
+          "survival_probability": "0.947368421053"
+        },
+        {
+          "censored_count": 3,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.052631578947",
+          "horizon_seconds": 120,
+          "sample_count": 19,
+          "survival_probability": "0.947368421053"
+        },
+        {
+          "censored_count": 3,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.052631578947",
+          "horizon_seconds": 300,
+          "sample_count": 19,
+          "survival_probability": "0.947368421053"
+        },
+        {
+          "censored_count": 8,
+          "conditional_fill_fraction": "1",
+          "event_count": 2,
+          "fill_probability": "0.142857142857",
+          "horizon_seconds": 900,
+          "sample_count": 14,
+          "survival_probability": "0.857142857143"
+        }
+      ],
+      "sample_count": 19
+    },
+    "CATEGORY:WEATHER|SIDE:SELL|POSITION:AT_BEST": {
+      "event_count": 2,
+      "points": [
+        {
+          "censored_count": 2,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.1",
+          "horizon_seconds": 30,
+          "sample_count": 10,
+          "survival_probability": "0.9"
+        },
+        {
+          "censored_count": 3,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.111111111111",
+          "horizon_seconds": 120,
+          "sample_count": 9,
+          "survival_probability": "0.888888888889"
+        },
+        {
+          "censored_count": 3,
+          "conditional_fill_fraction": "1",
+          "event_count": 2,
+          "fill_probability": "0.222222222222",
+          "horizon_seconds": 300,
+          "sample_count": 9,
+          "survival_probability": "0.777777777778"
+        },
+        {
+          "censored_count": 4,
+          "conditional_fill_fraction": "1",
+          "event_count": 2,
+          "fill_probability": "0.25",
+          "horizon_seconds": 900,
+          "sample_count": 8,
+          "survival_probability": "0.75"
+        }
+      ],
+      "sample_count": 10
+    },
+    "CATEGORY:WEATHER|SIDE:SELL|POSITION:AT_BEST|QUEUE:Q1_LE_1X": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 2,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 2,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 2,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 900,
+          "sample_count": 2,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 2
+    },
+    "CATEGORY:WEATHER|SIDE:SELL|POSITION:AT_BEST|QUEUE:Q2_1_TO_5X": {
+      "event_count": 1,
+      "points": [
+        {
+          "censored_count": 1,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.333333333333",
+          "horizon_seconds": 30,
+          "sample_count": 3,
+          "survival_probability": "0.666666666667"
+        },
+        {
+          "censored_count": 1,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.333333333333",
+          "horizon_seconds": 120,
+          "sample_count": 3,
+          "survival_probability": "0.666666666667"
+        },
+        {
+          "censored_count": 1,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.333333333333",
+          "horizon_seconds": 300,
+          "sample_count": 3,
+          "survival_probability": "0.666666666667"
+        },
+        {
+          "censored_count": 2,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.5",
+          "horizon_seconds": 900,
+          "sample_count": 2,
+          "survival_probability": "0.5"
+        }
+      ],
+      "sample_count": 3
+    },
+    "CATEGORY:WEATHER|SIDE:SELL|POSITION:AT_BEST|QUEUE:Q3_5_TO_20X": {
+      "event_count": 1,
+      "points": [
+        {
+          "censored_count": 1,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 4,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 1,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 4,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 1,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.25",
+          "horizon_seconds": 300,
+          "sample_count": 4,
+          "survival_probability": "0.75"
+        },
+        {
+          "censored_count": 1,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.25",
+          "horizon_seconds": 900,
+          "sample_count": 4,
+          "survival_probability": "0.75"
+        }
+      ],
+      "sample_count": 4
+    },
+    "CATEGORY:WEATHER|SIDE:SELL|POSITION:AT_BEST|QUEUE:Q4_GT_20X": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 1,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 1
+    },
+    "CATEGORY:WEATHER|SIDE:SELL|POSITION:ONE_TICK_BEHIND": {
+      "event_count": 1,
+      "points": [
+        {
+          "censored_count": 2,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 10,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 2,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 10,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 2,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.1",
+          "horizon_seconds": 300,
+          "sample_count": 10,
+          "survival_probability": "0.9"
+        },
+        {
+          "censored_count": 3,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.111111111111",
+          "horizon_seconds": 900,
+          "sample_count": 9,
+          "survival_probability": "0.888888888889"
+        }
+      ],
+      "sample_count": 10
+    },
+    "CATEGORY:WEATHER|SIDE:SELL|POSITION:ONE_TICK_BEHIND|QUEUE:Q0_FRONT": {
+      "event_count": 1,
+      "points": [
+        {
+          "censored_count": 2,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 8,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 2,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 8,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 2,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.125",
+          "horizon_seconds": 300,
+          "sample_count": 8,
+          "survival_probability": "0.875"
+        },
+        {
+          "censored_count": 3,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.142857142857",
+          "horizon_seconds": 900,
+          "sample_count": 7,
+          "survival_probability": "0.857142857143"
+        }
+      ],
+      "sample_count": 8
+    },
+    "CATEGORY:WEATHER|SIDE:SELL|POSITION:ONE_TICK_BEHIND|QUEUE:Q2_1_TO_5X": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 1,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 1,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 1,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 900,
+          "sample_count": 1,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 1
+    },
+    "CATEGORY:WEATHER|SIDE:SELL|POSITION:ONE_TICK_BEHIND|QUEUE:Q3_5_TO_20X": {
+      "event_count": 0,
+      "points": [
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 1,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 1,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 1,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 0,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 900,
+          "sample_count": 1,
+          "survival_probability": "1"
+        }
+      ],
+      "sample_count": 1
+    },
+    "CATEGORY:WEATHER|SIDE:SELL|POSITION:ONE_TICK_INSIDE_SPREAD": {
+      "event_count": 2,
+      "points": [
+        {
+          "censored_count": 2,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.1",
+          "horizon_seconds": 30,
+          "sample_count": 10,
+          "survival_probability": "0.9"
+        },
+        {
+          "censored_count": 3,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.111111111111",
+          "horizon_seconds": 120,
+          "sample_count": 9,
+          "survival_probability": "0.888888888889"
+        },
+        {
+          "censored_count": 3,
+          "conditional_fill_fraction": "1",
+          "event_count": 2,
+          "fill_probability": "0.222222222222",
+          "horizon_seconds": 300,
+          "sample_count": 9,
+          "survival_probability": "0.777777777778"
+        },
+        {
+          "censored_count": 4,
+          "conditional_fill_fraction": "1",
+          "event_count": 2,
+          "fill_probability": "0.25",
+          "horizon_seconds": 900,
+          "sample_count": 8,
+          "survival_probability": "0.75"
+        }
+      ],
+      "sample_count": 10
+    },
+    "CATEGORY:WEATHER|SIDE:SELL|POSITION:ONE_TICK_INSIDE_SPREAD|QUEUE:Q0_FRONT": {
+      "event_count": 2,
+      "points": [
+        {
+          "censored_count": 2,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.1",
+          "horizon_seconds": 30,
+          "sample_count": 10,
+          "survival_probability": "0.9"
+        },
+        {
+          "censored_count": 3,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.111111111111",
+          "horizon_seconds": 120,
+          "sample_count": 9,
+          "survival_probability": "0.888888888889"
+        },
+        {
+          "censored_count": 3,
+          "conditional_fill_fraction": "1",
+          "event_count": 2,
+          "fill_probability": "0.222222222222",
+          "horizon_seconds": 300,
+          "sample_count": 9,
+          "survival_probability": "0.777777777778"
+        },
+        {
+          "censored_count": 4,
+          "conditional_fill_fraction": "1",
+          "event_count": 2,
+          "fill_probability": "0.25",
+          "horizon_seconds": 900,
+          "sample_count": 8,
+          "survival_probability": "0.75"
+        }
+      ],
+      "sample_count": 10
+    },
+    "GLOBAL": {
+      "event_count": 24,
+      "points": [
+        {
+          "censored_count": 27,
+          "conditional_fill_fraction": "1",
+          "event_count": 11,
+          "fill_probability": "0.031339031339",
+          "horizon_seconds": 30,
+          "sample_count": 351,
+          "survival_probability": "0.968660968661"
+        },
+        {
+          "censored_count": 33,
+          "conditional_fill_fraction": "1",
+          "event_count": 11,
+          "fill_probability": "0.031884057971",
+          "horizon_seconds": 120,
+          "sample_count": 345,
+          "survival_probability": "0.968115942029"
+        },
+        {
+          "censored_count": 36,
+          "conditional_fill_fraction": "1",
+          "event_count": 18,
+          "fill_probability": "0.052631578947",
+          "horizon_seconds": 300,
+          "sample_count": 342,
+          "survival_probability": "0.947368421053"
+        },
+        {
+          "censored_count": 88,
+          "conditional_fill_fraction": "1",
+          "event_count": 24,
+          "fill_probability": "0.08275862069",
+          "horizon_seconds": 900,
+          "sample_count": 290,
+          "survival_probability": "0.91724137931"
+        }
+      ],
+      "sample_count": 351
+    },
+    "SIDE:BUY|POSITION:AT_BEST": {
+      "event_count": 1,
+      "points": [
+        {
+          "censored_count": 3,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 58,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 4,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 57,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 4,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 57,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 16,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.022222222222",
+          "horizon_seconds": 900,
+          "sample_count": 45,
+          "survival_probability": "0.977777777778"
+        }
+      ],
+      "sample_count": 58
+    },
+    "SIDE:BUY|POSITION:ONE_TICK_BEHIND": {
+      "event_count": 2,
+      "points": [
+        {
+          "censored_count": 3,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 30,
+          "sample_count": 57,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 4,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 120,
+          "sample_count": 56,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 4,
+          "conditional_fill_fraction": "0",
+          "event_count": 0,
+          "fill_probability": "0",
+          "horizon_seconds": 300,
+          "sample_count": 56,
+          "survival_probability": "1"
+        },
+        {
+          "censored_count": 16,
+          "conditional_fill_fraction": "1",
+          "event_count": 2,
+          "fill_probability": "0.045454545455",
+          "horizon_seconds": 900,
+          "sample_count": 44,
+          "survival_probability": "0.954545454545"
+        }
+      ],
+      "sample_count": 57
+    },
+    "SIDE:BUY|POSITION:ONE_TICK_INSIDE_SPREAD": {
+      "event_count": 4,
+      "points": [
+        {
+          "censored_count": 3,
+          "conditional_fill_fraction": "1",
+          "event_count": 2,
+          "fill_probability": "0.035714285714",
+          "horizon_seconds": 30,
+          "sample_count": 56,
+          "survival_probability": "0.964285714286"
+        },
+        {
+          "censored_count": 3,
+          "conditional_fill_fraction": "1",
+          "event_count": 2,
+          "fill_probability": "0.035714285714",
+          "horizon_seconds": 120,
+          "sample_count": 56,
+          "survival_probability": "0.964285714286"
+        },
+        {
+          "censored_count": 3,
+          "conditional_fill_fraction": "1",
+          "event_count": 2,
+          "fill_probability": "0.035714285714",
+          "horizon_seconds": 300,
+          "sample_count": 56,
+          "survival_probability": "0.964285714286"
+        },
+        {
+          "censored_count": 15,
+          "conditional_fill_fraction": "1",
+          "event_count": 4,
+          "fill_probability": "0.090909090909",
+          "horizon_seconds": 900,
+          "sample_count": 44,
+          "survival_probability": "0.909090909091"
+        }
+      ],
+      "sample_count": 56
+    },
+    "SIDE:SELL|POSITION:AT_BEST": {
+      "event_count": 4,
+      "points": [
+        {
+          "censored_count": 7,
+          "conditional_fill_fraction": "1",
+          "event_count": 2,
+          "fill_probability": "0.032786885246",
+          "horizon_seconds": 30,
+          "sample_count": 61,
+          "survival_probability": "0.967213114754"
+        },
+        {
+          "censored_count": 9,
+          "conditional_fill_fraction": "1",
+          "event_count": 2,
+          "fill_probability": "0.033898305085",
+          "horizon_seconds": 120,
+          "sample_count": 59,
+          "survival_probability": "0.966101694915"
+        },
+        {
+          "censored_count": 10,
+          "conditional_fill_fraction": "1",
+          "event_count": 4,
+          "fill_probability": "0.068965517241",
+          "horizon_seconds": 300,
+          "sample_count": 58,
+          "survival_probability": "0.931034482759"
+        },
+        {
+          "censored_count": 15,
+          "conditional_fill_fraction": "1",
+          "event_count": 4,
+          "fill_probability": "0.075471698113",
+          "horizon_seconds": 900,
+          "sample_count": 53,
+          "survival_probability": "0.924528301887"
+        }
+      ],
+      "sample_count": 61
+    },
+    "SIDE:SELL|POSITION:ONE_TICK_BEHIND": {
+      "event_count": 4,
+      "points": [
+        {
+          "censored_count": 4,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.016393442623",
+          "horizon_seconds": 30,
+          "sample_count": 61,
+          "survival_probability": "0.983606557377"
+        },
+        {
+          "censored_count": 4,
+          "conditional_fill_fraction": "1",
+          "event_count": 1,
+          "fill_probability": "0.016393442623",
+          "horizon_seconds": 120,
+          "sample_count": 61,
+          "survival_probability": "0.983606557377"
+        },
+        {
+          "censored_count": 5,
+          "conditional_fill_fraction": "1",
+          "event_count": 4,
+          "fill_probability": "0.066666666667",
+          "horizon_seconds": 300,
+          "sample_count": 60,
+          "survival_probability": "0.933333333333"
+        },
+        {
+          "censored_count": 11,
+          "conditional_fill_fraction": "1",
+          "event_count": 4,
+          "fill_probability": "0.074074074074",
+          "horizon_seconds": 900,
+          "sample_count": 54,
+          "survival_probability": "0.925925925926"
+        }
+      ],
+      "sample_count": 61
+    },
+    "SIDE:SELL|POSITION:ONE_TICK_INSIDE_SPREAD": {
+      "event_count": 9,
+      "points": [
+        {
+          "censored_count": 7,
+          "conditional_fill_fraction": "1",
+          "event_count": 6,
+          "fill_probability": "0.103448275862",
+          "horizon_seconds": 30,
+          "sample_count": 58,
+          "survival_probability": "0.896551724138"
+        },
+        {
+          "censored_count": 9,
+          "conditional_fill_fraction": "1",
+          "event_count": 6,
+          "fill_probability": "0.107142857143",
+          "horizon_seconds": 120,
+          "sample_count": 56,
+          "survival_probability": "0.892857142857"
+        },
+        {
+          "censored_count": 10,
+          "conditional_fill_fraction": "1",
+          "event_count": 8,
+          "fill_probability": "0.145454545455",
+          "horizon_seconds": 300,
+          "sample_count": 55,
+          "survival_probability": "0.854545454545"
+        },
+        {
+          "censored_count": 15,
+          "conditional_fill_fraction": "1",
+          "event_count": 9,
+          "fill_probability": "0.18",
+          "horizon_seconds": 900,
+          "sample_count": 50,
+          "survival_probability": "0.82"
+        }
+      ],
+      "sample_count": 58
+    }
+  },
+  "evidence_scope": "ORDERFILLED_PROXY_PLUS_AUTHENTICATED_OWN_ORDER_HOLDOUT",
+  "generated_at": "2026-08-27T14:15:01.679264+00:00",
+  "method": {
+    "creates_execution_liquidity": false,
+    "curve_rule": "MONOTONIC_CUMULATIVE_INCIDENCE_BY_HORIZON",
+    "family": "INTERVAL_CENSORED_DISCRETE_SURVIVAL",
+    "hierarchical_prior_strength": 50,
+    "independent_unit": "MAKER_TRIAL_NOT_HORIZON_ROW",
+    "minimum_runtime_stratum_samples": 20,
+    "right_censoring": true,
+    "stratum_fallback": [
+      "CATEGORY_SIDE_POSITION_QUEUE",
+      "CATEGORY_SIDE_POSITION",
+      "SIDE_POSITION",
+      "GLOBAL"
+    ]
+  },
+  "model_version": "interval_censored_discrete_survival_walk_forward_v1",
+  "schema_version": "pml2_maker_survival_v1",
+  "training_end": "2026-08-26T23:59:59.999999+00:00",
+  "training_start": "2026-08-03T00:00:00+00:00",
+  "walk_forward": {
+    "event_leakage_count": 0,
+    "final_holdout_start": "2026-08-25",
+    "fold_count": 5,
+    "independent_trial_count": 378,
+    "source_report_sha256": "018849511c6153834dc2b8105d444a7cd4117ec8589f90161e7bdb2e6a7c9587",
+    "status": "PASS"
+  }
+}

@@ -1,0 +1,3431 @@
+{
+  "source": "/home/jiahuaiyu/develop/polymarket/githubProjects/prediction-market-quant",
+  "target": "/home/jiahuaiyu/develop/polymarket/repos/backtest-lab",
+  "files": [
+    {
+      "path": "experiments/nba_l2_orderfilled/__init__.py",
+      "category": "runtime",
+      "bytes": 62,
+      "source_sha256": "8e9936a6906f8c965f818ab53b28197ebad20d7d72afa74e6d8a5f50d2bfc379"
+    },
+    {
+      "path": "experiments/nba_l2_orderfilled/build_single_game_nba_l2_fill_coverage_report.py",
+      "category": "runtime",
+      "bytes": 28909,
+      "source_sha256": "01b48eaaa9058c848e0559c34ab7a703583a391183cb188fb4bd0306b89c67eb"
+    },
+    {
+      "path": "experiments/nba_l2_orderfilled/materialize_single_game_nba_execution_replay.py",
+      "category": "runtime",
+      "bytes": 14187,
+      "source_sha256": "35bf28bd53bdbd0c6a2efb0f598bba18253acd85ad3372ad21bd86eb8d64bb8d"
+    },
+    {
+      "path": "experiments/nba_l2_orderfilled/run_complete_nba_l2_orderfilled_backfill.py",
+      "category": "runtime",
+      "bytes": 27655,
+      "source_sha256": "cff9cc41aa4061633480b2b7308dc0b9ad28771a7089d849c2f8ba94f40320df"
+    },
+    {
+      "path": "experiments/nba_l2_orderfilled/run_nba_l2_orderfilled_backtest.py",
+      "category": "runtime",
+      "bytes": 37781,
+      "source_sha256": "4a4bbc08e4ac80532ce30b1707efa65f996f48aeb08d506f0acec3b9953116d7"
+    },
+    {
+      "path": "experiments/nba_l2_orderfilled/validate_team_vs_team_depth_fill_samples.py",
+      "category": "runtime",
+      "bytes": 22885,
+      "source_sha256": "27d3e81cb2007200f27493860fc46937d49cf491943de9494d53ba312a4328c9"
+    },
+    {
+      "path": "quant/__init__.py",
+      "category": "runtime",
+      "bytes": 359,
+      "source_sha256": "57db50fb77dbc40731c8c821969d5ba855a7b4d88ec9bcc81580f8b61b8047c7"
+    },
+    {
+      "path": "quant/api/__init__.py",
+      "category": "runtime",
+      "bytes": 44,
+      "source_sha256": "e4ef0885bbac049b228d4677290dbfc78c22b873a116cc17f99d8e808d97ae79"
+    },
+    {
+      "path": "quant/api/read_api.py",
+      "category": "runtime",
+      "bytes": 90534,
+      "source_sha256": "26c0fe50672afacbef944675cca2f438c6ff1fda6542954c57f6c2330dba678d"
+    },
+    {
+      "path": "quant/backtest/__init__.py",
+      "category": "runtime",
+      "bytes": 31,
+      "source_sha256": "347149aa16bde3f7ac0e837b8a71ff33930f664b965b88a35f81a430869cef7e"
+    },
+    {
+      "path": "quant/backtest/backtest_core_gate.py",
+      "category": "runtime",
+      "bytes": 20576,
+      "source_sha256": "4833b7ff553e0a055d2b2ccd8b0ca61c3971473ee2fd21323c7b0011798b50c7"
+    },
+    {
+      "path": "quant/backtest/backtest_engine.py",
+      "category": "runtime",
+      "bytes": 429301,
+      "source_sha256": "db6fe57bcead42a3463167d24cf651ad1f2c8dff748ace6a75467227bff4f871"
+    },
+    {
+      "path": "quant/backtest/benchmark_persistence.py",
+      "category": "runtime",
+      "bytes": 7436,
+      "source_sha256": "19bf539ca6227d67bf3275c5eaa85dad8660daa45aa3fcc580eb2eb8b270bac7"
+    },
+    {
+      "path": "quant/backtest/calibration.py",
+      "category": "runtime",
+      "bytes": 24836,
+      "source_sha256": "b9e282ff498951ea87df129671287e8d8bfd3fcec5b45da1c3b62dd2e6667bb6"
+    },
+    {
+      "path": "quant/backtest/calibration_fixture.py",
+      "category": "runtime",
+      "bytes": 6401,
+      "source_sha256": "3c85e24961ddb242698349910afb4b56ae4b212a53edbf4b9907a683cbb64e09"
+    },
+    {
+      "path": "quant/backtest/calibration_report.py",
+      "category": "runtime",
+      "bytes": 8940,
+      "source_sha256": "05b66d438c71dee77891f7887a946de95f4d1d91119553b005b3d8f3a1830651"
+    },
+    {
+      "path": "quant/backtest/calibration_samples.py",
+      "category": "runtime",
+      "bytes": 15966,
+      "source_sha256": "9c30539732001b42cd2ee93d068d6a348962066d0115a8df659010083ff5304b"
+    },
+    {
+      "path": "quant/backtest/columnar_trade_tape.py",
+      "category": "runtime",
+      "bytes": 20390,
+      "source_sha256": "2df86fab7c87d89390319d35e558ce13faa03827a104d9b241179c548d9790ca"
+    },
+    {
+      "path": "quant/backtest/configured_external_sources.py",
+      "category": "runtime",
+      "bytes": 14385,
+      "source_sha256": "0335a2a4750e6257849e2fe94df3942e3e46402a859c7fc4fec5402918efdcfb"
+    },
+    {
+      "path": "quant/backtest/cost_calibration.py",
+      "category": "runtime",
+      "bytes": 20304,
+      "source_sha256": "0b06a57eee0a835b4d1c1abdec73f796d57d416c145646aa26fe33e60928278d"
+    },
+    {
+      "path": "quant/backtest/disk_liquidity_ledger.py",
+      "category": "runtime",
+      "bytes": 8520,
+      "source_sha256": "0e3d260725226eb197def7bc47c33ab4a306a9a8704bd0f0a633503d79f1580f"
+    },
+    {
+      "path": "quant/backtest/event_stream.py",
+      "category": "runtime",
+      "bytes": 65218,
+      "source_sha256": "61ce5a786eb3ec79ae72a5a39647c65d7ac1d6c90a31622f143129344027a130"
+    },
+    {
+      "path": "quant/backtest/execution.py",
+      "category": "runtime",
+      "bytes": 7646,
+      "source_sha256": "864a72e66d583cefdb64e490a72513d151376391a051289b5d3618d090b3ccfc"
+    },
+    {
+      "path": "quant/backtest/execution_model_validation.py",
+      "category": "runtime",
+      "bytes": 24056,
+      "source_sha256": "dcc1ab75e52789d7e404cf85b09fc6334563e49a755c4b7d9074e3efa975f92a"
+    },
+    {
+      "path": "quant/backtest/execution_profile_calibration.py",
+      "category": "runtime",
+      "bytes": 7663,
+      "source_sha256": "0211fd526b0fde701787cf03903d3ed4be65c08c6767894eb39949c802bae7e1"
+    },
+    {
+      "path": "quant/backtest/execution_profile_matrix.py",
+      "category": "runtime",
+      "bytes": 10211,
+      "source_sha256": "4be5bc836353dec615879a6ba6f0b2b0538cc544e3d86745eafa929249c729ea"
+    },
+    {
+      "path": "quant/backtest/execution_profile_overrides.py",
+      "category": "runtime",
+      "bytes": 13556,
+      "source_sha256": "f24fb29257dccae3bd6004b8f8eb1da7571106d4d97fee95c034c47189f20969"
+    },
+    {
+      "path": "quant/backtest/execution_profiles.py",
+      "category": "runtime",
+      "bytes": 3508,
+      "source_sha256": "7e2798a7729c4b1efc7d9e2c27c0c7405f4fff3d8fe60472957a7f9f3f78f413"
+    },
+    {
+      "path": "quant/backtest/external_signals.py",
+      "category": "runtime",
+      "bytes": 8936,
+      "source_sha256": "fcfb38c604ddd48d24321607a59f072d41ffac7b5d9e597a51dc8e1efdecc18a"
+    },
+    {
+      "path": "quant/backtest/external_source_discovery.py",
+      "category": "runtime",
+      "bytes": 20528,
+      "source_sha256": "f1e52db8f2f4ef251aa1c05f1dbba3f1df9e847ffed08867401cdd4b133c340d"
+    },
+    {
+      "path": "quant/backtest/external_source_env_audit.py",
+      "category": "runtime",
+      "bytes": 11650,
+      "source_sha256": "ed721621afc4d6c778547a2854737bf4dd4d72b126a5bf47d46a005ed90b2e8b"
+    },
+    {
+      "path": "quant/backtest/external_source_env_bootstrap.py",
+      "category": "runtime",
+      "bytes": 8142,
+      "source_sha256": "5255d08d40e5985d7f7b2d43df1b6f120f5f37bd85f33a6503a4821d7e17c568"
+    },
+    {
+      "path": "quant/backtest/external_source_fixture.py",
+      "category": "runtime",
+      "bytes": 30047,
+      "source_sha256": "b8270d2c679695fb28323ec9ef4ff8183015a62c27e8eaa08b8d30cf64bb5714"
+    },
+    {
+      "path": "quant/backtest/external_source_fixture_pipeline.py",
+      "category": "runtime",
+      "bytes": 26749,
+      "source_sha256": "eae2dc89052359d8a653e0fe290935d77a5d2a8554a6dfefc067f7a5d4bb301b"
+    },
+    {
+      "path": "quant/backtest/external_source_missing_evidence.py",
+      "category": "runtime",
+      "bytes": 14953,
+      "source_sha256": "b8794d3b623601f214e41fe20333460ee2fb35e5e8b191a3a50ed836f88a6b3c"
+    },
+    {
+      "path": "quant/backtest/external_source_onboarding.py",
+      "category": "runtime",
+      "bytes": 10857,
+      "source_sha256": "5b080d9d7443cc33160470d353ab8df928df7be7bd6ec9bb9beff09584e2c987"
+    },
+    {
+      "path": "quant/backtest/external_source_run_coverage.py",
+      "category": "runtime",
+      "bytes": 13234,
+      "source_sha256": "97812eb1a64536872fd3e3c31f59c0946b54da632f5367b7bb5eb26591bf3824"
+    },
+    {
+      "path": "quant/backtest/external_source_state.py",
+      "category": "runtime",
+      "bytes": 9991,
+      "source_sha256": "c174b4b2b1e59522ee139c7f36a8d994d7bb24b70db85e143437c76214f278bf"
+    },
+    {
+      "path": "quant/backtest/fill_evidence.py",
+      "category": "runtime",
+      "bytes": 10723,
+      "source_sha256": "9ad7ee73de9174d1fd77373e1d7692b2aabbfc96de654dc0a97e591f19387183"
+    },
+    {
+      "path": "quant/backtest/fill_first_production_readiness.py",
+      "category": "runtime",
+      "bytes": 22182,
+      "source_sha256": "17663ea9b5916726b09fec8996138b5d142880b89e80592e779d3523a2de2b2a"
+    },
+    {
+      "path": "quant/backtest/fill_first_quality_gate.py",
+      "category": "runtime",
+      "bytes": 74722,
+      "source_sha256": "33493b72380731393db91c1abf21c482fa3728b3fa69290169bc728fd5df935b"
+    },
+    {
+      "path": "quant/backtest/fill_first_readiness.py",
+      "category": "runtime",
+      "bytes": 63783,
+      "source_sha256": "7e8d2beb3220305ca7621b6b1f4db154b3a647413fe2bfcbb448517bb85a3792"
+    },
+    {
+      "path": "quant/backtest/fill_only_financials.py",
+      "category": "runtime",
+      "bytes": 40400,
+      "source_sha256": "7bfb9ea7c2160b05e1714f6f35e6bcacf97267246e1d7bd446860b577cf10d2d"
+    },
+    {
+      "path": "quant/backtest/fill_only_lob_validity.py",
+      "category": "runtime",
+      "bytes": 24355,
+      "source_sha256": "3a5c97b7dcda6c64b94a0cbe04726d7842d8042540db83045f4e1675b0a47a42"
+    },
+    {
+      "path": "quant/backtest/fill_only_v2_service.py",
+      "category": "runtime",
+      "bytes": 40087,
+      "source_sha256": "e2739916bdb43fa0a7665822618635f3f72e95c7bf716a4be454f8d61dc1e562"
+    },
+    {
+      "path": "quant/backtest/fill_report.py",
+      "category": "runtime",
+      "bytes": 21939,
+      "source_sha256": "cefe234ec3c8152ce926bd2c4861d818eb77a98f3bb45fad88e419729885378b"
+    },
+    {
+      "path": "quant/backtest/fill_trade_validation.py",
+      "category": "runtime",
+      "bytes": 79343,
+      "source_sha256": "3d0ab56c67e0aca030477cba202ffe9ef198ad333b4738d3006eabccf0bf0eb5"
+    },
+    {
+      "path": "quant/backtest/financial_finalization_service.py",
+      "category": "runtime",
+      "bytes": 19429,
+      "source_sha256": "a5875023fdc6971240af0c9ebe211b6b253664ca9d107da8b79feec617d13a7e"
+    },
+    {
+      "path": "quant/backtest/frameworks.py",
+      "category": "runtime",
+      "bytes": 41422,
+      "source_sha256": "43178816ab003b43441284775e14b3b44194beaed64a65b991929a49bcff3c42"
+    },
+    {
+      "path": "quant/backtest/frozen_order_catalog.py",
+      "category": "runtime",
+      "bytes": 23120,
+      "source_sha256": "1fa5111c2309406449abff8effea515fa919359048f9e1d0ce1c0fc61e6b7868"
+    },
+    {
+      "path": "quant/backtest/guarded_executor.py",
+      "category": "runtime",
+      "bytes": 9176,
+      "source_sha256": "69e82614f49816499e7995bd2c75f6db702c3c12d1957474d05506d7851243c4"
+    },
+    {
+      "path": "quant/backtest/joint_run.py",
+      "category": "runtime",
+      "bytes": 64265,
+      "source_sha256": "930379f6657d0f407ea0e09e167df01c15be07efcad550e71b28272130dafeed"
+    },
+    {
+      "path": "quant/backtest/l2_execution_doc_alignment.py",
+      "category": "runtime",
+      "bytes": 12314,
+      "source_sha256": "900e82a82adc0811721f4e1cc20323d8691d02c3b655493e0a255e347dbbad66"
+    },
+    {
+      "path": "quant/backtest/l2_orderfilled_execution.py",
+      "category": "runtime",
+      "bytes": 72622,
+      "source_sha256": "676f99925f66b44c30a4be795a2b9f6dca5fb484ea60248e5b34a0cbd70843a5"
+    },
+    {
+      "path": "quant/backtest/l2_replay_consistency.py",
+      "category": "runtime",
+      "bytes": 9159,
+      "source_sha256": "85135f7ee6a83f904c2c1f97a896b2ac52dd3628448dcf2da5182e680186f043"
+    },
+    {
+      "path": "quant/backtest/l2_shadow_calibration.py",
+      "category": "runtime",
+      "bytes": 22406,
+      "source_sha256": "96cb5b8dc5b008c140e7cdf244209ed7bcec7bf4831b3756656745a53d5f1c4c"
+    },
+    {
+      "path": "quant/backtest/ledger.py",
+      "category": "runtime",
+      "bytes": 34632,
+      "source_sha256": "1353d231df1bad604021ac59cb70c1eded06709c9cbe652d7bd8793cd9806d21"
+    },
+    {
+      "path": "quant/backtest/ledger_validation.py",
+      "category": "runtime",
+      "bytes": 9218,
+      "source_sha256": "6479f19d62b735a72c4f12c3a2edefa9926886f41f32313807a89e8e0fffda40"
+    },
+    {
+      "path": "quant/backtest/market_settlement.py",
+      "category": "runtime",
+      "bytes": 60629,
+      "source_sha256": "a5a0cb059c76735a7a211078e284005d53fb2db0ad83eb2ff4cc65151ac8ef32"
+    },
+    {
+      "path": "quant/backtest/market_settlement_service.py",
+      "category": "runtime",
+      "bytes": 10771,
+      "source_sha256": "4c1a2a18f6365559925579f8f9e76108dace0bd4c911b57c4fcb9f8aa0caf309"
+    },
+    {
+      "path": "quant/backtest/materialized_execution_summary.py",
+      "category": "runtime",
+      "bytes": 25184,
+      "source_sha256": "437a45e26c2bf2d3c93c338c244cb703be95f9df7c3afc0018f056f639449e9a"
+    },
+    {
+      "path": "quant/backtest/missing_evidence_pipeline.py",
+      "category": "runtime",
+      "bytes": 11166,
+      "source_sha256": "265f6976fc0061f33b0e1b71a12bafad45555e3ae0243e96783b6092ce839f5a"
+    },
+    {
+      "path": "quant/backtest/nautilus_worker.py",
+      "category": "runtime",
+      "bytes": 4566,
+      "source_sha256": "5cee71aabb4686381f995b632e78c2cf735f0ff8f4482a9f77b113cfdfd30c1b"
+    },
+    {
+      "path": "quant/backtest/order_event_collector.py",
+      "category": "runtime",
+      "bytes": 5531,
+      "source_sha256": "aa6de9f779f88b27ca50b4bc0218c20448efa4dbdffacace0e600868b5a6ad5b"
+    },
+    {
+      "path": "quant/backtest/order_execution_adapter.py",
+      "category": "runtime",
+      "bytes": 16755,
+      "source_sha256": "0152516faf0f5c65d8ea9200e9ac5d2dacb53f85450fd62bb929140d1533a187"
+    },
+    {
+      "path": "quant/backtest/order_execution_calibration.py",
+      "category": "runtime",
+      "bytes": 3331,
+      "source_sha256": "f897e6fca9eeafd637f97e76bf1ae3ac7f7ea2930533305429fc33de272333d6"
+    },
+    {
+      "path": "quant/backtest/order_execution_env_bootstrap.py",
+      "category": "runtime",
+      "bytes": 5369,
+      "source_sha256": "25110e8afa7788a3e522f2c49bff82ed904620bba942bdc854545044c65b8919"
+    },
+    {
+      "path": "quant/backtest/order_execution_fixture.py",
+      "category": "runtime",
+      "bytes": 6776,
+      "source_sha256": "4be3f31ed4d8a7fb72354f7bfa1a44c5b0c607bbd226a1bb67670c219d1682ab"
+    },
+    {
+      "path": "quant/backtest/order_execution_safety.py",
+      "category": "runtime",
+      "bytes": 8498,
+      "source_sha256": "00999284dee162a3b7c5acfa90d200a7f0298031efe473da7a8b5a1cd6e7d993"
+    },
+    {
+      "path": "quant/backtest/order_state.py",
+      "category": "runtime",
+      "bytes": 13780,
+      "source_sha256": "40b146ffb60289fbf9c571cf729c814deb7b7ad4911d414d19bbc13410bf3806"
+    },
+    {
+      "path": "quant/backtest/order_state_collection.py",
+      "category": "runtime",
+      "bytes": 7220,
+      "source_sha256": "0bd38b7d6d13078f415d62311ea587c1d1b2d9ad96bc08e39bbc012fcd9555fe"
+    },
+    {
+      "path": "quant/backtest/order_state_collection_health.py",
+      "category": "runtime",
+      "bytes": 6395,
+      "source_sha256": "5555fbf7dd3aa2d98c62c9b0e27cbf3cfeb33c1d64c1dd67fd0034b3864e452e"
+    },
+    {
+      "path": "quant/backtest/orderfilled_execution.py",
+      "category": "runtime",
+      "bytes": 18234,
+      "source_sha256": "4c7d56d123986536aa3e76aec0cdf99f3b54544e00bfe3fce3a72613ab1b33f4"
+    },
+    {
+      "path": "quant/backtest/orderfilled_probability.py",
+      "category": "runtime",
+      "bytes": 57797,
+      "source_sha256": "e01c64ff155a6b73ab9047571ee9b3e5fe83b26e68fd7b3abbe812efeca3cde4"
+    },
+    {
+      "path": "quant/backtest/orderfilled_v2_compare.py",
+      "category": "runtime",
+      "bytes": 3761,
+      "source_sha256": "0107a9c9ade8eee1517e839d0c582e90ce7c0f6e3ac779d82d602f41e1134637"
+    },
+    {
+      "path": "quant/backtest/orderfilled_v2_replay.py",
+      "category": "runtime",
+      "bytes": 156573,
+      "source_sha256": "0f4ca28964fb33604542c2e3c5cbee895210af590ea19332ce707402e8d75e57"
+    },
+    {
+      "path": "quant/backtest/orders.py",
+      "category": "runtime",
+      "bytes": 11196,
+      "source_sha256": "a18f3227c6c39d6b82777085e44cbb3502fdd32f9722862a22db3d6ddeabf991"
+    },
+    {
+      "path": "quant/backtest/parameter_robustness.py",
+      "category": "runtime",
+      "bytes": 16490,
+      "source_sha256": "184a4dcc080caaa17d90de482db05bb82256cdc74c4988c1a1f4c7be6f80fb46"
+    },
+    {
+      "path": "quant/backtest/parameter_search_plan.py",
+      "category": "runtime",
+      "bytes": 10797,
+      "source_sha256": "cb5a506e646eed0fba3be9b280bd867b3c768b31e11dbafe7b3dfbfe77489ecc"
+    },
+    {
+      "path": "quant/backtest/parameter_search_results.py",
+      "category": "runtime",
+      "bytes": 20274,
+      "source_sha256": "3a19fb665ea3e9bfcebcac8f510593d58d538211970093cd97cade2d12267259"
+    },
+    {
+      "path": "quant/backtest/parameter_search_runner.py",
+      "category": "runtime",
+      "bytes": 18416,
+      "source_sha256": "03ecb20ec91f8bf75fd7a01c4376dcb5a04427148a555ed046ae8f1a0ea0ae02"
+    },
+    {
+      "path": "quant/backtest/parameter_search_scheduler.py",
+      "category": "runtime",
+      "bytes": 23492,
+      "source_sha256": "01707b60008a607e719d5fd4d886ad778f673aaba739bafb199d62cbb093bac5"
+    },
+    {
+      "path": "quant/backtest/parquet_result_writer.py",
+      "category": "runtime",
+      "bytes": 11878,
+      "source_sha256": "83bd054fcac1dc6d6c7261d05dfb0aae02b90fec29c5a8dcdc6a559913e6010b"
+    },
+    {
+      "path": "quant/backtest/performance_score.py",
+      "category": "runtime",
+      "bytes": 9858,
+      "source_sha256": "00790d405b7b917b53758e3e3ec02f6e1bf3c652b021fb1a6d8db2851fcd15e4"
+    },
+    {
+      "path": "quant/backtest/performance_score_validation.py",
+      "category": "runtime",
+      "bytes": 7448,
+      "source_sha256": "4da1b43b763ccf1d334d17d2b2c25968aaedd173e5dc655f5164237ab670a95e"
+    },
+    {
+      "path": "quant/backtest/phase1_doc_alignment.py",
+      "category": "runtime",
+      "bytes": 8604,
+      "source_sha256": "c67384ba1e77a19305732a13474d677c3cfcfe8a8cc052c8c035f23d241e4fbc"
+    },
+    {
+      "path": "quant/backtest/platform_incidents.py",
+      "category": "runtime",
+      "bytes": 11481,
+      "source_sha256": "6e6ff4292fb39208810eb07a3b31b86aaed1e35cdfb8d5badc4ad3e107054ad5"
+    },
+    {
+      "path": "quant/backtest/pml2/__init__.py",
+      "category": "runtime",
+      "bytes": 1550,
+      "source_sha256": "9c5050e74b32d46d2f83e5c76a4abd4ff542c2ed7418f578bd574861ad92ac99"
+    },
+    {
+      "path": "quant/backtest/pml2/adapters.py",
+      "category": "runtime",
+      "bytes": 68234,
+      "source_sha256": "1037a45dddb09d88b9ec221d01913c0ec60d378eb327e52e6e6b18a7f2b752ba"
+    },
+    {
+      "path": "quant/backtest/pml2/archive_execution.py",
+      "category": "runtime",
+      "bytes": 9415,
+      "source_sha256": "3ee1e522a3714fc5377b3c701b7c2aa29cc5ad79afe038a9b7696339f37043c6"
+    },
+    {
+      "path": "quant/backtest/pml2/availability.py",
+      "category": "runtime",
+      "bytes": 10930,
+      "source_sha256": "36dae20c50a09649365087c603dc1816d4f2a14db2c798bae036d9fc9dee5309"
+    },
+    {
+      "path": "quant/backtest/pml2/book.py",
+      "category": "runtime",
+      "bytes": 55485,
+      "source_sha256": "332380927e3f5c9be20029731608aa39c86ecbca1eca99202740531f82352348"
+    },
+    {
+      "path": "quant/backtest/pml2/contracts.py",
+      "category": "runtime",
+      "bytes": 44113,
+      "source_sha256": "310d3677d18ab4f202debe3e3eb03bad58e9e7d2b704068d046e1b7bb8ad95fe"
+    },
+    {
+      "path": "quant/backtest/pml2/financial.py",
+      "category": "runtime",
+      "bytes": 18808,
+      "source_sha256": "2bca2e065439d23cf3c149cc99f466be85fee24a73d8db04e341fd596fa721af"
+    },
+    {
+      "path": "quant/backtest/pml2/maker.py",
+      "category": "runtime",
+      "bytes": 9253,
+      "source_sha256": "68c00666e727cfb44bee8df44c3ffe58b8edb9137d556684de808787152db544"
+    },
+    {
+      "path": "quant/backtest/pml2/profiles.py",
+      "category": "runtime",
+      "bytes": 7075,
+      "source_sha256": "174cde5f381d9078acbd84c4972e3fb5da0aa335eb6f8e96c27eacaacdf45685"
+    },
+    {
+      "path": "quant/backtest/pml2/rust_kernel.py",
+      "category": "runtime",
+      "bytes": 17656,
+      "source_sha256": "e34e4f352b721758d3c46e13915b08854ab13b3e3b7cd8e922d9d4395e46b043"
+    },
+    {
+      "path": "quant/backtest/pml2/service.py",
+      "category": "runtime",
+      "bytes": 74047,
+      "source_sha256": "f0c51b644904272d706d755f960e205338c60d8839dde3955bbd5f6e71d4af4d"
+    },
+    {
+      "path": "quant/backtest/pml2/service_v2.py",
+      "category": "runtime",
+      "bytes": 26697,
+      "source_sha256": "a536b390a1674a4fb6f2a62968243e0e50bbafc4634369bd4c4fd0d7dfd97b05"
+    },
+    {
+      "path": "quant/backtest/pml2/session.py",
+      "category": "runtime",
+      "bytes": 88035,
+      "source_sha256": "159ea12e8d0253be9a97884282b77df1dd6f58702997489dd8535e6cab9a2167"
+    },
+    {
+      "path": "quant/backtest/pml2/strategy.py",
+      "category": "runtime",
+      "bytes": 8910,
+      "source_sha256": "413a108e48bb613ab597bef0f8953762ee47efafd26ef01c547fe16e040ce76a"
+    },
+    {
+      "path": "quant/backtest/pml2/survival.py",
+      "category": "runtime",
+      "bytes": 13055,
+      "source_sha256": "2f8d3119ad853f2a2e2ad37e65f27d126e456b018b218d3b1638bb311c3af79d"
+    },
+    {
+      "path": "quant/backtest/pmxt_compact_execution_store.py",
+      "category": "runtime",
+      "bytes": 22346,
+      "source_sha256": "2205a3c2d64459e3946540821e40ecc17c577ad3a1516ff5f5661894e131ea45"
+    },
+    {
+      "path": "quant/backtest/pmxt_l2_event_replay_store.py",
+      "category": "runtime",
+      "bytes": 30614,
+      "source_sha256": "06d06f1ae82c86dd502a82f49eb340688e9b92105ce091ada706c2c61c2bd13a"
+    },
+    {
+      "path": "quant/backtest/polymarket_cashflow.py",
+      "category": "runtime",
+      "bytes": 18123,
+      "source_sha256": "605bd2c25a8fefa33525bcbd758382318c79aa88309351ed2a133b58c1a48c8d"
+    },
+    {
+      "path": "quant/backtest/prepared_trade_tape.py",
+      "category": "runtime",
+      "bytes": 6078,
+      "source_sha256": "6c607e0b32f773c0eaf41a89b3d249bf5a30737c72ef246bdb5cfdd7e52c0e4b"
+    },
+    {
+      "path": "quant/backtest/probability_quality.py",
+      "category": "runtime",
+      "bytes": 17434,
+      "source_sha256": "36ebc37e3c9bed9e3f2371655d8b97f82ca552cc2bdf960ca73a3811af0b8abd"
+    },
+    {
+      "path": "quant/backtest/production_launch_checklist.py",
+      "category": "runtime",
+      "bytes": 17212,
+      "source_sha256": "e7c426440406bdb39f86feb0277f421321a638303608e8f9807e6465b01672b1"
+    },
+    {
+      "path": "quant/backtest/production_parameter_staging.py",
+      "category": "runtime",
+      "bytes": 15454,
+      "source_sha256": "023e2f8bb1088684a1a470560e6fede00ca559bdda948689138ce6ee2554465d"
+    },
+    {
+      "path": "quant/backtest/production_preflight_fixture.py",
+      "category": "runtime",
+      "bytes": 6645,
+      "source_sha256": "1aafc48f6ff57e407d353fd4afd39a5ac64675d4fa816083c87a6547e309115b"
+    },
+    {
+      "path": "quant/backtest/profile_worker.py",
+      "category": "runtime",
+      "bytes": 58149,
+      "source_sha256": "35901369a0612dbb79b3b5c73c4fe25395b32f89ed7bf960f2814c0530fbb2d1"
+    },
+    {
+      "path": "quant/backtest/promotion_gate.py",
+      "category": "runtime",
+      "bytes": 7090,
+      "source_sha256": "af560c390d6b291fec168c6a450f1a1d01de4d6bc64eab486b9b63694eafb81d"
+    },
+    {
+      "path": "quant/backtest/regime_coverage.py",
+      "category": "runtime",
+      "bytes": 12148,
+      "source_sha256": "17f638a63eda7044e9baaf2abbf13a615a13da33042520e7ecd90f610c6de72b"
+    },
+    {
+      "path": "quant/backtest/replay_contract.py",
+      "category": "runtime",
+      "bytes": 12010,
+      "source_sha256": "4f5fa853b8eb26939b1efd031285839792802a0d304ba1935d586d77972eb1dd"
+    },
+    {
+      "path": "quant/backtest/replay_session.py",
+      "category": "runtime",
+      "bytes": 25272,
+      "source_sha256": "78dda816391936f358e7d0f71faf957df431ffa64715eed2f7934d43720d6c9c"
+    },
+    {
+      "path": "quant/backtest/run_artifacts.py",
+      "category": "runtime",
+      "bytes": 337105,
+      "source_sha256": "f6e9ea19c5286ea05818e1e0d3cceb2fdf0464719fb46d5bad5d6eb80b9c5cdd"
+    },
+    {
+      "path": "quant/backtest/runners/__init__.py",
+      "category": "runtime",
+      "bytes": 184,
+      "source_sha256": "f6b7261a4cfa5d96c073b24cf364b1cb58f710f7db7b1a3234de98344d2e88b4"
+    },
+    {
+      "path": "quant/backtest/runners/account_ledger_replay.py",
+      "category": "runtime",
+      "bytes": 1244,
+      "source_sha256": "1496942e089188823255ce6998b8f2103c2b6e7bd64d0665e11ccd30e22a14d6"
+    },
+    {
+      "path": "quant/backtest/runners/account_timeline.py",
+      "category": "runtime",
+      "bytes": 5767,
+      "source_sha256": "f1ab5d1b2cfe9a3ac79ecb60cabe076f0a9c61e6a628d870d7e51fc324a3846d"
+    },
+    {
+      "path": "quant/backtest/runners/analysis.py",
+      "category": "runtime",
+      "bytes": 5644,
+      "source_sha256": "a1073b0ff5416c5e07fbaf577a1ed9fe21f8035b04b0622462cbdea936fc4245"
+    },
+    {
+      "path": "quant/backtest/runners/base.py",
+      "category": "runtime",
+      "bytes": 2663,
+      "source_sha256": "2e34b4b8ea356628c4850616cc7732cdb1cdf6a6ef053d08a7bd2b887ef08b94"
+    },
+    {
+      "path": "quant/backtest/runners/benchmark.py",
+      "category": "runtime",
+      "bytes": 17331,
+      "source_sha256": "5ac186594b8f0c396cd80cec20f60b9875280f23d236c2939a530d17fbbe928d"
+    },
+    {
+      "path": "quant/backtest/runners/block_replay_store.py",
+      "category": "runtime",
+      "bytes": 24422,
+      "source_sha256": "50d364d74aef712054610d7161c3ef65dc4b10aae1d80de6064ce2e1ec1f6381"
+    },
+    {
+      "path": "quant/backtest/runners/coverage_build.py",
+      "category": "runtime",
+      "bytes": 2683,
+      "source_sha256": "87442efb8be020fb12a3a84fc16111ba9c32d36c3fad0b0e62ac055931f4e70f"
+    },
+    {
+      "path": "quant/backtest/runners/data_sources.py",
+      "category": "runtime",
+      "bytes": 13240,
+      "source_sha256": "5e03ff35ba2d5028baae247307b2fab7156365d8242366de79e1baeb484e24dc"
+    },
+    {
+      "path": "quant/backtest/runners/execution_replay.py",
+      "category": "runtime",
+      "bytes": 68988,
+      "source_sha256": "ec32bd10023e4d0c5610c1ce8727750d349dcd8c7751c1f0701b90ddb3178390"
+    },
+    {
+      "path": "quant/backtest/runners/fast_accurate.py",
+      "category": "runtime",
+      "bytes": 5643,
+      "source_sha256": "38ac7d6384f4d9a3093701f36c0620c18d9cf615442dff19e9ca9db5e12ab551"
+    },
+    {
+      "path": "quant/backtest/runners/generic_replay_benchmark.py",
+      "category": "runtime",
+      "bytes": 10859,
+      "source_sha256": "69c36167725491299e76289f3d4b2dc5c0e84134688507bc8dcd2e38c5c39499"
+    },
+    {
+      "path": "quant/backtest/runners/illiquid_rejection_smoke_runner.py",
+      "category": "runtime",
+      "bytes": 290,
+      "source_sha256": "5b7faca8c5047083017f0367587882c1c960b1549525fd69ab264e7ab36a684f"
+    },
+    {
+      "path": "quant/backtest/runners/limit_order_lifecycle_test.py",
+      "category": "runtime",
+      "bytes": 280,
+      "source_sha256": "edc31c13612b14ab35b1ecbc14a045510ca469192f2ab4362f6e1e73a88ba4ff"
+    },
+    {
+      "path": "quant/backtest/runners/nba_favorite_hold.py",
+      "category": "runtime",
+      "bytes": 11413,
+      "source_sha256": "1614c95a4b6e954c1ff1d1e8fe0df3793740330ea1d73a54b7b699af435e1fbd"
+    },
+    {
+      "path": "quant/backtest/runners/nba_pregame_hold.py",
+      "category": "runtime",
+      "bytes": 68800,
+      "source_sha256": "90a28b748f04f3e054fc88b5e12c02734fad4a271ace095f85dccd7c5ac7deb9"
+    },
+    {
+      "path": "quant/backtest/runners/no_trade_replay_smoke.py",
+      "category": "runtime",
+      "bytes": 282,
+      "source_sha256": "5af8a1f36c385e44087ff46c9288419f53dd2d0fa22cdf00b3933e3bc35852ea"
+    },
+    {
+      "path": "quant/backtest/runners/public.py",
+      "category": "runtime",
+      "bytes": 17528,
+      "source_sha256": "e032fd4aefa1175ca5265cf66a0adc21ff99b94bb77ee57b1545926875730940"
+    },
+    {
+      "path": "quant/backtest/runners/report_artifacts.py",
+      "category": "runtime",
+      "bytes": 24379,
+      "source_sha256": "4377194abb733634c61c82b50ddf8dcfcbbf0389bc6dfdb57855bad2fc744e9f"
+    },
+    {
+      "path": "quant/backtest/runners/resolution_settlement_smoke_runner.py",
+      "category": "runtime",
+      "bytes": 296,
+      "source_sha256": "e0d5e7e6a10f30c655023154bedfb11cfd14c10b2e5290ef830f095f7ca22212"
+    },
+    {
+      "path": "quant/backtest/runners/run_all_backtests.py",
+      "category": "runtime",
+      "bytes": 185,
+      "source_sha256": "48fb98a3d33969401dd61d339b1c143b04b77a9d60b42aa29f82f488ff7d4c8b"
+    },
+    {
+      "path": "quant/backtest/runners/selectors.py",
+      "category": "runtime",
+      "bytes": 16507,
+      "source_sha256": "055a17c715e2990ccbcae3f4505ba0c4b6ac702dcadca2d792ec8cf92bafe72d"
+    },
+    {
+      "path": "quant/backtest/runners/single_fill_replay_test.py",
+      "category": "runtime",
+      "bytes": 274,
+      "source_sha256": "c73b73d84fcc580f649ce382a885ce43e788d620c1d5401291b58db78f963d07"
+    },
+    {
+      "path": "quant/backtest/runners/strategy_lab.py",
+      "category": "runtime",
+      "bytes": 3834,
+      "source_sha256": "dbc6f4c00813c6e0986466e594a58a17901dfcdeb464e702e3a5727002bbb482"
+    },
+    {
+      "path": "quant/backtest/runners/trade_replay_store.py",
+      "category": "runtime",
+      "bytes": 23436,
+      "source_sha256": "acc56426c4c64da8f4217a4cbb5a928fa2de6442f2eb355dc983ecf50e44f21b"
+    },
+    {
+      "path": "quant/backtest/rust_kernel.py",
+      "category": "runtime",
+      "bytes": 26725,
+      "source_sha256": "0114b6a07e5d6cce3cb5d67c36292e6bce49b0b3ed76c088d38978ec8947aad4"
+    },
+    {
+      "path": "quant/backtest/sample_run.py",
+      "category": "runtime",
+      "bytes": 15596,
+      "source_sha256": "2b709915182e994ca6023ba634ce701ff0110710c70a6989fdb7e4b0e224fb0c"
+    },
+    {
+      "path": "quant/backtest/shadow_live_pipeline.py",
+      "category": "runtime",
+      "bytes": 7517,
+      "source_sha256": "56b17801b0b8b73b8c541c1d03b5ef97dc75916e37471ecb1068dbe2ce17e115"
+    },
+    {
+      "path": "quant/backtest/shadow_live_plan.py",
+      "category": "runtime",
+      "bytes": 16437,
+      "source_sha256": "46d70d83e689d61c934432555474fc08a99476fde1cf71a98d1630497b2e6fe1"
+    },
+    {
+      "path": "quant/backtest/shadow_live_triangulation.py",
+      "category": "runtime",
+      "bytes": 6145,
+      "source_sha256": "853ad4954376b2f47c364192bc8766c9662cd1994e33ce8b5c56db4b5b207ba2"
+    },
+    {
+      "path": "quant/backtest/shadow_live_validation.py",
+      "category": "runtime",
+      "bytes": 9330,
+      "source_sha256": "08b2e429ba7874ec15c6a6948009e174cd122b4f53edeb3a26e59c9d03eab97c"
+    },
+    {
+      "path": "quant/backtest/strategy_activation.py",
+      "category": "runtime",
+      "bytes": 25355,
+      "source_sha256": "c6f482dea5229d54ba749b40615f9c451df1ed60b6f0b5e4fd86ca9df4fc62e6"
+    },
+    {
+      "path": "quant/backtest/strategy_intents.py",
+      "category": "runtime",
+      "bytes": 7201,
+      "source_sha256": "5a23d22daed2240c9c60953af3232e6cda98d66d36f82f2fcfd6cf48e9c82f0b"
+    },
+    {
+      "path": "quant/backtest/strategy_runner_guard.py",
+      "category": "runtime",
+      "bytes": 8455,
+      "source_sha256": "e31962ed430d73875e1903a8198e3fcef131b3f9967c03ac8ddc90a579072b61"
+    },
+    {
+      "path": "quant/backtest/tests/__init__.py",
+      "category": "cli_or_dependency",
+      "bytes": 52,
+      "source_sha256": "b4ac3e122202cfb25b0dadbb317676d8e174ad6289b03f9e8d50f52f089d6691"
+    },
+    {
+      "path": "quant/backtest/tests/test_backtest_artifact_timestamps.py",
+      "category": "regression",
+      "bytes": 1192,
+      "source_sha256": "e1db18ca797e8e00df1f5d443db9201c275a90632cc463f21dc3b39f0b0add8a"
+    },
+    {
+      "path": "quant/backtest/tests/test_backtest_core_gate.py",
+      "category": "regression",
+      "bytes": 3388,
+      "source_sha256": "f9c8fa506a0469e1f6d828851a59e80ac7b03d951e823ca9ba93820823d6ff9d"
+    },
+    {
+      "path": "quant/backtest/tests/test_backtest_price_window_limit.py",
+      "category": "regression",
+      "bytes": 573,
+      "source_sha256": "b8d26b454be3a76695525288eba7c7d3cd923d3b8780f270af7802580cfd4a0e"
+    },
+    {
+      "path": "quant/backtest/tests/test_backtest_progress_store.py",
+      "category": "regression",
+      "bytes": 8056,
+      "source_sha256": "157b2a82b9ed3568165e8914dba5ea3f04524e8b28f02b81b97daf9fc8cddf90"
+    },
+    {
+      "path": "quant/backtest/tests/test_benchmark_runner.py",
+      "category": "regression",
+      "bytes": 6809,
+      "source_sha256": "19bbec4aaabd5e4c656824c2c9a6cd210fba98b3eea3e2caeef268dc5dc4ed83"
+    },
+    {
+      "path": "quant/backtest/tests/test_block_bar_ohlcv.py",
+      "category": "regression",
+      "bytes": 7522,
+      "source_sha256": "94fdde39922adb273171550710be40d7db89c364a685e24aee8ebb54beb92dd6"
+    },
+    {
+      "path": "quant/backtest/tests/test_block_replay_store.py",
+      "category": "regression",
+      "bytes": 2506,
+      "source_sha256": "81fccfb5ce9e8b4188a040eb88c6c59fa5cd4db03904bfcac95f325c7708f642"
+    },
+    {
+      "path": "quant/backtest/tests/test_calibration.py",
+      "category": "regression",
+      "bytes": 5776,
+      "source_sha256": "1c7392e392f14f7590c47a08845411054230e583965bf4403b3e80f36dfc6deb"
+    },
+    {
+      "path": "quant/backtest/tests/test_calibration_fixture.py",
+      "category": "regression",
+      "bytes": 514,
+      "source_sha256": "9bd339c795a02024dbc3623c852435261667bcaa5f8db290beb4dab09171e8c4"
+    },
+    {
+      "path": "quant/backtest/tests/test_calibration_report.py",
+      "category": "regression",
+      "bytes": 4332,
+      "source_sha256": "1253e7ba2656e2fefdfd0ecd9bf758ae2bd91d5ca8dd9261d3164a9ee2630edf"
+    },
+    {
+      "path": "quant/backtest/tests/test_calibration_samples.py",
+      "category": "regression",
+      "bytes": 5202,
+      "source_sha256": "a47404fbf64b1adddded893acb7ea40617ac8ae10ec9551c3266ec2766060046"
+    },
+    {
+      "path": "quant/backtest/tests/test_configured_external_sources.py",
+      "category": "regression",
+      "bytes": 7607,
+      "source_sha256": "7db997abc627a155f9a8168e76e5daffbba0151efc79b0bf98aac264a1705f94"
+    },
+    {
+      "path": "quant/backtest/tests/test_cost_calibration.py",
+      "category": "regression",
+      "bytes": 3267,
+      "source_sha256": "80daf06f7c21a47cd41c757cd9fe3e12f16401ed19cb4964a2c8ab1e85b43040"
+    },
+    {
+      "path": "quant/backtest/tests/test_db_smoke_optional.py",
+      "category": "regression",
+      "bytes": 1970,
+      "source_sha256": "345636a74c0b3889d01fe81c47edfa8a46f41b200906902f5c9ad3861a06eb2c"
+    },
+    {
+      "path": "quant/backtest/tests/test_disk_liquidity_ledger.py",
+      "category": "regression",
+      "bytes": 2221,
+      "source_sha256": "6ffe6ef15d214e7067f9f7fedfb7619737a024c00a0dae223edb72fd8db3f648"
+    },
+    {
+      "path": "quant/backtest/tests/test_event_outcome_snapshot.py",
+      "category": "regression",
+      "bytes": 6463,
+      "source_sha256": "6f18313844d425fefb18128c542298eb524c15d0c2058a56fc5261f2169c9ef3"
+    },
+    {
+      "path": "quant/backtest/tests/test_event_stream.py",
+      "category": "regression",
+      "bytes": 29511,
+      "source_sha256": "f8ea91be7b654c59b331edeb7e6075df8e31336b5c68e1bfff451a1f028436c9"
+    },
+    {
+      "path": "quant/backtest/tests/test_execution_model_validation.py",
+      "category": "regression",
+      "bytes": 5793,
+      "source_sha256": "bbc314f95b63a99eb7167b1e07040c0433103d5972959579fbb310144a6531ac"
+    },
+    {
+      "path": "quant/backtest/tests/test_execution_profile_calibration.py",
+      "category": "regression",
+      "bytes": 2602,
+      "source_sha256": "660543f85362cf8c0fceb002625d862d81fa7086902f844139fd59c33d8eb7e6"
+    },
+    {
+      "path": "quant/backtest/tests/test_execution_profile_matrix.py",
+      "category": "regression",
+      "bytes": 1934,
+      "source_sha256": "709690fddce587da0e2c3de4efa5f36020bf100e360e7a188266a357dc7f9da0"
+    },
+    {
+      "path": "quant/backtest/tests/test_execution_profile_overrides.py",
+      "category": "regression",
+      "bytes": 7384,
+      "source_sha256": "552371c47d6a3234bcabae27ff79915f5368cab28b7545dd7648ef80d4c2aee3"
+    },
+    {
+      "path": "quant/backtest/tests/test_execution_replay_semantics.py",
+      "category": "regression",
+      "bytes": 44649,
+      "source_sha256": "45676162b2bdb560cf6bf8d099053ec64bb683f1fc3a82bb845f287c1d0e29f9"
+    },
+    {
+      "path": "quant/backtest/tests/test_external_signals.py",
+      "category": "regression",
+      "bytes": 1740,
+      "source_sha256": "2b8c774408835b68e04b36c718b90cb15b97c431ebe48c542f34da8df2fd8438"
+    },
+    {
+      "path": "quant/backtest/tests/test_external_source_discovery.py",
+      "category": "regression",
+      "bytes": 7963,
+      "source_sha256": "ccb9875dec456cf6a492aa89f7f82fc013b6c11685bbe09e277a7db481bffa39"
+    },
+    {
+      "path": "quant/backtest/tests/test_external_source_env_audit.py",
+      "category": "regression",
+      "bytes": 5228,
+      "source_sha256": "10a4943c468989b471b3611bace2a040c38776f6ce6bf99060c1a386927c686c"
+    },
+    {
+      "path": "quant/backtest/tests/test_external_source_env_bootstrap.py",
+      "category": "regression",
+      "bytes": 2758,
+      "source_sha256": "391c4e61878b94ddafdce7890e28f111cad2859673b2175fbc48e94cee227af6"
+    },
+    {
+      "path": "quant/backtest/tests/test_external_source_fixture.py",
+      "category": "regression",
+      "bytes": 8169,
+      "source_sha256": "553ab0c63ac35db9d0c024a736673086ee4b9941183759a0726eb426ad926697"
+    },
+    {
+      "path": "quant/backtest/tests/test_external_source_fixture_pipeline.py",
+      "category": "regression",
+      "bytes": 15192,
+      "source_sha256": "7516c6c2e0e93ed3d3233ac10d4b77a0783cbac805dbf5264f4503919a28117f"
+    },
+    {
+      "path": "quant/backtest/tests/test_external_source_missing_evidence.py",
+      "category": "regression",
+      "bytes": 5233,
+      "source_sha256": "40dfad8c7f78f01d2f0e35ddf02b32cc02ae92e5464188aa13754fb71d6fa6e5"
+    },
+    {
+      "path": "quant/backtest/tests/test_external_source_onboarding.py",
+      "category": "regression",
+      "bytes": 4628,
+      "source_sha256": "01e82b87547097263368a7e92309c009cb7f9557a40211f098faf464f6b9f346"
+    },
+    {
+      "path": "quant/backtest/tests/test_external_source_run_coverage.py",
+      "category": "regression",
+      "bytes": 3884,
+      "source_sha256": "b5118e09e8b4d9148c098227f36bc22425fee5bb25741b0deaefed1a191a5f92"
+    },
+    {
+      "path": "quant/backtest/tests/test_external_source_state.py",
+      "category": "regression",
+      "bytes": 2646,
+      "source_sha256": "9ac7c12999b0e450e2c9462247ab6561c86486ba02204b9cfdb7256638869199"
+    },
+    {
+      "path": "quant/backtest/tests/test_fill_evidence.py",
+      "category": "regression",
+      "bytes": 14832,
+      "source_sha256": "80f72f9217770ac7cd461d441d90542cc6bccb69a67a6049e00ba3dc444bab16"
+    },
+    {
+      "path": "quant/backtest/tests/test_fill_first_production_readiness.py",
+      "category": "regression",
+      "bytes": 15855,
+      "source_sha256": "b0ede93116fb3d221a6b64b7e0745976f6a9ffe8915f174d30d1f4b6e467f189"
+    },
+    {
+      "path": "quant/backtest/tests/test_fill_first_quality_gate.py",
+      "category": "regression",
+      "bytes": 31833,
+      "source_sha256": "93c9acd3e7fe19e092e69bd83a719d54e9f5e7e7eaed2161ddcd85db2dd45421"
+    },
+    {
+      "path": "quant/backtest/tests/test_fill_first_readiness.py",
+      "category": "regression",
+      "bytes": 3988,
+      "source_sha256": "e5249d5d16aca8596520b40e1d62fb3005777cd5d8d1d71a3d56253ec6bda7ea"
+    },
+    {
+      "path": "quant/backtest/tests/test_fill_only_financials.py",
+      "category": "regression",
+      "bytes": 12919,
+      "source_sha256": "e4a3330329cc527ae2077482032de4bdb68d4f179cfe4054d28066272a54e3a9"
+    },
+    {
+      "path": "quant/backtest/tests/test_fill_only_v2_api.py",
+      "category": "regression",
+      "bytes": 17617,
+      "source_sha256": "3589872e225d7f2a68b6082b827b5b6b258662bbfb9215a4dc5562948730a022"
+    },
+    {
+      "path": "quant/backtest/tests/test_fill_only_v3_api.py",
+      "category": "regression",
+      "bytes": 18092,
+      "source_sha256": "68b44564e3995d948f55a937391598992271ceb08fbbec58e671ea29338369b3"
+    },
+    {
+      "path": "quant/backtest/tests/test_fill_report.py",
+      "category": "regression",
+      "bytes": 5369,
+      "source_sha256": "daaf0d2b677f5c93ddd3e296826965d1812c89302c757f49b3a5e610d489dd27"
+    },
+    {
+      "path": "quant/backtest/tests/test_fill_trade_validation.py",
+      "category": "regression",
+      "bytes": 7676,
+      "source_sha256": "a79e1a3cc4f33f2a16778eac2ff6ed3a23b1a31c9153bde6b1f853368be619b5"
+    },
+    {
+      "path": "quant/backtest/tests/test_financial_finalization_service.py",
+      "category": "regression",
+      "bytes": 5611,
+      "source_sha256": "82a3c913c60eef2858f7a61404494e364e37728aa769a0e2f18424dfac16274c"
+    },
+    {
+      "path": "quant/backtest/tests/test_frameworks_execution_profiles.py",
+      "category": "regression",
+      "bytes": 3522,
+      "source_sha256": "3c16a2a8937a733204487b135227017ab3af74c5cddee83db0ac85a520e8905c"
+    },
+    {
+      "path": "quant/backtest/tests/test_guarded_executor.py",
+      "category": "regression",
+      "bytes": 4706,
+      "source_sha256": "5e3f6af706aea598a2a22c03e23a07f44d63f731a198f76181ecd4a647f03c6a"
+    },
+    {
+      "path": "quant/backtest/tests/test_joint_run.py",
+      "category": "regression",
+      "bytes": 29210,
+      "source_sha256": "4cfbe8e025fafd538fab977f1462a4b3c55da6de22fbf0f1c88cb3b91e008a00"
+    },
+    {
+      "path": "quant/backtest/tests/test_l2_execution_doc_alignment.py",
+      "category": "regression",
+      "bytes": 1123,
+      "source_sha256": "0afb7e8791139586a43a756a80d4db35609ea3305dfe34f503398f59f8e753cc"
+    },
+    {
+      "path": "quant/backtest/tests/test_l2_orderfilled_execution.py",
+      "category": "regression",
+      "bytes": 22312,
+      "source_sha256": "95952f2e0be329d0dc4596edac14763e5bddc6eede148a6c8f6655733c76453a"
+    },
+    {
+      "path": "quant/backtest/tests/test_l2_replay_consistency.py",
+      "category": "regression",
+      "bytes": 3550,
+      "source_sha256": "914c01bc6880db94dc9c93ee5b97a72931d1430480ac05385721e428e60eb646"
+    },
+    {
+      "path": "quant/backtest/tests/test_l2_shadow_calibration.py",
+      "category": "regression",
+      "bytes": 4097,
+      "source_sha256": "0aca69bb49988b4c0f87ac2883a3800b396109a89d4f48c8f1c57ec206c817d4"
+    },
+    {
+      "path": "quant/backtest/tests/test_limit_replay_raw_events.py",
+      "category": "regression",
+      "bytes": 70920,
+      "source_sha256": "d4715d896d806e3c13a815c0aa0d348a875f60dffff466ade0af48e068725212"
+    },
+    {
+      "path": "quant/backtest/tests/test_market_registry_api_client.py",
+      "category": "cli_or_dependency",
+      "bytes": 28307,
+      "source_sha256": "7cac1fd264a3a6239984b8bd051e0c167ffba469663f46e35ca686529d98bb85"
+    },
+    {
+      "path": "quant/backtest/tests/test_market_registry_phase1_acceptance.py",
+      "category": "cli_or_dependency",
+      "bytes": 58626,
+      "source_sha256": "6ec27cbd4e842824546eedd8302192cb712787b316712c7ef058af9a123eaaa1"
+    },
+    {
+      "path": "quant/backtest/tests/test_market_settlement.py",
+      "category": "regression",
+      "bytes": 11564,
+      "source_sha256": "b2b6f99de7c17a6c3b876d51c8e6acf00185876fa448dee87ac477848c9ed30a"
+    },
+    {
+      "path": "quant/backtest/tests/test_market_settlement_service.py",
+      "category": "regression",
+      "bytes": 5361,
+      "source_sha256": "9633a9e31dfef74ae67de940e377f120d5c4969e484b2ee85cba9603f4e92f70"
+    },
+    {
+      "path": "quant/backtest/tests/test_market_state_machine_dynamic.py",
+      "category": "cli_or_dependency",
+      "bytes": 2977,
+      "source_sha256": "baeae2011498b18971232165d1b987dea2388a6d7d177de8277d8fb2ac8a086a"
+    },
+    {
+      "path": "quant/backtest/tests/test_market_token_mapping_dynamic.py",
+      "category": "cli_or_dependency",
+      "bytes": 2495,
+      "source_sha256": "08f4d8b9c1611b6c3e45b16a0a87be9bbf3c22ddfdaa50a02d252d285f9ae1bf"
+    },
+    {
+      "path": "quant/backtest/tests/test_market_token_universe.py",
+      "category": "cli_or_dependency",
+      "bytes": 14480,
+      "source_sha256": "7447bd0fc0f5aec7dddc1010c54915a42ceb6090a5467013f290502a61d2c602"
+    },
+    {
+      "path": "quant/backtest/tests/test_materialized_execution_summary.py",
+      "category": "regression",
+      "bytes": 5957,
+      "source_sha256": "bd7a1dd064cf1f4856bfbe5a5f6890b63ee3cd0e2fd241eb27a8a9ae18825a28"
+    },
+    {
+      "path": "quant/backtest/tests/test_missing_evidence_pipeline.py",
+      "category": "regression",
+      "bytes": 2943,
+      "source_sha256": "9fa20a449a4e1a76d773d063c8d203932bfea52cd1f0ea9eccaa09100aed1c1c"
+    },
+    {
+      "path": "quant/backtest/tests/test_nba_pregame_hold.py",
+      "category": "regression",
+      "bytes": 18260,
+      "source_sha256": "fa79c9c8d6b876ffd085cb242ef63fc13c0e80aee6116fe2d8265bcd13220be0"
+    },
+    {
+      "path": "quant/backtest/tests/test_order_event_collector.py",
+      "category": "regression",
+      "bytes": 2057,
+      "source_sha256": "7646170b2b67248ab04b55722cd32bdb2aa64c7d9bd91edd9c8e7a5bfc7be431"
+    },
+    {
+      "path": "quant/backtest/tests/test_order_execution_adapter.py",
+      "category": "regression",
+      "bytes": 7941,
+      "source_sha256": "51e6f49b145676dadfade07cf6bae90517682308c2b05d40f8f79198efd7a0bb"
+    },
+    {
+      "path": "quant/backtest/tests/test_order_execution_calibration.py",
+      "category": "regression",
+      "bytes": 2814,
+      "source_sha256": "36f14679a6c0495d46ba99d6a33808c8d34e1e084e0e46e79e8f659d41b191e6"
+    },
+    {
+      "path": "quant/backtest/tests/test_order_execution_env_bootstrap.py",
+      "category": "regression",
+      "bytes": 2654,
+      "source_sha256": "983e2c6fa7e60e012f14942c9c4fb0644fcbfbe2dc11aafbe2ab874bb9903139"
+    },
+    {
+      "path": "quant/backtest/tests/test_order_execution_fixture.py",
+      "category": "regression",
+      "bytes": 1121,
+      "source_sha256": "2c0db337fc3b975d6be22d9beb1e9d165e3096ecdd5b6313ba164ae2dd6f4fd4"
+    },
+    {
+      "path": "quant/backtest/tests/test_order_execution_safety.py",
+      "category": "regression",
+      "bytes": 3754,
+      "source_sha256": "d950ea7921abeda38006abf1d8693d3f0c4127aee006bfec06c7629a739c80ea"
+    },
+    {
+      "path": "quant/backtest/tests/test_order_state_collection.py",
+      "category": "regression",
+      "bytes": 1855,
+      "source_sha256": "b5b2e1432138217a10ba27a9e8b30655fa085a7654cde604c8771dc0bf94f766"
+    },
+    {
+      "path": "quant/backtest/tests/test_order_state_collection_health.py",
+      "category": "regression",
+      "bytes": 3464,
+      "source_sha256": "15109400e1e06b7bd07714dae0f9948b4be027fffcd2cc9f9ae3e67b9439eb0b"
+    },
+    {
+      "path": "quant/backtest/tests/test_order_state_events.py",
+      "category": "regression",
+      "bytes": 4905,
+      "source_sha256": "068f845dcf91024a161a607b96fd800d3f0c62b3120a14ff93dc2eac42608c10"
+    },
+    {
+      "path": "quant/backtest/tests/test_orderbook_coverage.py",
+      "category": "regression",
+      "bytes": 3018,
+      "source_sha256": "cb3a7cc8952ea415045851d640067d9876ecdd0b43da93d2d47131d553240c33"
+    },
+    {
+      "path": "quant/backtest/tests/test_orderfilled_execution_shared.py",
+      "category": "regression",
+      "bytes": 7015,
+      "source_sha256": "24cfbf00512baf06b67ee18b6edf8b076879a2b1714cf1cb64ca8df69fbfeaf6"
+    },
+    {
+      "path": "quant/backtest/tests/test_orderfilled_lob_model.py",
+      "category": "regression",
+      "bytes": 9285,
+      "source_sha256": "865da684152ebcd1fa388924ae8d0f1351215714d5efd39dcd8cb76ba38884ab"
+    },
+    {
+      "path": "quant/backtest/tests/test_orderfilled_probability.py",
+      "category": "regression",
+      "bytes": 21768,
+      "source_sha256": "437b7823555c636ce482ccbada58743031df5a7f1b5eecd849992f26c99f0104"
+    },
+    {
+      "path": "quant/backtest/tests/test_orderfilled_v2_framework_integration.py",
+      "category": "regression",
+      "bytes": 10078,
+      "source_sha256": "ea4d84e05de04ed5946f8c6670573f7c7bf88aed6734b9c6e666e3fd43435f11"
+    },
+    {
+      "path": "quant/backtest/tests/test_orderfilled_v2_replay.py",
+      "category": "regression",
+      "bytes": 50633,
+      "source_sha256": "b1a0533e87687be594067ab6e5ee3336fbbbfd7523822526efd05f14911c4842"
+    },
+    {
+      "path": "quant/backtest/tests/test_parameter_robustness.py",
+      "category": "regression",
+      "bytes": 3644,
+      "source_sha256": "45ebaf1276722f506307eded861c4138f42d1472de9484d30f4d7ef90d59eb98"
+    },
+    {
+      "path": "quant/backtest/tests/test_parameter_search_plan.py",
+      "category": "regression",
+      "bytes": 2928,
+      "source_sha256": "37c49241c5422224bfbcd202e1c4a7e096b0fd7dca8a75e1e93f98cd1679edf2"
+    },
+    {
+      "path": "quant/backtest/tests/test_parameter_search_results.py",
+      "category": "regression",
+      "bytes": 7580,
+      "source_sha256": "fa1158510f9126f5d4cfb06d789e1728f631537881b6c500a7504fd5f2a5cc43"
+    },
+    {
+      "path": "quant/backtest/tests/test_parameter_search_runner.py",
+      "category": "regression",
+      "bytes": 5863,
+      "source_sha256": "28d9d87c22120ccf85cace1d7eb4ba8b41832ea85eebbaac9d75a0ddb51775d7"
+    },
+    {
+      "path": "quant/backtest/tests/test_parameter_search_scheduler.py",
+      "category": "regression",
+      "bytes": 6346,
+      "source_sha256": "310c3a8f173208f8c7c00e73b0c1f2a3cf4477862cd04d01074a0e751f0c0a3e"
+    },
+    {
+      "path": "quant/backtest/tests/test_parquet_result_writer.py",
+      "category": "regression",
+      "bytes": 4363,
+      "source_sha256": "1ec6508c0b47985cd397904f5ccb32989c5d20200751f6515d985a65dd58b2e1"
+    },
+    {
+      "path": "quant/backtest/tests/test_performance_score.py",
+      "category": "regression",
+      "bytes": 2090,
+      "source_sha256": "cb0732772aec7e3c94d2443aa6d2b9a9542735502efed9a9a239ff74d6f6864f"
+    },
+    {
+      "path": "quant/backtest/tests/test_performance_score_validation.py",
+      "category": "regression",
+      "bytes": 1692,
+      "source_sha256": "2b47a94f95fbbb1f5c2ea5feb2768bf59deaa29900ad6376e73623fddff9f6f2"
+    },
+    {
+      "path": "quant/backtest/tests/test_phase1_doc_alignment.py",
+      "category": "regression",
+      "bytes": 1680,
+      "source_sha256": "f5323b80fe4fbc0f60bb5db065bca39d552d063bac1b3d5d6a0dc053fb2d5e29"
+    },
+    {
+      "path": "quant/backtest/tests/test_platform_incidents.py",
+      "category": "regression",
+      "bytes": 2245,
+      "source_sha256": "2f2d68293047beaa14b63f5d9760ef7afaa6f13548197e19fd225d5f54bd01ff"
+    },
+    {
+      "path": "quant/backtest/tests/test_pml2_formal_contract.py",
+      "category": "regression",
+      "bytes": 7002,
+      "source_sha256": "00e89d21625c6bbd23e175accc0ad493eeba82a54b3afd45d69d2aaf2b089054"
+    },
+    {
+      "path": "quant/backtest/tests/test_pml2_main_engine_xue.py",
+      "category": "regression",
+      "bytes": 6002,
+      "source_sha256": "b05ef427b2542ca6e5a196ea94206d1fb2e42af9154461572ea032364cb90b3c"
+    },
+    {
+      "path": "quant/backtest/tests/test_pml2_rust_kernel.py",
+      "category": "regression",
+      "bytes": 8270,
+      "source_sha256": "f1da4d515136e04115d013a8d12bc45ecf37106fb30cbdbfb2ddebc3b9071369"
+    },
+    {
+      "path": "quant/backtest/tests/test_pml2_temporal_contract.py",
+      "category": "regression",
+      "bytes": 35825,
+      "source_sha256": "66b423cb8fd5567353f359ffbf110bf5ad278be7c880a1eabd51428cd85cabaa"
+    },
+    {
+      "path": "quant/backtest/tests/test_pml2_xue_dual_clock.py",
+      "category": "regression",
+      "bytes": 32091,
+      "source_sha256": "98eef182b659a0e2b40d1f8b6f522422d97a59827635a4acc37b94f0df032f52"
+    },
+    {
+      "path": "quant/backtest/tests/test_pmxt_compact_execution_store.py",
+      "category": "regression",
+      "bytes": 21303,
+      "source_sha256": "c345f7a806d90f439fba55f42bebd3bd8fa75fe91fb453f55b9aa988efb3e485"
+    },
+    {
+      "path": "quant/backtest/tests/test_polymarket_cashflow.py",
+      "category": "regression",
+      "bytes": 12029,
+      "source_sha256": "268b4c5ae62388617fec981d09517e0010ffcb006a094bb061699aba8018a4b6"
+    },
+    {
+      "path": "quant/backtest/tests/test_prediction_l2_replay_v1.py",
+      "category": "regression",
+      "bytes": 89549,
+      "source_sha256": "061dd6efaa63515ab94f4d0845a5bb7b5e5a8f514847f29a62c8ece7594d788f"
+    },
+    {
+      "path": "quant/backtest/tests/test_prediction_l2_replay_v2.py",
+      "category": "regression",
+      "bytes": 32824,
+      "source_sha256": "406df1f327908542c49640b55b187fa2ef1c2b3665bf36bbd639a6584596b790"
+    },
+    {
+      "path": "quant/backtest/tests/test_production_launch_checklist.py",
+      "category": "regression",
+      "bytes": 5528,
+      "source_sha256": "efc604aef49544417760a734f57d26e917513cfb86a51bfd449340e70fe5f438"
+    },
+    {
+      "path": "quant/backtest/tests/test_production_parameter_staging.py",
+      "category": "regression",
+      "bytes": 8922,
+      "source_sha256": "ac48829104d2c17bac37cae38737e69634b9b2a88c4524bbe60ac3e7919f3959"
+    },
+    {
+      "path": "quant/backtest/tests/test_production_preflight_fixture.py",
+      "category": "regression",
+      "bytes": 1872,
+      "source_sha256": "efee7887e21c38dfa37e4b69abb07c298eab4edc172e7635157bcc4601fb92d6"
+    },
+    {
+      "path": "quant/backtest/tests/test_profile_worker.py",
+      "category": "regression",
+      "bytes": 20640,
+      "source_sha256": "ad788a78850310070d74630abe48407528823667c739529dfc32cc8559e4a0df"
+    },
+    {
+      "path": "quant/backtest/tests/test_promotion_gate.py",
+      "category": "regression",
+      "bytes": 3626,
+      "source_sha256": "18f3c02fc70514509ea369112cd849cf7f4d06884ad547da8d17e6261fee7f41"
+    },
+    {
+      "path": "quant/backtest/tests/test_regime_coverage.py",
+      "category": "regression",
+      "bytes": 2529,
+      "source_sha256": "aac53ab45080e2c292be1c35bfdf49201afa461430b4abcbbf0128f5d79275b8"
+    },
+    {
+      "path": "quant/backtest/tests/test_replay_contract.py",
+      "category": "regression",
+      "bytes": 7227,
+      "source_sha256": "bd8278f2bc85afb147fbfb7ccfdcb9c930c9b01249e35fb56af2d4e97ba9a40e"
+    },
+    {
+      "path": "quant/backtest/tests/test_replay_session.py",
+      "category": "regression",
+      "bytes": 11031,
+      "source_sha256": "7843e35d980fdea8092a5ffe2713619639ccce12c61254ce70b67c27a49d74e8"
+    },
+    {
+      "path": "quant/backtest/tests/test_run_artifacts.py",
+      "category": "regression",
+      "bytes": 99561,
+      "source_sha256": "4a4fcb0209d32e359f8f78617711affa39f179af28f8c644b20b88f73a290e50"
+    },
+    {
+      "path": "quant/backtest/tests/test_rust_kernel.py",
+      "category": "regression",
+      "bytes": 13890,
+      "source_sha256": "f90852aeb6af252ca38f7d26c75ad3a2a57a1828ce74fc6249e5c220379601a7"
+    },
+    {
+      "path": "quant/backtest/tests/test_sample_run.py",
+      "category": "regression",
+      "bytes": 4849,
+      "source_sha256": "daf8feb25551152ae3f7acfb6dde170c233a1ef16197b6ef2aabc6a4b23c5030"
+    },
+    {
+      "path": "quant/backtest/tests/test_settlement_ledger.py",
+      "category": "regression",
+      "bytes": 16815,
+      "source_sha256": "f4ba01d979534b4c079e28c718779a84dafce567a53abc60edf7e45f9bcc9b19"
+    },
+    {
+      "path": "quant/backtest/tests/test_shadow_live_pipeline.py",
+      "category": "regression",
+      "bytes": 3143,
+      "source_sha256": "32779e7d956278af5fbaadfa9ba05992f717405194e2998a22aa891c4b590f31"
+    },
+    {
+      "path": "quant/backtest/tests/test_shadow_live_plan.py",
+      "category": "regression",
+      "bytes": 4621,
+      "source_sha256": "34df4ab189b5dd7b6be12bd62bb2df9304acc3a6e96cc8e45041e2e51058778f"
+    },
+    {
+      "path": "quant/backtest/tests/test_shadow_live_triangulation.py",
+      "category": "regression",
+      "bytes": 3538,
+      "source_sha256": "fd8a10276d9696f99e00d5e563800c2ce73a1313cbeaa9649ba58a4fc95e342c"
+    },
+    {
+      "path": "quant/backtest/tests/test_shadow_live_validation.py",
+      "category": "regression",
+      "bytes": 2664,
+      "source_sha256": "521759f14cc77ea4cf1c729531dd6c089a3f6f690915d1c8ff5463f87abee4c1"
+    },
+    {
+      "path": "quant/backtest/tests/test_strategy_activation.py",
+      "category": "regression",
+      "bytes": 7567,
+      "source_sha256": "7ad640634a43ce294601c3e83b661483600be3d6a3211313ea889dff90d4b394"
+    },
+    {
+      "path": "quant/backtest/tests/test_strategy_intents.py",
+      "category": "regression",
+      "bytes": 6471,
+      "source_sha256": "c3f9b05555c6b6541cf483ac47dac9b53bf3b2733e1276cf56bfdaf1c3c04f5b"
+    },
+    {
+      "path": "quant/backtest/tests/test_strategy_runner_guard.py",
+      "category": "regression",
+      "bytes": 3632,
+      "source_sha256": "680c5bdc42037e9264f8383e64516fc5e0a79b89137051fb6a40aa3697c3fb50"
+    },
+    {
+      "path": "quant/backtest/tests/test_timestamp_native_position_adapter.py",
+      "category": "regression",
+      "bytes": 6424,
+      "source_sha256": "b5a3fd7916a08d123f69bb8ad82f8e8dbfc0ced9e47424618df8189411e3dd43"
+    },
+    {
+      "path": "quant/backtest/tests/test_trade_catalog.py",
+      "category": "regression",
+      "bytes": 17102,
+      "source_sha256": "55ab8055790aad6a1e44c56533df442776271e0183178ae55ade48c97dae4f0d"
+    },
+    {
+      "path": "quant/backtest/tests/test_trade_only_v3.py",
+      "category": "regression",
+      "bytes": 37800,
+      "source_sha256": "b1df35f8033e57135c70f8833790142455a9e6b1b5c026e2e5d259f9594661a4"
+    },
+    {
+      "path": "quant/backtest/tests/test_trade_only_v3_calibration.py",
+      "category": "regression",
+      "bytes": 30235,
+      "source_sha256": "583425134e7f78c4e30436ef92cbea813f61319086ce74e3ef76818a6506ccd7"
+    },
+    {
+      "path": "quant/backtest/tests/test_trade_replay_store.py",
+      "category": "regression",
+      "bytes": 5361,
+      "source_sha256": "77f76549d1b955c5265000c71eff7bd54431cc164ed2be559230e9a37c8f6aef"
+    },
+    {
+      "path": "quant/backtest/tests/test_unified_performance_acceptance.py",
+      "category": "regression",
+      "bytes": 8611,
+      "source_sha256": "c78e8b719d86144e9ba5902819da0435fe630cd5b651b7da16d7d25ed3314a00"
+    },
+    {
+      "path": "quant/backtest/tests/test_validation_runners_fixture.py",
+      "category": "regression",
+      "bytes": 1361,
+      "source_sha256": "0fab2bd779388ae1b7de85145dab56ae8364ef81ca8daf64ccebf8900bc9a20f"
+    },
+    {
+      "path": "quant/backtest/timestamp_native_position_adapter.py",
+      "category": "runtime",
+      "bytes": 21637,
+      "source_sha256": "1e7e9ef9923acf28ea1bd3fbfd29b09d84873ca8100c6dc8e34a60f566d8f4e6"
+    },
+    {
+      "path": "quant/backtest/trade_catalog.py",
+      "category": "runtime",
+      "bytes": 37540,
+      "source_sha256": "b659efa4dad7b206f36e49e5f5eeab216a31f892f8e603b9a64d8838063ec09d"
+    },
+    {
+      "path": "quant/backtest/trade_only_v3/__init__.py",
+      "category": "runtime",
+      "bytes": 964,
+      "source_sha256": "9f206c619bf032fbf6de29d1a3c9344922289888577cc481a9aba6110a19da5a"
+    },
+    {
+      "path": "quant/backtest/trade_only_v3/engine.py",
+      "category": "runtime",
+      "bytes": 84125,
+      "source_sha256": "65580acc08f7622217a629d8338208dc70fc275d80df803143d078fa54e753aa"
+    },
+    {
+      "path": "quant/backtest/trade_only_v3/hierarchical_prior.py",
+      "category": "runtime",
+      "bytes": 6949,
+      "source_sha256": "efeb764d61c595ecd8095b925d6008d8932a1f92d40c3a21dfd2265ae94841fb"
+    },
+    {
+      "path": "quant/backtest/trade_only_v3/live_labels.py",
+      "category": "runtime",
+      "bytes": 3204,
+      "source_sha256": "1936f1d9c7b754073a15bb945defd867fe0bda32a803b9cde81af43d86c9cd3d"
+    },
+    {
+      "path": "quant/backtest/trade_only_v3/models.py",
+      "category": "runtime",
+      "bytes": 32355,
+      "source_sha256": "1396f18d14c47b76e409517fedbe77d15106974078669c774c347286eb39e81f"
+    },
+    {
+      "path": "quant/backtest/trade_only_v3/price_buffer.py",
+      "category": "runtime",
+      "bytes": 2619,
+      "source_sha256": "31c3bfd4448f60d97dc9d972136ed2e79e3af8fd933d21c5dee555fee9400940"
+    },
+    {
+      "path": "quant/backtest/trade_only_v3/service.py",
+      "category": "runtime",
+      "bytes": 33818,
+      "source_sha256": "bfebfd643403b881cf12d0015fdf55afae5bae5be40a2893e9b4706d90c80bea"
+    },
+    {
+      "path": "quant/backtest/unified_performance_acceptance.py",
+      "category": "runtime",
+      "bytes": 12587,
+      "source_sha256": "e58b3072ddfae3c6585372fb520a3fb1f1c2cebd090f66d893f5a02c2f216450"
+    },
+    {
+      "path": "quant/backtest_engine.py",
+      "category": "runtime",
+      "bytes": 124,
+      "source_sha256": "03a7f7069073c151cf81cd19ec72c5f6018de6f63e9954916c92a4236051e9c7"
+    },
+    {
+      "path": "quant/backtest_runner.py",
+      "category": "runtime",
+      "bytes": 208,
+      "source_sha256": "f87fb91622c809f75c842891c38c80683c18978d55ea48b4e3e634dcf9352263"
+    },
+    {
+      "path": "quant/calibration/__init__.py",
+      "category": "cli_or_dependency",
+      "bytes": 158,
+      "source_sha256": "6bfee54faf9e31ac1847f762966cfd96afc6d279eeef9e8c393de77f3dc4fb06"
+    },
+    {
+      "path": "quant/calibration/calibration_domain.py",
+      "category": "cli_or_dependency",
+      "bytes": 8476,
+      "source_sha256": "3177e83ef90cd61b26708ac084f88ad711446fa9c51e77dddb2088b686bb12d6"
+    },
+    {
+      "path": "quant/calibration/calibration_metrics.py",
+      "category": "cli_or_dependency",
+      "bytes": 3582,
+      "source_sha256": "9afc88f8d338edd67e802b73c204d5fdc874280d5f27608573909b8fe213104f"
+    },
+    {
+      "path": "quant/calibration/market_taxonomy.py",
+      "category": "cli_or_dependency",
+      "bytes": 4206,
+      "source_sha256": "5496997ed58a076ece31ecb53f3eabc77b185cd9e854811d9332e1d29072462a"
+    },
+    {
+      "path": "quant/calibration/v3_live_calibration.py",
+      "category": "cli_or_dependency",
+      "bytes": 62159,
+      "source_sha256": "1441801d751a87e01c833d3c215b192173477e3f290191b82d90ede8e4988cf0"
+    },
+    {
+      "path": "quant/core/__init__.py",
+      "category": "runtime",
+      "bytes": 182,
+      "source_sha256": "e5a62fc26d71aab7b346d00b832c4927362dded741a44877f7bb28a8b7fb655b"
+    },
+    {
+      "path": "quant/core/db.py",
+      "category": "runtime",
+      "bytes": 16696,
+      "source_sha256": "693e925fd9d30e5ca657f80faab9a6fce0172e47a6e55af3548a2a85efe42d29"
+    },
+    {
+      "path": "quant/core/eligibility.py",
+      "category": "cli_or_dependency",
+      "bytes": 5944,
+      "source_sha256": "d1e12901bfc05db7b307ca83f7e842f2b56918acca0c05a2ac1ec13b8b5de1f0"
+    },
+    {
+      "path": "quant/core/metadata.py",
+      "category": "runtime",
+      "bytes": 31520,
+      "source_sha256": "f4dbe7daff897cbf885dc0114ae61316a723a302c78c228656f870a882238643"
+    },
+    {
+      "path": "quant/core/schema.py",
+      "category": "runtime",
+      "bytes": 157475,
+      "source_sha256": "503588ae455c63306c0424f92bc3253c0b315a25b7bcc432e2b090078b30d47d"
+    },
+    {
+      "path": "quant/market/__init__.py",
+      "category": "cli_or_dependency",
+      "bytes": 760,
+      "source_sha256": "fe830bd7f6d4875c0f717a558cdca4af06747a87f1a61dd3081d129209afc401"
+    },
+    {
+      "path": "quant/market/api_client.py",
+      "category": "cli_or_dependency",
+      "bytes": 49381,
+      "source_sha256": "85f2058fd0713a8d705930c9d37b4315eaf0d36c86b4ff32e24d3d3a1e4807ca"
+    },
+    {
+      "path": "quant/market/cli.py",
+      "category": "cli_or_dependency",
+      "bytes": 14257,
+      "source_sha256": "24d462c54f766e9de0227c62b6408c73fe1223d2dfdd2601a070d22326a0923c"
+    },
+    {
+      "path": "quant/market/clob_book_probe.py",
+      "category": "cli_or_dependency",
+      "bytes": 4958,
+      "source_sha256": "8b43cad579cd46197d36fea37f2e6c1f901db1b17a683be46bfd646cd7e11d09"
+    },
+    {
+      "path": "quant/market/enums.py",
+      "category": "cli_or_dependency",
+      "bytes": 1695,
+      "source_sha256": "b11c5516228b0b460e83702329f2e5727e93dbc6c0ee9159b50b2dccbda5d1c8"
+    },
+    {
+      "path": "quant/market/existing_registry.py",
+      "category": "cli_or_dependency",
+      "bytes": 12541,
+      "source_sha256": "019e873502662ef1d624eb15adb0c955a834cb4b99597f90622f40dd22814af5"
+    },
+    {
+      "path": "quant/market/market_registry.py",
+      "category": "cli_or_dependency",
+      "bytes": 12050,
+      "source_sha256": "bc898d26ba539ad832dcd1c2353170b14cf19c976d07a94ff16e2a901057f10d"
+    },
+    {
+      "path": "quant/market/market_state_machine.py",
+      "category": "cli_or_dependency",
+      "bytes": 4233,
+      "source_sha256": "33e2e75e54529b3cc901c1590a55dee5f610bab9694f0be1162a0620c91c94c5"
+    },
+    {
+      "path": "quant/market/market_token_mapping.py",
+      "category": "cli_or_dependency",
+      "bytes": 6204,
+      "source_sha256": "152c95864e29e0069ad867bad2e1c386aa16bf1822c87b7d3612cf042c63f1fb"
+    },
+    {
+      "path": "quant/market/models.py",
+      "category": "cli_or_dependency",
+      "bytes": 2286,
+      "source_sha256": "0a28f73382e538c195a534158768849e861fcdb51538467156be87cb9eb0ae2c"
+    },
+    {
+      "path": "quant/market/registry_daemon.py",
+      "category": "cli_or_dependency",
+      "bytes": 44978,
+      "source_sha256": "8cd7d11efdcb5cac0e4e301d8918cb42437fa8c9ca73546683ed0afe50417886"
+    },
+    {
+      "path": "quant/market/registry_lifecycle_replay.py",
+      "category": "cli_or_dependency",
+      "bytes": 7764,
+      "source_sha256": "3cb89a9bb55fde9e5cec81a044cafe1f29caf1707a61a1380459b870c9aea9b2"
+    },
+    {
+      "path": "quant/market/registry_soak_monitor.py",
+      "category": "cli_or_dependency",
+      "bytes": 8475,
+      "source_sha256": "4e3e601bd36028c6b03039e47148cbff638c475ccfe3202a357757882b641db1"
+    },
+    {
+      "path": "quant/market/registry_soak_report.py",
+      "category": "cli_or_dependency",
+      "bytes": 10189,
+      "source_sha256": "e6cf7474e08af735e5f5f847c66fbcd23b0f85c00c1e56c52d4bb141f1af7f14"
+    },
+    {
+      "path": "quant/market/repository.py",
+      "category": "cli_or_dependency",
+      "bytes": 149243,
+      "source_sha256": "0544178e2e082924be94ddf06db33e660442948dfb0d09d7b338effb87f57a65"
+    },
+    {
+      "path": "quant/market/service.py",
+      "category": "cli_or_dependency",
+      "bytes": 84225,
+      "source_sha256": "a358d5960bdcdd60ccb49fead9cac26d26aaac71b84c00c1024cb841b068c7c7"
+    },
+    {
+      "path": "quant/market/token_universe.py",
+      "category": "cli_or_dependency",
+      "bytes": 17284,
+      "source_sha256": "9613c30144a5491227be8c526415022c719cb4da52935c9d1d8e205d9dd14ea0"
+    },
+    {
+      "path": "quant/orderbook/__init__.py",
+      "category": "runtime",
+      "bytes": 3625,
+      "source_sha256": "99febdce5cda6a1f6406d12f198461cd1101afd4276289ecbe6d163c3f0aa1f3"
+    },
+    {
+      "path": "quant/orderbook/coverage.py",
+      "category": "runtime",
+      "bytes": 8488,
+      "source_sha256": "ce51f1eb8bf9497c74b8673d1277659c4dff8e702ab01affa06264a018e9af46"
+    },
+    {
+      "path": "quant/orderbook/gold_hour_validator.py",
+      "category": "runtime",
+      "bytes": 16625,
+      "source_sha256": "b91960967bcf0de4398cf9a107cd88f104a58b51f1bd5d91063533e56a60d2ca"
+    },
+    {
+      "path": "quant/orderbook/l2_active_active.py",
+      "category": "runtime",
+      "bytes": 63350,
+      "source_sha256": "fb5baa526d600e55899761f16b86745b94df4303f51dbd36a5da4207967cc1d2"
+    },
+    {
+      "path": "quant/orderbook/l2_archive.py",
+      "category": "cli_or_dependency",
+      "bytes": 65938,
+      "source_sha256": "9bbd61ebd6ec6f892ea1bbe440e69e179d25e73b1c6b82a4753730e22c35a208"
+    },
+    {
+      "path": "quant/orderbook/l2_archive_read_cache.py",
+      "category": "runtime",
+      "bytes": 12891,
+      "source_sha256": "fd3c7f7f3936c5f227d5546338161848a56648771aab9c53516b8b44009e1bf7"
+    },
+    {
+      "path": "quant/orderbook/l2_coverage_manifest.py",
+      "category": "runtime",
+      "bytes": 120481,
+      "source_sha256": "2c6e4388d99831a060632f566566707d1b842f603df1ba16ba4bd5505251438d"
+    },
+    {
+      "path": "quant/orderbook/l2_parquet_writer.py",
+      "category": "cli_or_dependency",
+      "bytes": 9942,
+      "source_sha256": "9b8cbe1f4db06b2bec2c31ee2f46bfd48720c28cdd9e5d71eba1f66cfc0ed47c"
+    },
+    {
+      "path": "quant/orderbook/l2_replay.py",
+      "category": "runtime",
+      "bytes": 90911,
+      "source_sha256": "12c1d0b2f9b09d7465706c68e387c4fa6cdbb3d6eb954964e356138b61a443c9"
+    },
+    {
+      "path": "quant/orderbook/l2_subscription_snapshot.py",
+      "category": "runtime",
+      "bytes": 95871,
+      "source_sha256": "07375dfd88efdc5421e806be5e9cc0dab0f582e8f1fcc04e59003860d2deb95a"
+    },
+    {
+      "path": "quant/orderbook/l2_weighted_shard_planner.py",
+      "category": "runtime",
+      "bytes": 16250,
+      "source_sha256": "d04dc74b943a29f7f70f507d59834472f41580a5f835793de8070bc6ec1d64d5"
+    },
+    {
+      "path": "quant/orderbook/local_book.py",
+      "category": "runtime",
+      "bytes": 33248,
+      "source_sha256": "1331990167925488f9f7bdfe6ef48be91e8f733a0dee5195394678441afc2e05"
+    },
+    {
+      "path": "quant/orderbook/polymarket_adapter.py",
+      "category": "runtime",
+      "bytes": 11689,
+      "source_sha256": "aa8763f30344ed1685d1084fb9b74083e2c6a0ea155aa2acb60394effffb8e4c"
+    },
+    {
+      "path": "quant/orderbook/registry.py",
+      "category": "runtime",
+      "bytes": 6452,
+      "source_sha256": "648e2547d37f7883cc0f8ce35f38c849efff9c9869b1d03f861198fd08484302"
+    },
+    {
+      "path": "quant/orderbook/subscriptions.py",
+      "category": "runtime",
+      "bytes": 8254,
+      "source_sha256": "2c648ae4af479648f446cae07b8a896e690aeed50303060571a646886a148aff"
+    },
+    {
+      "path": "quant/orderbook/three_source_gold_commit.py",
+      "category": "runtime",
+      "bytes": 103498,
+      "source_sha256": "59ff8d5e36896c174cb55691c169d5de47ead7b056ce232577559220c7bc8e73"
+    },
+    {
+      "path": "quant/orderbook/three_source_gold_overlay.py",
+      "category": "runtime",
+      "bytes": 21008,
+      "source_sha256": "c881e7803d1258e38a81dae84ad72fe1742ff73a9a34bcb8429f3d1d6dcc05e7"
+    },
+    {
+      "path": "quant/prices/__init__.py",
+      "category": "runtime",
+      "bytes": 44,
+      "source_sha256": "af5435affb0ad4985cae47f027604a4a80084fd95955a87c80b467bb505eaf85"
+    },
+    {
+      "path": "quant/prices/api_trades_algorithm.py",
+      "category": "cli_or_dependency",
+      "bytes": 1873,
+      "source_sha256": "c4d0bcb3857ce9c2e90e7c1612377d4d88727747b071fdf40af00c0c4be03c6a"
+    },
+    {
+      "path": "quant/prices/api_trades_backfill.py",
+      "category": "cli_or_dependency",
+      "bytes": 6789,
+      "source_sha256": "e80a5ea194e7de150d0d95fec9e849659b64e888b9f98be6db9b826dd04b68a1"
+    },
+    {
+      "path": "quant/prices/block_close_algorithm.py",
+      "category": "cli_or_dependency",
+      "bytes": 12461,
+      "source_sha256": "a980b32905430179d5f531b5121e0f6d11594fab43138988e197ada088460c40"
+    },
+    {
+      "path": "quant/prices/block_close_backfill.py",
+      "category": "cli_or_dependency",
+      "bytes": 21507,
+      "source_sha256": "a6c2b680952b21660c7b71a6013909f838daa32121fdf0061fa419b985100c9e"
+    },
+    {
+      "path": "quant/prices/block_close_writer_fence.py",
+      "category": "cli_or_dependency",
+      "bytes": 3946,
+      "source_sha256": "315321543dadab6ebebd113ed0cbca67fe4a29b9f22770ae95eae7a21838898b"
+    },
+    {
+      "path": "quant/prices/build_targets.py",
+      "category": "runtime",
+      "bytes": 3583,
+      "source_sha256": "ba75fc53ee9f2e42392664c5634ff051720110fcc51562c426205e6a62737aed"
+    },
+    {
+      "path": "quant/prices/frontend_backfill.py",
+      "category": "cli_or_dependency",
+      "bytes": 6331,
+      "source_sha256": "1370af27f42ca45af7538b16a3496e8e20790a736360637ccebcaccc232d26f9"
+    },
+    {
+      "path": "quant/prices/frontend_client.py",
+      "category": "cli_or_dependency",
+      "bytes": 5536,
+      "source_sha256": "c50808b8000b2679fbb0620ecc212142591955d2a17f7ad174a303bf4af7392c"
+    },
+    {
+      "path": "quant/settlement/__init__.py",
+      "category": "runtime",
+      "bytes": 567,
+      "source_sha256": "f3689d615055ddc454f74242163cda68c2cfab1cbf403cfcdf987f63aaedc59a"
+    },
+    {
+      "path": "quant/settlement/neg_risk_convert.py",
+      "category": "runtime",
+      "bytes": 1638,
+      "source_sha256": "d38539a413b49ef010998bd87083067afe2a206dca7bf131c05c83267ebfa7cc"
+    },
+    {
+      "path": "quant/settlement/oracle_state.py",
+      "category": "runtime",
+      "bytes": 5029,
+      "source_sha256": "6f5683c8f9cf21430a59f1cebde6364ac9520547d2e255ef435470e7bdb8e300"
+    },
+    {
+      "path": "quant/settlement/payout_vector.py",
+      "category": "runtime",
+      "bytes": 1581,
+      "source_sha256": "7fc21e2ad8b0ff5316c3ca9a2d8aa63a9242c0af963bc3d7aecf8025cb602ffb"
+    },
+    {
+      "path": "quant/settlement/resolution_risk.py",
+      "category": "runtime",
+      "bytes": 2209,
+      "source_sha256": "bac5c1a5fdd3d84128a490f78a13b474d04c1ef7ea278fc1db3b8bec6570b926"
+    },
+    {
+      "path": "quant/settlement/resolution_store.py",
+      "category": "runtime",
+      "bytes": 27119,
+      "source_sha256": "f3ae27d76110e4689fc40f231aa0223118a4090107b40c9d2f34d57c265be0c1"
+    },
+    {
+      "path": "quant/simulator/__init__.py",
+      "category": "runtime",
+      "bytes": 82,
+      "source_sha256": "bdd7cfac04c646a0fbd8f78547618fe3bcda5d90ed016b6df33a20c02b0c0961"
+    },
+    {
+      "path": "quant/simulator/admission/__init__.py",
+      "category": "runtime",
+      "bytes": 1099,
+      "source_sha256": "86de70dd9df5892a4ab56b2cf4b8f089dcae296017176d22e9460048ad60ce7a"
+    },
+    {
+      "path": "quant/simulator/admission/client.py",
+      "category": "runtime",
+      "bytes": 2652,
+      "source_sha256": "a599be997d2a69599510447cbe7ed0e58b57e94ac7b998ad0920ebe41fbe17e7"
+    },
+    {
+      "path": "quant/simulator/admission/domain.py",
+      "category": "runtime",
+      "bytes": 6928,
+      "source_sha256": "8171b8508c1b0503a4cc8d3b08729867ab352b7080d5cf027858d5fc3cd04b5a"
+    },
+    {
+      "path": "quant/simulator/admission/policy.py",
+      "category": "runtime",
+      "bytes": 2648,
+      "source_sha256": "b8ee8131ac5c6e2c062492f59822f71d5397de06cfcd54c22add5537d4e811d6"
+    },
+    {
+      "path": "quant/simulator/admission/runtime.py",
+      "category": "runtime",
+      "bytes": 1826,
+      "source_sha256": "31ef1123bcb034776573f67dcb57209b7b946ff7c1b0ee19b625ac73f4f1a52e"
+    },
+    {
+      "path": "quant/simulator/admission/service.py",
+      "category": "runtime",
+      "bytes": 6493,
+      "source_sha256": "6e348a7faf6873a06c16e0a09dcbd25c48d3b7f1a5d3099a70d4521cc8a5b295"
+    },
+    {
+      "path": "quant/simulator/admission/store.py",
+      "category": "runtime",
+      "bytes": 12262,
+      "source_sha256": "cd86af44eb564fded29a7e51c2123bbc8fcc5858e87d7837c4dbff00c292dd58"
+    },
+    {
+      "path": "quant/simulator/complete_set/__init__.py",
+      "category": "runtime",
+      "bytes": 500,
+      "source_sha256": "64b3011c1816ae3461c3ad6dc7a60f025875f650308a049dee62765df734f445"
+    },
+    {
+      "path": "quant/simulator/complete_set/lot_store.py",
+      "category": "runtime",
+      "bytes": 30925,
+      "source_sha256": "b583c7c952bcfc37ef95ff07b21fce7d47f42fa7db428917311b7c94512489f3"
+    },
+    {
+      "path": "quant/simulator/economics/__init__.py",
+      "category": "runtime",
+      "bytes": 2315,
+      "source_sha256": "d78600dc748fd0ec71563e6f3a198bd588d150d0c069f56b0095d97d4376436c"
+    },
+    {
+      "path": "quant/simulator/economics/account_cashflows.py",
+      "category": "runtime",
+      "bytes": 20702,
+      "source_sha256": "4ba50c0c8970a47fac11c5565fda49c2668dd7e85ebb4ee732ac70b4af55d9cf"
+    },
+    {
+      "path": "quant/simulator/economics/account_programs.py",
+      "category": "runtime",
+      "bytes": 41456,
+      "source_sha256": "8705ce5677620ab68f93c41b33d0c2e88a1dafb9d41b374c0f597a8b17d2c7ac"
+    },
+    {
+      "path": "quant/simulator/economics/account_return.py",
+      "category": "runtime",
+      "bytes": 24120,
+      "source_sha256": "7a4e1177345a6f1d53958f4f1cbc880c644fbde83d9625175471bb4597e2db28"
+    },
+    {
+      "path": "quant/simulator/economics/bridge_client.py",
+      "category": "runtime",
+      "bytes": 13369,
+      "source_sha256": "d3778aea55a8e5f2bd1cc1527da26f0ae89d20d3899c4f2e2b212b462f4462dc"
+    },
+    {
+      "path": "quant/simulator/economics/builder_fee_engine.py",
+      "category": "runtime",
+      "bytes": 962,
+      "source_sha256": "9ecfd02e626a06611b1b24331b4c239aac2761a64dc97ec2f70f9e9f62939514"
+    },
+    {
+      "path": "quant/simulator/economics/fee_engine.py",
+      "category": "runtime",
+      "bytes": 7430,
+      "source_sha256": "02b3964ca8ea4fe3a9ead7bc695baaf42cf972ad75375c1889dac8984e9d78c9"
+    },
+    {
+      "path": "quant/simulator/economics/fee_reconciler.py",
+      "category": "runtime",
+      "bytes": 2217,
+      "source_sha256": "23c3319cb0cb958c511242279c24436f8ac3ddd2c7fa3cff21574c07684bfb9a"
+    },
+    {
+      "path": "quant/simulator/economics/fee_rounding.py",
+      "category": "runtime",
+      "bytes": 811,
+      "source_sha256": "4b5635bb8fd47a5d3de5b1b443d4af7a3afc102843dce52a89eec5447228afd5"
+    },
+    {
+      "path": "quant/simulator/economics/fee_schedule_registry.py",
+      "category": "runtime",
+      "bytes": 4710,
+      "source_sha256": "2146b91aa6106b17d6d35d22d8c5ec6ea19849b76f14f4bd5acce3567908d273"
+    },
+    {
+      "path": "quant/smoke_check.py",
+      "category": "runtime",
+      "bytes": 5956,
+      "source_sha256": "432f5c2faff56153f8ba2f8f52b6b0e4a2d005aaaf6022c3dc9fcad4d3f6e43b"
+    },
+    {
+      "path": "quant/workers/__init__.py",
+      "category": "runtime",
+      "bytes": 54,
+      "source_sha256": "adec91afdc1847691aa6b3baa5a69e86d23632318520739a3b66aa3b30f0fe15"
+    },
+    {
+      "path": "quant/workers/backtest_runner.py",
+      "category": "runtime",
+      "bytes": 7433,
+      "source_sha256": "fb5c2a83a71dab56e9a1b7b03665e5a972405dd552e229b96d7c4cc1644836f3"
+    },
+    {
+      "path": "quant/workers/build_runner.py",
+      "category": "cli_or_dependency",
+      "bytes": 127369,
+      "source_sha256": "e57b03f158cf83eac083eafb51631d5b9fdba1b018f326ab55aa85613ae09a19"
+    },
+    {
+      "path": "scripts/api/__init__.py",
+      "category": "cli_or_dependency",
+      "bytes": 0,
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "scripts/api/routes/__init__.py",
+      "category": "cli_or_dependency",
+      "bytes": 0,
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "scripts/apply_execution_profile_calibration.py",
+      "category": "cli_or_dependency",
+      "bytes": 3247,
+      "source_sha256": "0b631697d8078e5a06bb224afba31696c78167567e79e64a9562baf2caaa0685"
+    },
+    {
+      "path": "scripts/audit_backtest_run_artifacts.py",
+      "category": "cli_or_dependency",
+      "bytes": 4263,
+      "source_sha256": "dade5de39292fdf481c936b567bdc4e898a3a5a8b85d6796a07b8644fdb71c12"
+    },
+    {
+      "path": "scripts/audit_external_source_env.py",
+      "category": "cli_or_dependency",
+      "bytes": 1641,
+      "source_sha256": "d104fad0c66ee6b120399ad0c2a9ef877b436eb123e83bf96c740244bf6d43e9"
+    },
+    {
+      "path": "scripts/audit_order_execution_env.py",
+      "category": "cli_or_dependency",
+      "bytes": 1551,
+      "source_sha256": "d6247c58a54e040d4c96a891c8e974ff3d284117e362cf783b81f47836cd71c3"
+    },
+    {
+      "path": "scripts/batch_compare_real_execution_models.py",
+      "category": "cli_or_dependency",
+      "bytes": 113107,
+      "source_sha256": "adc306b6dd32525a227234c441b97e5d6dd0b2d0be807905091fb8d6c4c51ba8"
+    },
+    {
+      "path": "scripts/benchmark_fill_only_rust.py",
+      "category": "cli_or_dependency",
+      "bytes": 6043,
+      "source_sha256": "97602e4d50c9e1b0af2b44dde1e14a4ffdea2f5a07ecd5348d4074d836835b23"
+    },
+    {
+      "path": "scripts/benchmark_fill_trade_replay.py",
+      "category": "cli_or_dependency",
+      "bytes": 1671,
+      "source_sha256": "cb017818c197b2bf7c5fcd20e9d133727454c270f02bf18b11346e9d3b998bc5"
+    },
+    {
+      "path": "scripts/benchmark_orderfilled_v2_indexed_replay.py",
+      "category": "cli_or_dependency",
+      "bytes": 14377,
+      "source_sha256": "957f4a6fa7acf0800058a63f68ab3c83e9ae7f754cbc6f5b7730190a2d6a3d45"
+    },
+    {
+      "path": "scripts/benchmark_orderfilled_v2_runtime_acceleration.py",
+      "category": "cli_or_dependency",
+      "bytes": 7701,
+      "source_sha256": "c15d98ed213c8740092d1c8250dfcb70a23d91fc1f4a696bc9a878310c33aedd"
+    },
+    {
+      "path": "scripts/benchmark_pml2_dynamic_replay.py",
+      "category": "cli_or_dependency",
+      "bytes": 15891,
+      "source_sha256": "fa651eec6ccd2c5c2298b26eee1abd749cedac17e8bf3ee1d5d1f5ec8ecdec84"
+    },
+    {
+      "path": "scripts/bootstrap_fill_first_external_sources.py",
+      "category": "cli_or_dependency",
+      "bytes": 2299,
+      "source_sha256": "096b95f641b5fd90531db4c02abdd8293bb6d9ed98dd87046bdbd0513d17e8d0"
+    },
+    {
+      "path": "scripts/bootstrap_fill_first_order_execution.py",
+      "category": "cli_or_dependency",
+      "bytes": 2102,
+      "source_sha256": "ffa605a34b81a99dfbd025ae81d5052bb90f266d02a258b20bca620bb74f703b"
+    },
+    {
+      "path": "scripts/build_backtest_calibration_samples.py",
+      "category": "cli_or_dependency",
+      "bytes": 6253,
+      "source_sha256": "ac19080af60e6547a25b103b386bbe991a0c56026872dfe3a87d9c39c777dcbc"
+    },
+    {
+      "path": "scripts/build_fill_only_lob_calibration_dataset.py",
+      "category": "cli_or_dependency",
+      "bytes": 4859,
+      "source_sha256": "b914bfb57cb2a8ce15ed0812617acfd18cd525f6c5273bed86b3112fea335185"
+    },
+    {
+      "path": "scripts/build_fill_only_settlement_catalog.py",
+      "category": "cli_or_dependency",
+      "bytes": 17662,
+      "source_sha256": "9f002df67998cb6defb715f7c962326f3b5b9e72e25a6d9782f746131d978aa2"
+    },
+    {
+      "path": "scripts/build_orderfilled_v2_data.py",
+      "category": "cli_or_dependency",
+      "bytes": 79875,
+      "source_sha256": "f6099019009490e39ca1f332227bcc49f34c71eada4370aadc8871ff28a93a4a"
+    },
+    {
+      "path": "scripts/build_pml2_gap_availability_artifact.py",
+      "category": "cli_or_dependency",
+      "bytes": 13703,
+      "source_sha256": "633af676301ba2c731028f28a99da52f382afa898fc778fc6f587428aee470ce"
+    },
+    {
+      "path": "scripts/build_pml2_maker_survival_artifact.py",
+      "category": "cli_or_dependency",
+      "bytes": 13146,
+      "source_sha256": "29a86e4deb0339d05984ca33c0985c441bfc9d92bba109d20d0a40c4a8243e41"
+    },
+    {
+      "path": "scripts/build_strategy_runner_plan.py",
+      "category": "cli_or_dependency",
+      "bytes": 1987,
+      "source_sha256": "56712f35b2b4fc4d0ef75dda2949d00c58ec2d902c93682666ae5a488acab9ae"
+    },
+    {
+      "path": "scripts/calibrate_fill_only_lob_validity.py",
+      "category": "cli_or_dependency",
+      "bytes": 14735,
+      "source_sha256": "72f44e15c7ee3ec35bde1a282e9f2347bde2c08ccfd937fe30c988db41a9212b"
+    },
+    {
+      "path": "scripts/calibrate_fill_only_v3_hierarchical_overlay.py",
+      "category": "cli_or_dependency",
+      "bytes": 52153,
+      "source_sha256": "03d663322312a842d7c06c8325f1e86b5aa73210e09b59e39aa635b34dc6bdbf"
+    },
+    {
+      "path": "scripts/calibrate_fill_only_v3_l2_reference.py",
+      "category": "cli_or_dependency",
+      "bytes": 71920,
+      "source_sha256": "bbd898e1f7d387d3c32c33591e1e5cbfe95c745c3a2944d3f549473f5ee15b42"
+    },
+    {
+      "path": "scripts/calibrate_orderfilled_probability.py",
+      "category": "cli_or_dependency",
+      "bytes": 26294,
+      "source_sha256": "83c6ef6f48d3732a4d299a60b9b6ca0ae6c0fff1cef1f902e3cf0d936db1ef43"
+    },
+    {
+      "path": "scripts/calibrate_toolkit_markout_buffer.py",
+      "category": "cli_or_dependency",
+      "bytes": 8310,
+      "source_sha256": "730d16afb859950cbe861c26b3d903c2d308924302e1d804413fc81db2398206"
+    },
+    {
+      "path": "scripts/calibrate_trade_only_hierarchical_priors.py",
+      "category": "cli_or_dependency",
+      "bytes": 12419,
+      "source_sha256": "8aa517a7b3585162d214b7b1500c728e18e01926f7a0450cb997b3e556a989b6"
+    },
+    {
+      "path": "scripts/check_external_source_import_health.py",
+      "category": "cli_or_dependency",
+      "bytes": 2507,
+      "source_sha256": "adad3503bb41113db0753938b6ea0dc1e51b4d59442953459fcba1ae2e886af0"
+    },
+    {
+      "path": "scripts/check_external_source_run_coverage.py",
+      "category": "cli_or_dependency",
+      "bytes": 1878,
+      "source_sha256": "94f80d99ad45458f307cd513891fe00cd0ee5ba5acf5525e9c19657605da2d07"
+    },
+    {
+      "path": "scripts/check_fill_first_backtest_readiness.py",
+      "category": "cli_or_dependency",
+      "bytes": 1830,
+      "source_sha256": "f51bd7df779f7729222ca307bbc9d97b5d6262db413782dc862e70add816ff62"
+    },
+    {
+      "path": "scripts/check_fill_first_parameter_search_results.py",
+      "category": "cli_or_dependency",
+      "bytes": 2607,
+      "source_sha256": "a1bb828790c5973fab2b879791f658b04d3bdfb862a8d653fc87fbb20dda3d2b"
+    },
+    {
+      "path": "scripts/check_fill_first_production_readiness.py",
+      "category": "cli_or_dependency",
+      "bytes": 3742,
+      "source_sha256": "4b8875f44b8ff304f3af08f5e1aa7ee0f11cd4fec0017e9e19f3d9a25f125c17"
+    },
+    {
+      "path": "scripts/check_phase1_doc_alignment.py",
+      "category": "cli_or_dependency",
+      "bytes": 1371,
+      "source_sha256": "99b073538098a704c5bb0fb87a943943d3e0a0df39d673f8bd3473c7c87b4d3d"
+    },
+    {
+      "path": "scripts/check_pmxt_l2_coverage.py",
+      "category": "runtime",
+      "bytes": 23977,
+      "source_sha256": "a7b0d81da5d247cd8cc4bd9767e844dd15adda8ec6b9db280eb826d1102581f9"
+    },
+    {
+      "path": "scripts/check_real_order_state_collection_health.py",
+      "category": "cli_or_dependency",
+      "bytes": 2558,
+      "source_sha256": "65de40cd8b298b692db344d67f56699b255ad001f2df7728244e6373c7bb55aa"
+    },
+    {
+      "path": "scripts/collect_real_order_state_events.py",
+      "category": "cli_or_dependency",
+      "bytes": 8807,
+      "source_sha256": "ee5c5cb72a95da15de888b98210771c7ae38ca30ff9639e3d195903bfa126fbf"
+    },
+    {
+      "path": "scripts/compare_fill_trade_reference_vs_indexed.py",
+      "category": "cli_or_dependency",
+      "bytes": 1831,
+      "source_sha256": "2578d139120849526ca02bb2def7289036c23d71021e09da70856fcf0bcfda2c"
+    },
+    {
+      "path": "scripts/convert_v2_frozen_orders_to_v3.py",
+      "category": "cli_or_dependency",
+      "bytes": 1466,
+      "source_sha256": "664b631506a82d30a4ac0e5de8d665de49dcc18466e3d6a33a085250743a1a72"
+    },
+    {
+      "path": "scripts/explain_fill_only_v3_cross_validation_orders.py",
+      "category": "cli_or_dependency",
+      "bytes": 28849,
+      "source_sha256": "c5ff3bf122e7a2caab2532f72b813d1e4905f20d80ba0c4b843e8025200c0be7"
+    },
+    {
+      "path": "scripts/export_backtest_fill_report.py",
+      "category": "cli_or_dependency",
+      "bytes": 2047,
+      "source_sha256": "c476d55d5d4fde5fa9230ba09bd082b68ca316b4ced84a7af839e8495dbd0ba2"
+    },
+    {
+      "path": "scripts/export_external_source_missing_evidence_plan.py",
+      "category": "cli_or_dependency",
+      "bytes": 2608,
+      "source_sha256": "eeeaf1312dd7537a47b8000dd4e0959eab4b9621165d5cb4a23cdd4f933bc17d"
+    },
+    {
+      "path": "scripts/export_shadow_live_order_plan.py",
+      "category": "cli_or_dependency",
+      "bytes": 2696,
+      "source_sha256": "0ee5b814e98005756830baee69c470d8000d696e2dd7152d7052b5dda931d53b"
+    },
+    {
+      "path": "scripts/export_timestamp_native_fill_only_positions.py",
+      "category": "cli_or_dependency",
+      "bytes": 1155,
+      "source_sha256": "fd1d6d2a5e82a93ff60787f49eb87b8768763c3bb281a394a3bd5ecbd871c2aa"
+    },
+    {
+      "path": "scripts/finalize_fill_only_financials.py",
+      "category": "cli_or_dependency",
+      "bytes": 3477,
+      "source_sha256": "d5802ecb9ac2b84f4a3a0463ef2e53f291b17921921c4be78d0630260ba10ec8"
+    },
+    {
+      "path": "scripts/generate_backtest_calibration_report.py",
+      "category": "cli_or_dependency",
+      "bytes": 4164,
+      "source_sha256": "43d7f1397dfa9d44da6714467b927dce2d0ed30779ea00d3e15af2f7d85895f8"
+    },
+    {
+      "path": "scripts/generate_fill_trade_validation_report.py",
+      "category": "cli_or_dependency",
+      "bytes": 4379,
+      "source_sha256": "e6bccae0ac3995e401da7ce997abced7bd8c5b164591e1537cc4f7b80a8b1b51"
+    },
+    {
+      "path": "scripts/import_backtest_calibration_orders.py",
+      "category": "cli_or_dependency",
+      "bytes": 2979,
+      "source_sha256": "68519743530f873f2d7b3c003ec990c07482560e1421fd467d509015b9229d57"
+    },
+    {
+      "path": "scripts/import_discovered_external_sources.py",
+      "category": "cli_or_dependency",
+      "bytes": 3615,
+      "source_sha256": "ca249005bf8c76acb5265e458e92bd52a56116e6e5226b9e93c14c8a74a19c61"
+    },
+    {
+      "path": "scripts/import_external_signal_events.py",
+      "category": "cli_or_dependency",
+      "bytes": 6386,
+      "source_sha256": "faa6fe61904a7db225bcd50ecca9648f6516664ef82f573cdc54e5e1f924cfb0"
+    },
+    {
+      "path": "scripts/import_platform_incidents.py",
+      "category": "cli_or_dependency",
+      "bytes": 5977,
+      "source_sha256": "ce6a6b85240e6963ae315feeeb96e2949c652b859cf0c7d9e498a4d02526d543"
+    },
+    {
+      "path": "scripts/import_real_backtest_cost_events.py",
+      "category": "cli_or_dependency",
+      "bytes": 7876,
+      "source_sha256": "65a76c44eddcc72b775b554f1cbb3b8f936024002952207cb18c7c00a16d86ae"
+    },
+    {
+      "path": "scripts/import_real_order_state_events.py",
+      "category": "cli_or_dependency",
+      "bytes": 3466,
+      "source_sha256": "9b52bff3aae9f65960c35d1d5e2bc0120841f59e83c7092ac2358912c5868743"
+    },
+    {
+      "path": "scripts/materialize_pmq073_unified_catalog.py",
+      "category": "cli_or_dependency",
+      "bytes": 19249,
+      "source_sha256": "7de1d19d9386e59e6c7112119b4abac4be11d781d1a5a3b522bd95629fb6c620"
+    },
+    {
+      "path": "scripts/offline_book_differential_worker.py",
+      "category": "cli_or_dependency",
+      "bytes": 11003,
+      "source_sha256": "bfc83308567756aeb6e2af5801bbd3aff281144f533ede1ebb5bb85c3f497781"
+    },
+    {
+      "path": "scripts/plan_external_source_onboarding.py",
+      "category": "cli_or_dependency",
+      "bytes": 1513,
+      "source_sha256": "978dc5aa3f07a44701f0c91578573c9e975958df540aedf94d69de1c7013881d"
+    },
+    {
+      "path": "scripts/plan_fill_first_parameter_search.py",
+      "category": "cli_or_dependency",
+      "bytes": 3025,
+      "source_sha256": "d567a96a049f3584ec55321caf021597d37e455293d86652d88818cb16d9dcf5"
+    },
+    {
+      "path": "scripts/plan_fill_first_production_launch.py",
+      "category": "cli_or_dependency",
+      "bytes": 4205,
+      "source_sha256": "88e5fa412a256e612294a7639027ff27443a1647ca26371b18768df2a1dfe96a"
+    },
+    {
+      "path": "scripts/plan_strategy_activation.py",
+      "category": "cli_or_dependency",
+      "bytes": 3849,
+      "source_sha256": "5919f9095a38ea76cecf495a85946fa566b12bd0a79e626419bfbbe49f2e6a21"
+    },
+    {
+      "path": "scripts/quant_api_server.py",
+      "category": "cli_or_dependency",
+      "bytes": 5629,
+      "source_sha256": "afcc7995cb69af3c77f33e53d608567fcbbf402ac0b7d86ac760747ea2bfbe7f"
+    },
+    {
+      "path": "scripts/refresh_orderfilled_execution_summaries.py",
+      "category": "cli_or_dependency",
+      "bytes": 4291,
+      "source_sha256": "ff21a03dbd47231ff9c2a2e59d3ac4229f52534faa043b055d4892c1954175b6"
+    },
+    {
+      "path": "scripts/review_production_parameter_staging.py",
+      "category": "cli_or_dependency",
+      "bytes": 3302,
+      "source_sha256": "d06c940c9e5ca1846cac1cd187261cfad9d1756a539543059bfdf1811f8d5749"
+    },
+    {
+      "path": "scripts/run_backtest_core_gate.py",
+      "category": "cli_or_dependency",
+      "bytes": 3025,
+      "source_sha256": "71c9bdb0fce350f4912d1b04f4167740891580a52a86fc8bc8eb7286c33c53e3"
+    },
+    {
+      "path": "scripts/run_configured_external_source_imports.py",
+      "category": "cli_or_dependency",
+      "bytes": 2550,
+      "source_sha256": "6fd33b4e1673e98c7aaf83590e01be27379bc26ac1f36d70ee65cb01355a0858"
+    },
+    {
+      "path": "scripts/run_fill_first_external_source_fixture_pipeline.py",
+      "category": "cli_or_dependency",
+      "bytes": 5619,
+      "source_sha256": "7a6f02369b0240aa4e020eccd556b6e6c582faff55825b23f71d93d7a7c3ea0b"
+    },
+    {
+      "path": "scripts/run_fill_first_parameter_search_batch.py",
+      "category": "cli_or_dependency",
+      "bytes": 5127,
+      "source_sha256": "ec54f49223b613c1715ccc053e58a12d706b2339173dc63c87296d0270e62c97"
+    },
+    {
+      "path": "scripts/run_fill_first_parameter_search_scheduler.py",
+      "category": "cli_or_dependency",
+      "bytes": 9710,
+      "source_sha256": "3efebd3eb849470689f192bfabb383ac2f2ab8e21bf10be5490df5030ea6e4b6"
+    },
+    {
+      "path": "scripts/run_fill_first_production_preflight_fixture.py",
+      "category": "cli_or_dependency",
+      "bytes": 1808,
+      "source_sha256": "f0cf11bceeeae83e14c5d917de9cea8074ba7fabe14c2e2442aea000282c937f"
+    },
+    {
+      "path": "scripts/run_fill_first_quality_gate.py",
+      "category": "cli_or_dependency",
+      "bytes": 7054,
+      "source_sha256": "bb1ed522149f296293fd9631e557a1c69693279e12d0d680a6459e9b22094e0e"
+    },
+    {
+      "path": "scripts/run_fill_first_sample_backtest.py",
+      "category": "cli_or_dependency",
+      "bytes": 6118,
+      "source_sha256": "3b548bf0c9de65963e1d7807faf3cf6afa6e28d0a5bee5bf06fbed0ec19ffa85"
+    },
+    {
+      "path": "scripts/run_fill_only_real_canary.py",
+      "category": "cli_or_dependency",
+      "bytes": 8145,
+      "source_sha256": "86e581a68cb4ded60ba7fcde8eed9367be052095f400eb712547e35c0acd36f9"
+    },
+    {
+      "path": "scripts/run_fill_only_v3_large_cross_validation.py",
+      "category": "cli_or_dependency",
+      "bytes": 42444,
+      "source_sha256": "b157d1953b39739f11e7d7faece5c1eb495f7e05b59bc6798686d2c7496f5888"
+    },
+    {
+      "path": "scripts/run_fill_trade_golden_fixtures.py",
+      "category": "cli_or_dependency",
+      "bytes": 1192,
+      "source_sha256": "22f9f2f976d36babdcb0099cd234f94a8c7ab3cfaa7c4e4127496a6ee7ca4e75"
+    },
+    {
+      "path": "scripts/run_fill_trade_lob_holdout_validation.py",
+      "category": "cli_or_dependency",
+      "bytes": 3949,
+      "source_sha256": "5cfceaa689292ba4d424e490fb6abd0e54b620675fb04e8fd76cdc8287bff2c9"
+    },
+    {
+      "path": "scripts/run_guarded_strategy_executor.py",
+      "category": "cli_or_dependency",
+      "bytes": 2948,
+      "source_sha256": "de50bb5878f2f2df4f66d53b2f728c018a5ebf4f63e72809288f9beab4250abf"
+    },
+    {
+      "path": "scripts/run_missing_external_evidence_task_pack.py",
+      "category": "cli_or_dependency",
+      "bytes": 3392,
+      "source_sha256": "3f08555446cbd3f86f25b328aab2099fb5e25c681a6f30c394fa958dbc1dd2c9"
+    },
+    {
+      "path": "scripts/run_order_execution_adapter.py",
+      "category": "cli_or_dependency",
+      "bytes": 8160,
+      "source_sha256": "9d7ce4b835fce699b74c89ab34f607a3a3a11993e73079a3f9b637b8ddb4fbeb"
+    },
+    {
+      "path": "scripts/run_order_execution_fixture_pipeline.py",
+      "category": "cli_or_dependency",
+      "bytes": 1250,
+      "source_sha256": "98f58b8c38d78cbf3e47517df68066717a0257635e28faebb80bd5c78d93e18f"
+    },
+    {
+      "path": "scripts/run_orderfilled_pmxt_l2_batch_report.py",
+      "category": "cli_or_dependency",
+      "bytes": 33816,
+      "source_sha256": "52b890036feb53cc2a77ec2c16d7bfa8e318a3c8c3864c8b3af826c7109e0848"
+    },
+    {
+      "path": "scripts/run_orderfilled_v2_smoke.py",
+      "category": "cli_or_dependency",
+      "bytes": 18432,
+      "source_sha256": "a2222b9824ca17a17fb991da21bf24435562c17649d5f6ac47e70233f435188e"
+    },
+    {
+      "path": "scripts/run_shadow_live_calibration_pipeline.py",
+      "category": "cli_or_dependency",
+      "bytes": 4715,
+      "source_sha256": "4f5b3bd75ed1b2f01fd9c85e4deec1133021d13ae645d0e11d9b4133a3be60c2"
+    },
+    {
+      "path": "scripts/run_unified_fill_only_replay.py",
+      "category": "cli_or_dependency",
+      "bytes": 7545,
+      "source_sha256": "713229b36cfbece0ae981b6a75a6a0e5ff37b8ed5a8ef2281b93674e9c318fc2"
+    },
+    {
+      "path": "scripts/run_wallet_replay_validation.py",
+      "category": "cli_or_dependency",
+      "bytes": 1800,
+      "source_sha256": "653eb4b23c61eda57785e74d0bd00f07c38c348594744143ba25f6aef4732796"
+    },
+    {
+      "path": "scripts/stage_production_parameters.py",
+      "category": "cli_or_dependency",
+      "bytes": 3813,
+      "source_sha256": "856438a912c28c17592a84cb8ffbb4ff46e52f4ee7313ad07d88202a03583cac"
+    },
+    {
+      "path": "scripts/suggest_execution_profile_calibration.py",
+      "category": "cli_or_dependency",
+      "bytes": 4440,
+      "source_sha256": "449c5aeaa43c3e79c6c831dd8a48f907b873dab934a1eec2f8bb936de714bdb1"
+    },
+    {
+      "path": "scripts/sync_orderfilled_block_close_from_clickhouse.py",
+      "category": "cli_or_dependency",
+      "bytes": 17646,
+      "source_sha256": "17f2bba82730a6582e2c2e2128a84c90d2d5f1e91cf2eb251cb5e072e98601be"
+    },
+    {
+      "path": "scripts/validate_fill_evidence.py",
+      "category": "cli_or_dependency",
+      "bytes": 2315,
+      "source_sha256": "5d196b5280d418d4918e921c1fd355451e7f6226b4a00a99667c79aa09be4c66"
+    },
+    {
+      "path": "scripts/validate_fill_only_v3_cross_window_stability.py",
+      "category": "cli_or_dependency",
+      "bytes": 20841,
+      "source_sha256": "5af9c113dde6f5a7fafced151bc1fa42a67c7bc7417a6a0121228625deeabd3a"
+    },
+    {
+      "path": "scripts/validate_fill_only_v3_probability_artifact.py",
+      "category": "cli_or_dependency",
+      "bytes": 30851,
+      "source_sha256": "11db18977fe1e4ca7bc9a20e88ced12a17dec50c9f1d312551d0a4f381709577"
+    },
+    {
+      "path": "scripts/validate_fill_only_v3_tif_aware.py",
+      "category": "cli_or_dependency",
+      "bytes": 9739,
+      "source_sha256": "894932989660cb2b89c29d2a3551df5b322aea5a41b3b41423f628f5c741b9ce"
+    },
+    {
+      "path": "scripts/validate_fill_trade_execution_invariants.py",
+      "category": "cli_or_dependency",
+      "bytes": 2133,
+      "source_sha256": "36063530aadb16d88c51d33749aecdaafb0240e8206ff944d27b1893768b854e"
+    },
+    {
+      "path": "scripts/validate_orderfilled_data_contract.py",
+      "category": "cli_or_dependency",
+      "bytes": 1506,
+      "source_sha256": "4c17a3c9a65c76ad7463dc94d7ade92a3e91e7396fa36b2ca78cb08bb6ac7343"
+    },
+    {
+      "path": "scripts/validate_orderfilled_probability.py",
+      "category": "cli_or_dependency",
+      "bytes": 12613,
+      "source_sha256": "aebafc580967d01af22be54be6efa4b6945c3ffef1c340d92b958b3da02fc8b8"
+    },
+    {
+      "path": "scripts/validate_orderfilled_trade_replay.py",
+      "category": "runtime",
+      "bytes": 25015,
+      "source_sha256": "5799732ab0d81530e18cfb7a81f05d0437bb23392f473bf160de333e0ad6b0b6"
+    },
+    {
+      "path": "scripts/validate_pml2_order_contract_cross_validation.py",
+      "category": "cli_or_dependency",
+      "bytes": 10818,
+      "source_sha256": "d5a9a5107cec9bf9f55b68085532991317c0a1abbe95653e1cfa48038d89a9d3"
+    },
+    {
+      "path": "scripts/validate_pmxt_l2_raw.py",
+      "category": "runtime",
+      "bytes": 44316,
+      "source_sha256": "d9b2e453791dece4e9cc72b070dd745823a7991c72e7ddd3b7432fbe082bd3f4"
+    },
+    {
+      "path": "scripts/validate_prediction_l2_replay_v1.py",
+      "category": "cli_or_dependency",
+      "bytes": 6543,
+      "source_sha256": "703e9027d73f87b9688e6db4a1aed0a1ffa01e11a9f1b38f9cc9182f1b8303d6"
+    },
+    {
+      "path": "scripts/validate_prediction_l2_replay_v2.py",
+      "category": "cli_or_dependency",
+      "bytes": 23098,
+      "source_sha256": "b23ef3b5ecb089f635f210566212e8e3944a8e9f83736eaec3446bb2dd6cc822"
+    },
+    {
+      "path": "scripts/validate_shadow_live_order_events.py",
+      "category": "cli_or_dependency",
+      "bytes": 1671,
+      "source_sha256": "695f0aa6a4cdd9299ec7e4b1987b860363085ff91f8e47d0efc9994fcc57ec31"
+    },
+    {
+      "path": "scripts/validate_unified_fill_only_performance.py",
+      "category": "cli_or_dependency",
+      "bytes": 1859,
+      "source_sha256": "93f4233bab0c7f84e693238384d5a651fd9ff5fffc183ab921d9a052f060607f"
+    },
+    {
+      "path": "scripts/write_fill_first_external_source_fixture.py",
+      "category": "cli_or_dependency",
+      "bytes": 3770,
+      "source_sha256": "3442e6d5769c11484c3ed5583b57acde9d2c29c4492bdf35c6dab45498e980f6"
+    },
+    {
+      "path": "strategies/__init__.py",
+      "category": "cli_or_dependency",
+      "bytes": 42,
+      "source_sha256": "c75eaface4ba13adbfec609444163f55529ecb9d099d01fc39c6dfb8716fbf15"
+    },
+    {
+      "path": "strategies/conditional_favorite_longshot/__init__.py",
+      "category": "cli_or_dependency",
+      "bytes": 446,
+      "source_sha256": "7a7fd86cc032d8ac597f1fdb5d3d4d7ced58da3cc90e8851fcff72a9d6431530"
+    },
+    {
+      "path": "strategies/conditional_favorite_longshot/backtest.py",
+      "category": "cli_or_dependency",
+      "bytes": 44363,
+      "source_sha256": "fc22cd3e69730664cc9b9b782a3c862488032bb8ca6d722eee6f65c087a176bc"
+    },
+    {
+      "path": "strategies/conditional_favorite_longshot/calibration.py",
+      "category": "cli_or_dependency",
+      "bytes": 16778,
+      "source_sha256": "283d0fe06b30097a2c4a3b03c9c658a4d812856f592597ebe0732287f33e1cd8"
+    },
+    {
+      "path": "strategies/conditional_favorite_longshot/conditional_backtest.py",
+      "category": "cli_or_dependency",
+      "bytes": 49087,
+      "source_sha256": "ddac2ec40097cb52c3fc53357babf3fa886d62937cc031dd648f9e9910510a98"
+    },
+    {
+      "path": "strategies/conditional_favorite_longshot/tests/test_backtest.py",
+      "category": "regression",
+      "bytes": 8420,
+      "source_sha256": "5a1ccf8a0ec5d2e417213721a0ea1a68db59a736cde53c96537523ffd4072424"
+    },
+    {
+      "path": "strategies/conditional_favorite_longshot/tests/test_conditional_backtest.py",
+      "category": "regression",
+      "bytes": 9369,
+      "source_sha256": "077a66be18df2e5fb665688e0152073fe4d9c854ed73bf17c6a696de22658e37"
+    },
+    {
+      "path": "tests/backtest/test_orderfilled_v2_data_builder.py",
+      "category": "regression",
+      "bytes": 14371,
+      "source_sha256": "c3187d692872eb1c87477c7382f9feb31c319e37881a3afe65e337502435cd96"
+    },
+    {
+      "path": "tests/calibration/test_fill_only_v3_live_calibration.py",
+      "category": "regression",
+      "bytes": 14543,
+      "source_sha256": "e57da2f27d2ba8a28430a1a2cb6feb2fd0cf2ec066599adc52a83939b78687dd"
+    },
+    {
+      "path": "tests/market/__init__.py",
+      "category": "cli_or_dependency",
+      "bytes": 71,
+      "source_sha256": "4866152f2382c8a9352653317fc66e41210e8eecd36d192e073b755251f0303d"
+    },
+    {
+      "path": "tests/market/test_market_state_machine.py",
+      "category": "regression",
+      "bytes": 88,
+      "source_sha256": "ee052a8ed578de2751c9046c5feffc2f164505aeb2467df83f0e7b0c163b2f62"
+    },
+    {
+      "path": "tests/market/test_market_token_mapping.py",
+      "category": "regression",
+      "bytes": 88,
+      "source_sha256": "086cf551a3fa96449d155926187d9f810ded64f7cb778c6b84b83835a4fe0add"
+    },
+    {
+      "path": "tests/market/test_registry_daemon_recovery.py",
+      "category": "regression",
+      "bytes": 93,
+      "source_sha256": "c9a5d8d85ad1b4ba3f3ad082cb2b8af4ed45c759622970ab349a7b07c1ff55ac"
+    },
+    {
+      "path": "tests/market/test_registry_reconciler.py",
+      "category": "regression",
+      "bytes": 86,
+      "source_sha256": "570ab84a88967df936d08476130761f8e15cb31a3a6b9be39e1b047f9cf62713"
+    },
+    {
+      "path": "tests/market/test_token_universe.py",
+      "category": "regression",
+      "bytes": 81,
+      "source_sha256": "6f48049f78296f4875f5e7ac1b18701d9d1b97ecac1ef924769149ed3cd89d97"
+    },
+    {
+      "path": "tests/test_explain_fill_only_v3_cross_validation_orders.py",
+      "category": "regression",
+      "bytes": 2919,
+      "source_sha256": "487cbc677b2e18724272be7e35b66933f6d3df106e426c623edf691dbc08faa7"
+    },
+    {
+      "path": "tests/test_fill_only_v3_large_cross_validation.py",
+      "category": "regression",
+      "bytes": 12684,
+      "source_sha256": "371c43f6e8a76a820d7ff786c737866243997a0c0f3d4d7832b31b559f382b6b"
+    },
+    {
+      "path": "tests/test_validate_fill_only_v3_probability_artifact.py",
+      "category": "regression",
+      "bytes": 9696,
+      "source_sha256": "8d3494318654010ce8e4a4c9f0e1b1b88a7a4ed2698f5c6b36bbe7014747c43b"
+    },
+    {
+      "path": "scripts/api/routes/quant.py",
+      "category": "backtest_only_api_extraction"
+    },
+    {
+      "path": "config/execution/fill_only_lob_validity_profile.v1.json",
+      "category": "configuration",
+      "bytes": 32395,
+      "source_sha256": "d54b0989ca40497448ef8d04fc64bfbacdddf22bf816d527859107747e58b2cc"
+    },
+    {
+      "path": "config/execution/fill_only_v3_contract_fak_probability.adaptive_v22.json",
+      "category": "configuration",
+      "bytes": 1327542,
+      "source_sha256": "2d4c6b3881f02351da06dec0cb046112726cbb4efbe8435927f77c84956e3b2c"
+    },
+    {
+      "path": "config/execution/fill_only_v3_contract_fak_probability.v1.json",
+      "category": "configuration",
+      "bytes": 33080,
+      "source_sha256": "b08cffad8b625a3b0278af622aa36ef3a4945392b34d59032108166e40a67887"
+    },
+    {
+      "path": "config/execution/fill_only_v3_contract_fok_probability.adaptive_v14.json",
+      "category": "configuration",
+      "bytes": 1819155,
+      "source_sha256": "0c158c60d91c995972f71a8574c517ce725fdd438f7591fcefb4f4dc9758a085"
+    },
+    {
+      "path": "config/execution/fill_only_v3_contract_fok_probability.v1.json",
+      "category": "configuration",
+      "bytes": 32743,
+      "source_sha256": "5a0594de633212528f6c1fc150997323b9bc763b552975103eff750cec351633"
+    },
+    {
+      "path": "config/execution/fill_only_v3_l2_reference_probability.v1.json",
+      "category": "configuration",
+      "bytes": 248892,
+      "source_sha256": "de4253703f90e7a7d3213fc602eb914f4d267d9d75a3eb65aaf4140f233b05e1"
+    },
+    {
+      "path": "config/execution/orderfilled_probability_profile.120s.v1.json",
+      "category": "configuration",
+      "bytes": 11813,
+      "source_sha256": "abef32c4b4a854be311c3be8dda2aaf9a6d12e149d44ecb2ea8ed4f885db1de4"
+    },
+    {
+      "path": "config/execution/orderfilled_probability_profile.300s.v1.json",
+      "category": "configuration",
+      "bytes": 11921,
+      "source_sha256": "2d5e11921f450d59ad465987bb2ad545c940c21c1452fee70a972f71b888204d"
+    },
+    {
+      "path": "config/execution/orderfilled_probability_profile.5s.v1.json",
+      "category": "configuration",
+      "bytes": 10725,
+      "source_sha256": "c7bf684eb97686b80d80e9adaeb7a16fc25e949a4381ac5ad6778f6350734643"
+    },
+    {
+      "path": "config/execution/orderfilled_probability_profile.v1.json",
+      "category": "configuration",
+      "bytes": 12638,
+      "source_sha256": "21fb2c7f1a88c6e3b9939a741e5e17bbe08152add133942b583b6d8ab31a5b25"
+    },
+    {
+      "path": "config/execution/pml2_gap_availability.v1.json",
+      "category": "configuration",
+      "bytes": 114085,
+      "source_sha256": "c87f12d19fd94040cf08dae200a25ad11da612967b3dbb647c249b574ce91c56"
+    },
+    {
+      "path": "config/execution/pml2_maker_survival.v1.json",
+      "category": "configuration",
+      "bytes": 105398,
+      "source_sha256": "d917268ba4b353e2018e987682e99dfd7815c0147bedb8df4c4c195c6b44e4b5"
+    },
+    {
+      "path": "config/execution/pml2_profiles.v1.json",
+      "category": "configuration",
+      "bytes": 2566,
+      "source_sha256": "7505793be3a4aca2a11a791069a9f8b991980e2c26737c172c47ce250049daf2"
+    },
+    {
+      "path": "config/execution/trade_only_hierarchical_priors.tif_aware.v1.json",
+      "category": "configuration",
+      "bytes": 382484,
+      "source_sha256": "0e79f90263ed64247319a8d038d32d065448066088795199be3e1c2fea6cc38f"
+    },
+    {
+      "path": "config/execution/trade_only_hierarchical_priors.v1.json",
+      "category": "configuration",
+      "bytes": 125565,
+      "source_sha256": "b04d2579de9179462e79e7fc96fc99e033a43647a9a6c74801d30993f72fef14"
+    },
+    {
+      "path": "config/execution/trade_only_price_buffer.v1.json",
+      "category": "configuration",
+      "bytes": 1509,
+      "source_sha256": "491047a0cdc02d5082715465ae35e5d2e9f2e7f7265780d2fc938969041b9286"
+    },
+    {
+      "path": "config/calibration/settlement_dual_outcome_live.yaml",
+      "category": "configuration",
+      "bytes": 1492,
+      "source_sha256": "29c560a35e08887a8014f98a06c50d238127b4a52f6178fe92678a3048f0849c"
+    },
+    {
+      "path": "config/calibration/settlement_mou_no_live.yaml",
+      "category": "configuration",
+      "bytes": 1358,
+      "source_sha256": "2ac36eab9740712c84e3f1017e623305ae1436edaab820acef5b3a025d58933f"
+    },
+    {
+      "path": "config/calibration/settlement_mou_yes_live.yaml",
+      "category": "configuration",
+      "bytes": 1358,
+      "source_sha256": "1f2d4b18aa133fac7133c67ef9e89e28f24121615fa00e4fa8f079e3b8d9c5cd"
+    },
+    {
+      "path": "config/calibration/taker_account_truth_micro_live.yaml",
+      "category": "configuration",
+      "bytes": 1311,
+      "source_sha256": "88e0871cc0276d5b5fc85feff6c47e3f78eb62711e1ab556529d292461a08852"
+    },
+    {
+      "path": "config/calibration/taker_clean_v2_cohort_live.yaml",
+      "category": "configuration",
+      "bytes": 1457,
+      "source_sha256": "00bb5553e8ca31216e715e93bfc8bd57bc6c91bebd7a3e1d791e8c28a71f6748"
+    },
+    {
+      "path": "config/calibration/taker_mechanical.yaml",
+      "category": "configuration",
+      "bytes": 1224,
+      "source_sha256": "94346eab38d323bc9e762a8762d914f34ce58af43000c2087b7f6c7c3fbc5bed"
+    },
+    {
+      "path": "config/calibration/taker_micro_live_canary.yaml",
+      "category": "configuration",
+      "bytes": 1679,
+      "source_sha256": "4e18fb47ec04f8410cabab6efb2cc2b154f86d034c20f38b988752c87602d0be"
+    },
+    {
+      "path": "config/calibration/taker_micro_live_sell_canary.yaml",
+      "category": "configuration",
+      "bytes": 1456,
+      "source_sha256": "dcf216deac7ca1e6918da19400a1dd1648b5e79f3043a205a00ce73993ba733d"
+    },
+    {
+      "path": "config/calibration/taker_operation_fidelity_multi_dynamic_live.yaml",
+      "category": "configuration",
+      "bytes": 1323,
+      "source_sha256": "200f2f088e4cf69568f8f2448c67adaf004ff9e33dfa2e4fb12ca81b88e7f26f"
+    },
+    {
+      "path": "config/calibration/taker_operation_fidelity_sell_live.yaml",
+      "category": "configuration",
+      "bytes": 1323,
+      "source_sha256": "26cfcdc16adfddbb8f65b0fd204c5aeb1024c2555e3e8bad663c08f553f5b8e4"
+    },
+    {
+      "path": "config/calibration/taker_phase5c_fak_buy.yaml",
+      "category": "configuration",
+      "bytes": 1503,
+      "source_sha256": "4f93e47f73186f03c05db20967b64c28bd58a0db2dedb05a92a946ecf855f76d"
+    },
+    {
+      "path": "config/calibration/taker_phase5c_fak_sell.yaml",
+      "category": "configuration",
+      "bytes": 1349,
+      "source_sha256": "f774d3e9bf15befa8f56792be9b4463682699047234d19cda26bc613f929ea95"
+    },
+    {
+      "path": "config/calibration/taker_phase5c_fak_sell_partial.yaml",
+      "category": "configuration",
+      "bytes": 1379,
+      "source_sha256": "e32afe7a8380ccfc98db6bf27d7bde1a25664ab6ececfa1f746da9fe7f7b6f57"
+    },
+    {
+      "path": "config/calibration/taker_phase5c_fok_sell_reject.yaml",
+      "category": "configuration",
+      "bytes": 1378,
+      "source_sha256": "aeccef62665ffd263bcb0d3c268b64a8171055ba5c2b1bcbb00e05b3ea18b75c"
+    },
+    {
+      "path": "config/calibration/taker_phase5c_politics_cleitinho_buy.yaml",
+      "category": "configuration",
+      "bytes": 1350,
+      "source_sha256": "d662a252a0c4b0356c0d41a118b8860f892d8bd0dfd8ef6ec9f70f2ced10989b"
+    },
+    {
+      "path": "config/calibration/taker_phase5c_politics_kamala_buy.yaml",
+      "category": "configuration",
+      "bytes": 1349,
+      "source_sha256": "9a6d080f5c96537dfc805f416dd0ac76d67b983e46419d07442cf6b57c83507f"
+    },
+    {
+      "path": "config/calibration/taker_phase5c_weather_hottest_month_buy.yaml",
+      "category": "configuration",
+      "bytes": 1348,
+      "source_sha256": "333bd4faddd8885ad829ddf574770c26842d495984db0813fd6a062bd8771129"
+    },
+    {
+      "path": "config/calibration/taker_phase5c_weather_hurricane_buy.yaml",
+      "category": "configuration",
+      "bytes": 1349,
+      "source_sha256": "9329e22f82fd8f9072476deb0a696a36ae161d165eba1b9c9233728eed920acd"
+    },
+    {
+      "path": "config/calibration/taker_phase5d_itod_depth_parity_buy.yaml",
+      "category": "configuration",
+      "bytes": 1381,
+      "source_sha256": "54fda54ed6af65d8cca228a1b3c4c05fcdab25e4f8d7cb971765a1cf7f2d19d9"
+    },
+    {
+      "path": "config/calibration/taker_phase5d_politics_mid_high_buy.yaml",
+      "category": "configuration",
+      "bytes": 1350,
+      "source_sha256": "a3b68f6f500353dd97cccb3bd63e52728409681282bee3bf218e6888612c33b8"
+    },
+    {
+      "path": "config/calibration/taker_phase5d_quiet_redundant_sell.yaml",
+      "category": "configuration",
+      "bytes": 1555,
+      "source_sha256": "601807dad197e01ee908c54688d69ef36fd92eccd66f987b00aea3891e99083e"
+    },
+    {
+      "path": "config/calibration/taker_phase5d_sports_mid_high_buy.yaml",
+      "category": "configuration",
+      "bytes": 1351,
+      "source_sha256": "5cb2c32cc480c403472dc9a89cb5ccf0002de61bdc6848a19ab37420e7595c82"
+    },
+    {
+      "path": "config/calibration/taker_representative_crypto_buy.yaml",
+      "category": "configuration",
+      "bytes": 1317,
+      "source_sha256": "ea42f5b08c6f743d0c2a8249cef0fefb3f7cfbaf68b1315b8ed7362cbca19711"
+    },
+    {
+      "path": "config/calibration/taker_representative_sports_buy.yaml",
+      "category": "configuration",
+      "bytes": 1326,
+      "source_sha256": "7fcfd66e625eb80e3e01afb8e09d9439124b15226f845ed118dd65a88ddf1336"
+    },
+    {
+      "path": "configs/calibration/maker_core_v1.yaml",
+      "category": "configuration",
+      "bytes": 1279,
+      "source_sha256": "f10be046525cbea0ec8ad2e98dbfa289c713b2ac0609c8f578df93d5bfdb8f27"
+    },
+    {
+      "path": "configs/calibration/maker_live_probe.yaml",
+      "category": "configuration",
+      "bytes": 1843,
+      "source_sha256": "9c37506ef2e1acb6a5e1510974c73ecf3ed4e200956bd347bf7eb8c97d4abe18"
+    },
+    {
+      "path": "configs/calibration/taker_core_v1.yaml",
+      "category": "configuration",
+      "bytes": 791,
+      "source_sha256": "2bab509cdabc3af7ff484b3a9b35694c206c6407c01a22d3cd363227574cda6a"
+    },
+    {
+      "path": "configs/calibration/taker_live_acceptance_v1.yaml",
+      "category": "configuration",
+      "bytes": 1690,
+      "source_sha256": "adab9439ea4a8c8130d8939e6f9f2765db39a5b0a0207923b9aad0f117d5e6bd"
+    },
+    {
+      "path": "quantV2/docs/PREDICTION_L2_REPLAY_V1使用与验收.md",
+      "category": "documentation",
+      "bytes": 20960,
+      "source_sha256": "30d913c3c978798c12ebcb55afbfbba786e2fcb920ebc1ce42a5826d455c47ec"
+    },
+    {
+      "path": "quantV2/docs/fill-only-v3-central-router-api.md",
+      "category": "documentation",
+      "bytes": 15591,
+      "source_sha256": "2d70cda80a5dce61840e4662166e2c2a651d12916519b75f98b08c647b018b11"
+    },
+    {
+      "path": "quantV2/docs/fill-only全市场金融结算.md",
+      "category": "documentation",
+      "bytes": 8300,
+      "source_sha256": "0000cc739f987f2181d9616abcb7fe16c370f9aba3963741d1f2bd18f91fdee1"
+    },
+    {
+      "path": "quantV2/docs/fill-only过于宽松的问题.md",
+      "category": "documentation",
+      "bytes": 20048,
+      "source_sha256": "7b0e182ff738d204c658f5005068102f1925d7ec7e597e0caf2b54cdca0e7c3b"
+    },
+    {
+      "path": "quantV2/docs/fill-trade验证.md",
+      "category": "documentation",
+      "bytes": 16627,
+      "source_sha256": "7a9322a0ff7a223f2b21082723efd85725ff8da21c27ced969cd5f1cd6698bc3"
+    },
+    {
+      "path": "quantV2/docs/orderfilled_only_backtest_codex_guidance.md",
+      "category": "documentation",
+      "bytes": 46937,
+      "source_sha256": "b72e16b4252623773746026064438a5c4b13c0703d10084e0dbc343501147eab"
+    },
+    {
+      "path": "quantV2/docs/orderfilled_v2_data_acceleration_codex_guidance.md",
+      "category": "documentation",
+      "bytes": 31112,
+      "source_sha256": "538467894d84bbac3140d5112b150dafcaec51e5f19724382767aa10b81ae3db"
+    },
+    {
+      "path": "quantV2/docs/orderfilled数据怎么处理.md",
+      "category": "documentation",
+      "bytes": 20523,
+      "source_sha256": "041190bc2933e6e004cadbef6106dcb379e7c8c8b1f222f0f97b809a5e753096"
+    },
+    {
+      "path": "quantV2/docs/orderfilled概率成交模型.md",
+      "category": "documentation",
+      "bytes": 18890,
+      "source_sha256": "78781ea9300a1020022866c9c721f801bb2c023e4ffaca1ec13240f3e3a1550a"
+    },
+    {
+      "path": "quantV2/docs/在没有lob数据下怎么写成交模型.md",
+      "category": "documentation",
+      "bytes": 29814,
+      "source_sha256": "f75438182f6751785da1f95d5ef6257edb67738249f4a62ac25c0e8f040d9b49"
+    },
+    {
+      "path": "quantV2/docs/统一Fill-only-V2-V3流式回测与Rust加速.md",
+      "category": "documentation",
+      "bytes": 24600,
+      "source_sha256": "da6807883460bf718b986b740d69cb7e12cab5456c895efe4b4dd48ab066bc14"
+    },
+    {
+      "path": "docs/回测/全量构建所有地址的数据.md",
+      "category": "documentation",
+      "bytes": 2160,
+      "source_sha256": "d6c2f7c8cd1da4cd6a50b645cd27c90c6da6f12762588f57680fa0946abeb7e2"
+    },
+    {
+      "path": "docs/回测/回测的买入模型和卖出模型.md",
+      "category": "documentation",
+      "bytes": 5196,
+      "source_sha256": "64ccf9a5c5c8ac86ce204393de372fd8cddbae28faa1571b8a626a644090f164"
+    },
+    {
+      "path": "docs/回测/回测的价格数据.md",
+      "category": "documentation",
+      "bytes": 2350,
+      "source_sha256": "3378ab8a396f4c6959daf4e705446d980995d6f167e011c85790122d196fe755"
+    },
+    {
+      "path": "docs/pnl/pnl计算算法.md",
+      "category": "documentation",
+      "bytes": 946,
+      "source_sha256": "ee5765f49908a9930a5938eb212db6aa9c6e474c8b2912577313137ffec8aa12"
+    },
+    {
+      "path": "docs/pnl/pnl验证指导.md",
+      "category": "documentation",
+      "bytes": 20780,
+      "source_sha256": "a263de5e9ec299089a67d1fd0e2522697b66abb3f8e06d01cca31b68c5429a69"
+    },
+    {
+      "path": "docs/量化/成交模型/PMXT.md",
+      "category": "documentation",
+      "bytes": 27832,
+      "source_sha256": "f06a6a3ea95cf7619491db8cedf5617ec3a071048a08572f048089e5ef91b46a"
+    },
+    {
+      "path": "docs/量化/成交模型/PMXT方案B物化与覆盖报告开发指导.md",
+      "category": "documentation",
+      "bytes": 17505,
+      "source_sha256": "07a508049680651af08346b0b85b0035e7be3c095e50ee7c7fe2bb1af2906d3f"
+    },
+    {
+      "path": "docs/量化/成交模型/polymarket_execution_model_guidance_for_codex.md",
+      "category": "documentation",
+      "bytes": 41091,
+      "source_sha256": "a677590aeaee77fba5da48e5e2fe589c0c9000e2a282828868214b71beeec3f9"
+    },
+    {
+      "path": "docs/量化/成交模型/在没有lob数据下怎么写成交模型.md",
+      "category": "documentation",
+      "bytes": 29814,
+      "source_sha256": "f75438182f6751785da1f95d5ef6257edb67738249f4a62ac25c0e8f040d9b49"
+    },
+    {
+      "path": "docs/量化/别人的回测框架/nautilus_trader回测框架技术分析.md",
+      "category": "documentation",
+      "bytes": 6595,
+      "source_sha256": "97e01ad4acf00b9cb6179e98d581db75113363a86a7429ccfadc8f1c6401eb4c"
+    },
+    {
+      "path": "docs/量化/别人的回测框架/polymarket-toolkit回测框架技术分析.md",
+      "category": "documentation",
+      "bytes": 10189,
+      "source_sha256": "7ce2e7520edbe5d7eee4178cd91f02abc1c1a6dc50add49691dd1bf48078bd35"
+    },
+    {
+      "path": "docs/量化/别人的回测框架/prediction-market-backtesting回测框架技术分析.md",
+      "category": "documentation",
+      "bytes": 9697,
+      "source_sha256": "5342ff6d6b2e1a730147ffac4a64837a892392e532744c2d20f73f5367f2b7e8"
+    },
+    {
+      "path": "docs/量化/别人的回测框架/距离别人的还有什么.md",
+      "category": "documentation",
+      "bytes": 6670,
+      "source_sha256": "e1eae86b6d329522fa2d4e55d395cbb9ae0d2ada6f095ecc495f7be4cd796361"
+    },
+    {
+      "path": "rust/fill_only_kernel/Cargo.lock",
+      "category": "configuration",
+      "bytes": 20446,
+      "source_sha256": "b0acab76ef343a89908a61529211b965ede9178ad677145b81f00c17dcbb58b3"
+    },
+    {
+      "path": "rust/fill_only_kernel/Cargo.toml",
+      "category": "configuration",
+      "bytes": 347,
+      "source_sha256": "68703e407f9f747c99f20bd1403d9cf3538070ff1d96976987145625234702fe"
+    },
+    {
+      "path": "rust/fill_only_kernel/benches/matcher.rs",
+      "category": "configuration",
+      "bytes": 2000,
+      "source_sha256": "e1ad9938b21eb0242d56cf7e80bcff6bb2f2829613aad2b0cdeee6e78aef61a5"
+    },
+    {
+      "path": "rust/fill_only_kernel/pyproject.toml",
+      "category": "configuration",
+      "bytes": 238,
+      "source_sha256": "7f5f950bcdeba9d58e66188e7988c74e61cebd5dccb94f12d956942ae31fa757"
+    },
+    {
+      "path": "rust/fill_only_kernel/src/lib.rs",
+      "category": "configuration",
+      "bytes": 43574,
+      "source_sha256": "16199154e09b42ea271f356d773796f5cdd3bdf41aea4e26a352e6774e018787"
+    },
+    {
+      "path": "environment-backtest.yml",
+      "category": "configuration_or_documentation",
+      "bytes": 706,
+      "source_sha256": "6721bd2a24438e64e5a17ab121d9b7c6990f02f5f69c4bcd8e109c4bd90ae7ec"
+    },
+    {
+      "path": "rust-toolchain.toml",
+      "category": "configuration_or_documentation",
+      "bytes": 86,
+      "source_sha256": "b323b19900e4b811af0a8facce5ec11249ed135ae5a46ff5c0be90067521e11f"
+    },
+    {
+      "path": "pytest.ini",
+      "category": "configuration_or_documentation",
+      "bytes": 201,
+      "source_sha256": "a68f22087d3b990f28a28f429be7d4dc6498d6f4e01a563f3d7cac1095c030da"
+    },
+    {
+      "path": "docs/量化/phase1.md",
+      "category": "configuration_or_documentation",
+      "bytes": 22933,
+      "source_sha256": "678af734c1a4f9118d60291b7290b36f0e67cc6e40c330eb6276fdccdae26675"
+    },
+    {
+      "path": "docs/量化/raw_orderfilled_replay与PMXT_L2.md",
+      "category": "configuration_or_documentation",
+      "bytes": 35191,
+      "source_sha256": "31c621c29309119522ef28809ab92dd46eb78773bf344142525e604f358cbe9f"
+    },
+    {
+      "path": "docs/量化/fill_first外部源配置说明.md",
+      "category": "configuration_or_documentation",
+      "bytes": 15805,
+      "source_sha256": "a16473e480bc4542e8e0c5167aeba54fd5a363d0ff8527761c6d31c36520d885"
+    },
+    {
+      "path": "docs/量化/回测总结.md",
+      "category": "configuration_or_documentation",
+      "bytes": 100980,
+      "source_sha256": "47a044302e23e9235e516aac21bf4c6af45d1c9d9e7cffd75d1fd50779024b2a"
+    },
+    {
+      "path": "docs/量化/回测Xraw.md",
+      "category": "configuration_or_documentation",
+      "bytes": 8639,
+      "source_sha256": "2c597aec2739b4a4f0f8cf64450bb5cad2b656beb43c1fd470350fe6d3643f01"
+    },
+    {
+      "path": "docs/量化/shadow_live_paired_execution方案.md",
+      "category": "configuration_or_documentation",
+      "bytes": 9215,
+      "source_sha256": "9afa3e210f52dd7e4274dc03cf08bb0962c189ac111b51ef508e6b412e461d87"
+    },
+    {
+      "path": "docs/api/fill-only-v2-replay-api.md",
+      "category": "configuration_or_documentation",
+      "bytes": 12301,
+      "source_sha256": "6529f17ad71b829b6fdc86d1c8ba67f2f3dbaf553c5cc272392fea052bbda748"
+    },
+    {
+      "path": "docs/api/fill-only-v3-trade-only-api.md",
+      "category": "configuration_or_documentation",
+      "bytes": 6998,
+      "source_sha256": "9c4888374591d3e02b5c2dab05221233128b678baddc15ddda0183211e1e6de0"
+    }
+  ],
+  "retired_fixed_cohort_scripts": [
+    "scripts.compare_pml2_event_driven_real_markets",
+    "scripts.compare_real_execution_models",
+    "scripts.compare_stratified_real_execution_models"
+  ],
+  "excluded": [
+    "credentials",
+    "vendor/backtrader",
+    "build caches",
+    "raw archives",
+    "historical experiment outputs"
+  ],
+  "source_cleanup_performed": false
+}

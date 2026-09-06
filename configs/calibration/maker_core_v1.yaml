@@ -1,0 +1,36 @@
+schema_version: maker_core_domain_v1
+model_version: maker_queue_v1_candidate
+live_probe_enabled: false
+post_only: true
+order_types: [GTC, GTD]
+book_quality: [REDUNDANT]
+placements: [AT_BEST, ONE_TICK_BEHIND, ONE_TICK_INSIDE_SPREAD]
+queue_models: [STRICT_TRADE_EVIDENCE, RISK_AVERSE_QUEUE, PROBABILISTIC_QUEUE]
+resting_seconds: [30, 120, 300, 900]
+max_order_notional_usd: 1
+max_concurrent_live_probes: 1
+require_taker_gate_pass: true
+require_manual_live_approval: true
+holdout_gates:
+  minimum_samples: 60
+  independent_events: 10
+  utc_days: 5
+  minimum_no_fill_outcomes: 3
+  minimum_partial_outcomes: 3
+  minimum_full_outcomes: 3
+  minimum_fill_size_observations: 6
+  minimum_first_fill_time_observations: 6
+  minimum_full_fill_time_observations: 3
+  required_placements: [AT_BEST, ONE_TICK_BEHIND, ONE_TICK_INSIDE_SPREAD]
+  required_resting_seconds: [30, 120, 300, 900]
+  minimum_observed_queue_buckets: 3
+  max_ece: 0.10
+  max_false_positive_fill_upper_95: 0.10
+  max_fill_size_relative_mae: 0.25
+  max_time_to_first_fill_relative_mae: 0.50
+  max_time_to_full_fill_relative_mae: 0.50
+  require_brier_better_than_naive: true
+  require_authenticated_evidence: true
+  require_unique_order_ids: true
+  require_prediction_before_submission: true
+  require_censoring_metadata: true

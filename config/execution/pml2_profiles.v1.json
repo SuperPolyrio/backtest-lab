@@ -1,0 +1,71 @@
+{
+  "schema_version": "pml2_profile_registry_v3",
+  "effective_from": "2024-01-01T00:00:00Z",
+  "calibration": {
+    "source": "xue_native_l2_protocol_depth_plus_authenticated_shadow_v2",
+    "training_start": "2024-01-01T00:00:00Z",
+    "training_end": "2025-12-31T23:59:59Z"
+  },
+  "profiles": {
+    "strict": {
+      "depth_haircut": "0.50",
+      "positive_replenishment_fraction": "0.50",
+      "queue_ahead_fraction": "1.00",
+      "cancel_ahead_fraction": "0.00",
+      "book_validity_mode": "EVENT_DRIVEN",
+      "max_book_age_ms": 2000,
+      "feed_latency_ms": 250,
+      "entry_latency_ms": 500,
+      "cancel_latency_ms": 300,
+      "response_latency_ms": 250,
+      "venue_delay_ms": 500,
+      "trade_delta_match_window_ms": 1000,
+      "mirror_size_tolerance": "0.05",
+      "mirror_time_tolerance_ms": 1000,
+      "mirror_policy": "REQUIRE_CONSISTENT_MIN",
+      "source_priority": ["xue_native_l2_archive", "native_l2"],
+      "maker_queue_model": "RISK_AVERSE_TRADE_ONLY",
+      "max_order_to_visible_depth_ratio": "2.00"
+    },
+    "realistic": {
+      "depth_haircut": "1.00",
+      "positive_replenishment_fraction": "0.80",
+      "queue_ahead_fraction": "1.00",
+      "cancel_ahead_fraction": "0.25",
+      "book_validity_mode": "EVENT_DRIVEN",
+      "max_book_age_ms": 5000,
+      "feed_latency_ms": 100,
+      "entry_latency_ms": 200,
+      "cancel_latency_ms": 150,
+      "response_latency_ms": 100,
+      "venue_delay_ms": 250,
+      "trade_delta_match_window_ms": 750,
+      "mirror_size_tolerance": "0.20",
+      "mirror_time_tolerance_ms": 2500,
+      "mirror_policy": "PRIMARY_SOURCE_WITH_MISMATCH_AUDIT",
+      "source_priority": ["xue_native_l2_archive", "native_l2"],
+      "maker_queue_model": "TRADE_PLUS_RECONCILED_CANCELS",
+      "max_order_to_visible_depth_ratio": "3.00"
+    },
+    "optimistic": {
+      "depth_haircut": "1.00",
+      "positive_replenishment_fraction": "1.00",
+      "queue_ahead_fraction": "0.50",
+      "cancel_ahead_fraction": "1.00",
+      "book_validity_mode": "EVENT_DRIVEN",
+      "max_book_age_ms": 30000,
+      "feed_latency_ms": 0,
+      "entry_latency_ms": 0,
+      "cancel_latency_ms": 0,
+      "response_latency_ms": 0,
+      "venue_delay_ms": 0,
+      "trade_delta_match_window_ms": 500,
+      "mirror_size_tolerance": "1.00",
+      "mirror_time_tolerance_ms": 10000,
+      "mirror_policy": "MAX_WITH_MISMATCH_AUDIT",
+      "source_priority": ["xue_native_l2_archive", "native_l2"],
+      "maker_queue_model": "OPTIMISTIC_RECONCILED",
+      "max_order_to_visible_depth_ratio": "5.00"
+    }
+  }
+}
