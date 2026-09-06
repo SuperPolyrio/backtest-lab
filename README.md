@@ -49,7 +49,7 @@ POST /quant/backtest-runs/<run_id>/finalize
 ## Tests
 
 ```bash
-python -m pytest quant/backtest/tests tests
+python -m pytest
 cargo test --release --manifest-path rust/fill_only_kernel/Cargo.toml
 ```
 

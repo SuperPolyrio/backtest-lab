@@ -43,7 +43,8 @@ reinterpretation are part of this migration.
 
 ## Verification (2026-09-06)
 
-- Extracted repository regression: **1,357 passed, 3 skipped**, 30.93 seconds.
+- Extracted repository regression, including retained strategies:
+  **1,370 passed, 3 skipped**, 28.62 seconds.
   The three optional DB smoke tests were not enabled; Rust tests did not skip.
 - Rust release unit tests: **4 passed**, built from this checkout.
 - Existing Paper baseline: **87 passed**.
@@ -53,6 +54,8 @@ reinterpretation are part of this migration.
 - Real ClickHouse canary: **10,000 trades / 100 orders**, V2 and V3
   source-confirmed Python/Rust results and capacity hashes match.
 - Pinned installed Backtrader completed a buy/sell replay without the vendor.
+- One older strategy test used `__dict__` on a slotted `V2TradePrint`; the fixture
+  now uses `dataclasses.replace`. Strategy and matching behavior are unchanged.
 - V2 replay, V3 engine/models, PML2 session/book and Rust kernel source match the
   original files byte for byte. All **16 execution-model JSONs** also match.
 - Focused Ruff and staged whitespace checks passed. The full legacy source tree

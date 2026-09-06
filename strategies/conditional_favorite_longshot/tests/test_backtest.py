@@ -245,13 +245,7 @@ def test_zero_residual_prior_does_not_manufacture_global_favorite_edge() -> None
 def test_economic_tape_keeps_one_sided_max_capacity() -> None:
     buy = _trade("buy-log", outcome="YES", price="0.65", minutes=-61, side="BUY")
     sell = _trade("sell-log", outcome="YES", price="0.65", minutes=-61, side="SELL")
-    sell = V2TradePrint(
-        **{
-            **sell.__dict__,
-            "tx_hash": buy.tx_hash,
-            "size": Decimal("120"),
-        }
-    )
+    sell = replace(sell, tx_hash=buy.tx_hash, size=Decimal("120"))
 
     rows = _economic_trade_rows([buy, sell])
 
